@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="This is a while loop">
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/array_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/array_copyOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/array_copyRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/array_fill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/array_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/arrays_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/arrays_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClass/arrays_equals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/challenge_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/challenge_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/challenge_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/challenge1_reverseArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loops/for_each_loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge10_Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge1_Introducing_2D_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge2_Maximum_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge3_Smallest_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge4_First_Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge5_Reflect_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge6_Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge7_Cutting_down_the_middle_elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge8_Chess_board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge9_QR_code_reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson4/While_loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops/While_loop.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +28,12 @@
     &quot;assignee&quot;: &quot;Yerfdog1990&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Yerfdog1990/myProject.git&quot;,
-    &quot;accountId&quot;: &quot;9cf50a7b-23b2-4ab1-8c5d-8121da3093e6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Yerfdog1990/codegym_java_course.git",
+    "accountId": "9cf50a7b-23b2-4ab1-8c5d-8121da3093e6"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/JavaTypes.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
@@ -161,12 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716960735199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717368455243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717368455243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is a while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is a while loop" />
+    <MESSAGE value="These are java course practice with CodeGym University." />
+    <option name="LAST_COMMIT_MESSAGE" value="These are java course practice with CodeGym University." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
