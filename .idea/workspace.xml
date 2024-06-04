@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University." />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University.">
+      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/ProtectedAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/PublicAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/Test_public.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Access_modifiers2/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/challenge2_sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/challenge3_Sum_Of_Values.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -26,12 +38,12 @@
     &quot;assignee&quot;: &quot;Yerfdog1990&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yerfdog1990/java_course.git",
-    "accountId": "9cf50a7b-23b2-4ab1-8c5d-8121da3093e6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yerfdog1990/java_course.git&quot;,
+    &quot;accountId&quot;: &quot;9cf50a7b-23b2-4ab1-8c5d-8121da3093e6&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/JavaTypes.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
@@ -48,41 +60,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Array_BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Break_in_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CombineArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Continue_in_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fill_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice_Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.While_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_copyOf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_fill.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_String.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_equals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge11_sumOfElements_inDiagonal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge1_reverseArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.doWhile_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.for_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.newArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.two_D_Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array_BinarySearch.executor": "Run",
+    "Application.Break_in_loop.executor": "Run",
+    "Application.ChildOfPublic.executor": "Run",
+    "Application.CombineArrays.executor": "Run",
+    "Application.Continue_in_loop.executor": "Run",
+    "Application.Example2.executor": "Run",
+    "Application.Fill_Array.executor": "Run",
+    "Application.JavaTypes.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Practice_Arrays.executor": "Run",
+    "Application.Test_public.executor": "Run",
+    "Application.While_loop.executor": "Run",
+    "Application.array_copyOf.executor": "Run",
+    "Application.array_fill.executor": "Run",
+    "Application.array_sort.executor": "Run",
+    "Application.arrays_List.executor": "Run",
+    "Application.arrays_String.executor": "Run",
+    "Application.arrays_equals.executor": "Run",
+    "Application.challenge11_sumOfElements_inDiagonal.executor": "Run",
+    "Application.challenge12_Display_Values.executor": "Run",
+    "Application.challenge1_reverseArrays.executor": "Run",
+    "Application.challenge_1.executor": "Run",
+    "Application.challenge_2.executor": "Run",
+    "Application.doWhile_loop.executor": "Run",
+    "Application.for_loop.executor": "Run",
+    "Application.newArray.executor": "Run",
+    "Application.two_D_Arrays.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax",
+    "onboarding.tips.debug.path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.JavaTypes">
+}]]></component>
+  <component name="RunManager">
     <configuration name="JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTypes" />
       <module name="JavaSyntax" />
@@ -151,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717372872042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717373966949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717373966949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

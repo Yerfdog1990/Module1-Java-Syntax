@@ -1,6 +1,7 @@
 package Two_Dimensional_Arrays;
-//In a 2D matrix of NxN (Square), find teh sum of all the numbers
-//on the left and right diagonal
+/*
+In a 2D matrix of NxN (Square), find the sum of all the numbers on the left and right diagonals
+ */
 public class challenge11_sumOfElements_inDiagonal {
     public static void main(String[] args) {
         int[][] matrix = {
