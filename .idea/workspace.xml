@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University.">
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEndsWith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEqualsIgnoreCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanRegionMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanStartsWith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/CompareToIgnoreCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/CompareToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/BlankString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/CharToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/CharToByte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/EmptyString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/JoinString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/ReturnCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/SplitString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/StringIntern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringMethods/StringLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/LowerCaseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/RepeatString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceAllString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceFirstString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/ReturnSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/TrimString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingSubstrings/UpperCaseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchForSubstring/IndexOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchForSubstring/LastIndexOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchForSubstring/StringMatches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,61 +62,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array_BinarySearch.executor": "Run",
-    "Application.BlankString.executor": "Run",
-    "Application.BooleanEndsWith.executor": "Run",
-    "Application.BooleanEqualsIgnoreCase.executor": "Run",
-    "Application.BooleanRegionMatches.executor": "Run",
-    "Application.BooleanStartsWith.executor": "Run",
-    "Application.Break_in_loop.executor": "Run",
-    "Application.CharToArray.executor": "Run",
-    "Application.CharToByte.executor": "Run",
-    "Application.ChildOfPublic.executor": "Run",
-    "Application.CombineArrays.executor": "Run",
-    "Application.CompareToIgnoreCase.executor": "Run",
-    "Application.CompareToString.executor": "Run",
-    "Application.Continue_in_loop.executor": "Run",
-    "Application.EmptySpace.executor": "Run",
-    "Application.Example2.executor": "Run",
-    "Application.Fill_Array.executor": "Run",
-    "Application.JavaTypes.executor": "Run",
-    "Application.JoinString.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Practice_Arrays.executor": "Run",
-    "Application.ReturnCharacter.executor": "Run",
-    "Application.SplitString.executor": "Run",
-    "Application.StringEquals.executor": "Run",
-    "Application.StringIntern.executor": "Run",
-    "Application.StringLength.executor": "Run",
-    "Application.Test_public.executor": "Run",
-    "Application.While_loop.executor": "Run",
-    "Application.array_copyOf.executor": "Run",
-    "Application.array_fill.executor": "Run",
-    "Application.array_sort.executor": "Run",
-    "Application.arrays_List.executor": "Run",
-    "Application.arrays_String.executor": "Run",
-    "Application.arrays_equals.executor": "Run",
-    "Application.challenge11_sumOfElements_inDiagonal.executor": "Run",
-    "Application.challenge12_Display_Values.executor": "Run",
-    "Application.challenge1_reverseArrays.executor": "Run",
-    "Application.challenge_1.executor": "Run",
-    "Application.challenge_2.executor": "Run",
-    "Application.doWhile_loop.executor": "Run",
-    "Application.for_loop.executor": "Run",
-    "Application.newArray.executor": "Run",
-    "Application.two_D_Arrays.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax",
-    "onboarding.tips.debug.path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array_BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BlankString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanEndsWith.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanEqualsIgnoreCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanRegionMatches.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanStartsWith.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Break_in_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharToArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharToByte.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChildOfPublic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombineArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareToIgnoreCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareToString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Continue_in_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmptySpace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fill_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IndexOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LastIndexOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LowerCaseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice_Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RepeatString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceAllString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceFirstString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEquals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringIntern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMatches.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test_public.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrimString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UpperCaseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array_copyOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array_fill.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrays_List.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrays_String.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrays_equals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.challenge11_sumOfElements_inDiagonal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.challenge12_Display_Values.executor&quot;: &quot;Run&quot;,
+    &quot;Application.challenge1_reverseArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.challenge_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.challenge_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.doWhile_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.for_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.two_D_Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.JavaTypes">
     <configuration name="JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTypes" />
       <module name="JavaSyntax" />
@@ -199,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717373966949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717907303535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717907303535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
