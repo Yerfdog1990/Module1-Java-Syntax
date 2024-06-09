@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University.">
-      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/ProtectedAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/PublicAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Access_modifiers1/Test_public.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Access_modifiers2/Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanEqualsIgnoreCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanRegionMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/BooleanStartsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/CompareToIgnoreCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparingStrings/CompareToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/BlankString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/CharToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/CharToByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/EmptyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/JoinString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/ReturnCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/SplitString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/StringIntern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringMethods/StringLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/challenge2_sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/challenge3_Sum_Of_Values.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/challenge_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +71,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array_BinarySearch.executor": "Run",
+    "Application.BlankString.executor": "Run",
+    "Application.BooleanEndsWith.executor": "Run",
+    "Application.BooleanEqualsIgnoreCase.executor": "Run",
+    "Application.BooleanRegionMatches.executor": "Run",
+    "Application.BooleanStartsWith.executor": "Run",
     "Application.Break_in_loop.executor": "Run",
+    "Application.CharToArray.executor": "Run",
+    "Application.CharToByte.executor": "Run",
     "Application.ChildOfPublic.executor": "Run",
     "Application.CombineArrays.executor": "Run",
+    "Application.CompareToIgnoreCase.executor": "Run",
+    "Application.CompareToString.executor": "Run",
     "Application.Continue_in_loop.executor": "Run",
+    "Application.EmptySpace.executor": "Run",
     "Application.Example2.executor": "Run",
     "Application.Fill_Array.executor": "Run",
     "Application.JavaTypes.executor": "Run",
+    "Application.JoinString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
+    "Application.ReturnCharacter.executor": "Run",
+    "Application.SplitString.executor": "Run",
+    "Application.StringEquals.executor": "Run",
+    "Application.StringIntern.executor": "Run",
+    "Application.StringLength.executor": "Run",
     "Application.Test_public.executor": "Run",
     "Application.While_loop.executor": "Run",
     "Application.array_copyOf.executor": "Run",
