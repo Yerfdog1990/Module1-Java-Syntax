@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Challenge to find the longest common prefix from the array.">
-      <change afterPath="$PROJECT_DIR$/src/DataTypes/DefaultValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataTypes/PrimitiveDataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataTypes/Typecasing.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Data types basics">
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/Challenge1_TemperatureConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +65,7 @@
     "Application.Break_in_loop.executor": "Run",
     "Application.Challenge1_LongestCommonString.executor": "Run",
     "Application.Challenge1_Palindrome.executor": "Run",
+    "Application.Challenge1_TemperatureConverter.executor": "Run",
     "Application.Challenge2_CheckPalindrome.executor": "Run",
     "Application.Challenge2_ReverseString.executor": "Run",
     "Application.Challenge3_CheckUpperCase.executor": "Run",
@@ -265,14 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718524271442</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Data types basics">
+      <option name="closed" value="true" />
+      <created>1718749261226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718749261226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is a while loop" />
     <MESSAGE value="These are java course practice with CodeGym University." />
     <MESSAGE value="Challenge to find the longest common prefix from the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Challenge to find the longest common prefix from the array." />
+    <MESSAGE value="Data types basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data types basics" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
