@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="These are java course practice with CodeGym University.">
-      <change afterPath="$PROJECT_DIR$/src/ModifyString/Challenge1_LongestCommonString.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Challenge to find the longest common prefix from the array.">
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/DefaultValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/PrimitiveDataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/Typecasing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +82,7 @@
     "Application.DecimalToBinary.executor": "Run",
     "Application.DecimalToHexadecimal.executor": "Run",
     "Application.DecimalToOctal.executor": "Run",
+    "Application.DefaultValue.executor": "Run",
     "Application.DeleteCharacter.executor": "Run",
     "Application.DeleteString.executor": "Run",
     "Application.EmptySpace.executor": "Run",
@@ -99,6 +102,7 @@
     "Application.OctalToDecimal.executor": "Run",
     "Application.PartOfString.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
+    "Application.PrimitiveDataTypes.executor": "Run",
     "Application.RepeatString.executor": "Run",
     "Application.ReplaceAllString.executor": "Run",
     "Application.ReplaceFirstString.executor": "Run",
@@ -119,6 +123,7 @@
     "Application.StringToken.executor": "Run",
     "Application.Test_public.executor": "Run",
     "Application.TrimString.executor": "Run",
+    "Application.Typecasing.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
     "Application.array_copyOf.executor": "Run",
@@ -146,6 +151,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DataTypes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTypes" />
@@ -247,13 +257,22 @@
       <option name="project" value="LOCAL" />
       <updated>1718445062482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Challenge to find the longest common prefix from the array.">
+      <option name="closed" value="true" />
+      <created>1718524271442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718524271442</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is a while loop" />
     <MESSAGE value="These are java course practice with CodeGym University." />
-    <option name="LAST_COMMIT_MESSAGE" value="These are java course practice with CodeGym University." />
+    <MESSAGE value="Challenge to find the longest common prefix from the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge to find the longest common prefix from the array." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
