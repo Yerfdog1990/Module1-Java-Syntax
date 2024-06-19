@@ -13,11 +13,11 @@ public class Challenge1_TemperatureConverter {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter temperature in fahrenheit: ");
-        double fahrenheit = userInput.nextDouble();
-        System.out.println(String.format("%.2f\u00B0F = %.2f\u00B0C", fahrenheit, convertToCelsius(fahrenheit)));
+        double degreeFahrenheit = userInput.nextDouble();
+        System.out.println(String.format("%.2f\u00B0F = %.2f\u00B0C", degreeFahrenheit, convertToCelsius(degreeFahrenheit)));
         System.out.print("Enter temperature in celsius: ");
-        double celsius = userInput.nextDouble();
-        System.out.println(String.format("%.2f\u00B0C = %.2f\u00B0F", celsius, convertToFahrenheit(celsius)));
+        double degreeCelsius = userInput.nextDouble();
+        System.out.println(String.format("%.2f\u00B0C = %.2f\u00B0F", degreeCelsius, convertToFahrenheit(degreeCelsius)));
     }
     public static double convertToCelsius(double fahrenheit){
         double celsius = (fahrenheit - 32) * 5/9;
