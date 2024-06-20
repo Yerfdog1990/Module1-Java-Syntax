@@ -27,19 +27,19 @@ public class Challenge1_BinaryAddition {
 
         //Prompt the user to input the first binary number
         System.out.print("Enter the first binary number: ");
-        String binary1Str = userInput.next();
+        String binary1Str = userInput.nextLine();
         while (!isValidBinary(binary1Str)) {
             System.out.print("Invalid binary number. Enter the first binary number: ");
-            binary1Str = userInput.next();
+            binary1Str = userInput.nextLine();
         }
         binary1 = Long.parseLong(binary1Str);
 
         //Prompt the user to input the second binary number
         System.out.print("Enter the second binary number: ");
-        String binary2Str = userInput.next();
+        String binary2Str = userInput.nextLine();
         while (!isValidBinary(binary2Str)) {
             System.out.print("Invalid binary number. Enter the second binary number: ");
-            binary2Str = userInput.next();
+            binary2Str = userInput.nextLine();
         }
         binary2 = Long.parseLong(binary2Str);
 

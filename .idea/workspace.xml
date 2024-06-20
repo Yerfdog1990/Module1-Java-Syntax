@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Challenge 1: Temperature converter">
-      <change afterPath="$PROJECT_DIR$/src/Encoding/Challenge1_BinaryAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encoding/Challenge2_BinarySubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/Challenge1_TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataTypes/Challenge1_TemperatureConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/Challenge1_BinaryAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encoding/Challenge1_BinaryAddition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +66,11 @@
     "Application.BooleanRegionMatches.executor": "Run",
     "Application.BooleanStartsWith.executor": "Run",
     "Application.Break_in_loop.executor": "Run",
+    "Application.Challenge1_BinaryAddition.executor": "Run",
     "Application.Challenge1_LongestCommonString.executor": "Run",
     "Application.Challenge1_Palindrome.executor": "Run",
     "Application.Challenge1_TemperatureConverter.executor": "Run",
+    "Application.Challenge2_BinarySubtraction.executor": "Run",
     "Application.Challenge2_CheckPalindrome.executor": "Run",
     "Application.Challenge2_ReverseString.executor": "Run",
     "Application.Challenge3_CheckUpperCase.executor": "Run",
@@ -102,6 +105,7 @@
     "Application.Main.executor": "Run",
     "Application.OctalToDecimal.executor": "Run",
     "Application.PartOfString.executor": "Run",
+    "Application.Person.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
     "Application.PrimitiveDataTypes.executor": "Run",
     "Application.RepeatString.executor": "Run",
@@ -282,7 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718752036462</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Challenge 1: Adding binary">
+      <option name="closed" value="true" />
+      <created>1718795990685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718795990685</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Challenge 1: Temperature converter">
+      <option name="closed" value="true" />
+      <created>1718796330834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718796330834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,6 +310,7 @@
     <MESSAGE value="These are java course practice with CodeGym University." />
     <MESSAGE value="Challenge to find the longest common prefix from the array." />
     <MESSAGE value="Data types basics" />
+    <MESSAGE value="Challenge 1: Adding binary" />
     <MESSAGE value="Challenge 1: Temperature converter" />
     <option name="LAST_COMMIT_MESSAGE" value="Challenge 1: Temperature converter" />
   </component>
