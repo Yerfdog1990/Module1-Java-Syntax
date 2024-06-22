@@ -8,9 +8,11 @@ package ObjectOrientedProgramming;
 public class Person {
     String name;
     int age;
-    public Person(String name, int age){
-        this.age = age;
+
+    public Person(String name, int age) {
         this.name = name;
+        this.age = age;
+
     }
     public void display(){
         System.out.println(String.format("My name is %s and I am %d years old", name, age));
