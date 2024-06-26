@@ -3,18 +3,13 @@
 
 public class Main {
     public static void main(String[] args){
-        System.out.println(toDecimal(123));
-    }
-    public static int toDecimal(int octalNumber){
-        int decimalNumber = 0;
-        if(octalNumber <= 0){
-            return decimalNumber;
-        }
-        for (int i = 0; octalNumber != 0; i++) {
-            decimalNumber = (int)(decimalNumber + (octalNumber % 10)*Math.pow(8, i));
-            octalNumber = octalNumber/10;
-        }
-        return decimalNumber;
+        String a = new String("Hello");
+        String b = new String("Hello");
+        String c = a.intern();
+        String d = b.intern();
+        System.out.println(a==b);
+        System.out.println(c==d);
+        System.out.println(a.equals(b));
     }
 }
 
