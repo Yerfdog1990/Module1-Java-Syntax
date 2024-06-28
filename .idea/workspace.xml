@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Abstraction demo">
-      <change afterPath="$PROJECT_DIR$/src/Challenge01Abstraction/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge01Abstraction/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge01Abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge01Abstraction/Tiger.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Updated abstraction demo">
+      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractDemo/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractDemo/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractDemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractDemo/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractDemo/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +74,7 @@
     "Application.Challenge1_LongestCommonString.executor": "Run",
     "Application.Challenge1_Palindrome.executor": "Run",
     "Application.Challenge1_TemperatureConverter.executor": "Run",
+    "Application.Challenge2Abstraction.Main.executor": "Run",
     "Application.Challenge2_BinarySubtraction.executor": "Run",
     "Application.Challenge2_CheckPalindrome.executor": "Run",
     "Application.Challenge2_ReverseString.executor": "Run",
@@ -355,7 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719585174031</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Abstraction challenge #01">
+      <option name="closed" value="true" />
+      <created>1719614035284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614035284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated abstraction demo">
+      <option name="closed" value="true" />
+      <created>1719614275614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614275614</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -368,7 +382,9 @@
     <MESSAGE value="Object oriented programming practices." />
     <MESSAGE value="Challenge 30" />
     <MESSAGE value="Abstraction demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstraction demo" />
+    <MESSAGE value="Abstraction challenge #01" />
+    <MESSAGE value="Updated abstraction demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated abstraction demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
