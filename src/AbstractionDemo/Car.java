@@ -1,4 +1,4 @@
-package AbstractDemo;
+package AbstractionDemo;
 
 public class Car extends Vehicle {
     @Override

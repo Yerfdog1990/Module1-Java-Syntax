@@ -1,4 +1,4 @@
-package AbstractDemo;
+package AbstractionDemo;
 
 public class Main{
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package AbstractDemo;
+package AbstractionDemo;
 /*
 Abstract classes in Java have several key features that make them an important part of object-oriented programming:
 #1:Cannot be Instantiated: You cannot create an instance of an abstract class directly; instead, create instances of concrete subclasses that extend it.
