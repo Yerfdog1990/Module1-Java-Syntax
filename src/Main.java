@@ -3,13 +3,15 @@
 
 public class Main {
     public static void main(String[] args){
-        String a = new String("Hello");
-        String b = new String("Hello");
-        String c = a.intern();
-        String d = b.intern();
-        System.out.println(a==b);
-        System.out.println(c==d);
-        System.out.println(a.equals(b));
+
+        try {
+            System.out.println(0/0);
+        }catch (ArithmeticException e){
+            System.out.println("Cannot divide by zero");
+        }
+        System.out.println(0/0.0);
+        System.out.println(0.0/0);
+        System.out.println(0.0/0.0);
     }
 }
 

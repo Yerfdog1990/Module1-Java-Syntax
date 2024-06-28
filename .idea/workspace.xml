@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Object oriented programming practices.">
-      <change afterPath="$PROJECT_DIR$/src/Challenge30_OOP/GymMembership.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Challenge 30">
+      <change afterPath="$PROJECT_DIR$/src/AbstractDemo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractDemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractDemo/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge01AbstractClass/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge01AbstractClass/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge01AbstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge01AbstractClass/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractDemo.Main.executor": "Run",
     "Application.AnalyzeCharacter.executor": "Run",
     "Application.AnimalMain.executor": "Run",
     "Application.Array_BinarySearch.executor": "Run",
@@ -166,6 +174,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Abstraction" />
+      <recent name="Challenge01AbstractClass" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="DataTypes" />
     </key>
@@ -327,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719398665522</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Challenge 30">
+      <option name="closed" value="true" />
+      <created>1719405999687</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719405999695</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,7 +358,8 @@
     <MESSAGE value="Challenge 1: Adding binary" />
     <MESSAGE value="Challenge 1: Temperature converter" />
     <MESSAGE value="Object oriented programming practices." />
-    <option name="LAST_COMMIT_MESSAGE" value="Object oriented programming practices." />
+    <MESSAGE value="Challenge 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge 30" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
