@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Updated abstraction demo">
-      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge2Abstraction/Triangle.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Abstraction challenge#02">
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/GitegaIntSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/KinderworldIntSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/KitengelaIntSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/MooltripakdeeIntSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/SchoolOfNation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/StChristopherIntSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/TeachingCareer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -106,6 +111,7 @@
     "Application.HexToDecimal.executor": "Run",
     "Application.IndexOfString.executor": "Run",
     "Application.InsertObjects.executor": "Run",
+    "Application.InterfaceDemo.Main.executor": "Run",
     "Application.JavaTypes.executor": "Run",
     "Application.JoinString.executor": "Run",
     "Application.LastIndex.executor": "Run",
@@ -369,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719614275614</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Abstraction challenge#02">
+      <option name="closed" value="true" />
+      <created>1719617787650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719617787650</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -384,7 +398,8 @@
     <MESSAGE value="Abstraction demo" />
     <MESSAGE value="Abstraction challenge #01" />
     <MESSAGE value="Updated abstraction demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated abstraction demo" />
+    <MESSAGE value="Abstraction challenge#02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstraction challenge#02" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
