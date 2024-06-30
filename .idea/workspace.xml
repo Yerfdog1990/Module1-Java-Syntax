@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Abstraction challenge#02">
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/GitegaIntSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/KinderworldIntSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/KitengelaIntSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/MooltripakdeeIntSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/SchoolOfNation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/StChristopherIntSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/TeachingCareer.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Interface demo">
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge01ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge02ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +61,7 @@
     "Application.AbstractDemo.Main.executor": "Run",
     "Application.AnalyzeCharacter.executor": "Run",
     "Application.AnimalMain.executor": "Run",
+    "Application.ArrayListDemo.executor": "Run",
     "Application.Array_BinarySearch.executor": "Run",
     "Application.BinaryAddition.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
@@ -75,6 +72,8 @@
     "Application.BooleanStartsWith.executor": "Run",
     "Application.Break_in_loop.executor": "Run",
     "Application.Challenge01Abstraction.Main.executor": "Run",
+    "Application.Challenge01ArrayList.executor": "Run",
+    "Application.Challenge02ArrayList.executor": "Run",
     "Application.Challenge1_BinaryAddition.executor": "Run",
     "Application.Challenge1_LongestCommonString.executor": "Run",
     "Application.Challenge1_Palindrome.executor": "Run",
@@ -383,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719617787650</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Interface demo">
+      <option name="closed" value="true" />
+      <created>1719639243814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719639243833</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,7 +406,8 @@
     <MESSAGE value="Abstraction challenge #01" />
     <MESSAGE value="Updated abstraction demo" />
     <MESSAGE value="Abstraction challenge#02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstraction challenge#02" />
+    <MESSAGE value="Interface demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
