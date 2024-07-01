@@ -33,12 +33,13 @@ public class WrapperClassesDemo {
         //1.Using Wrapper Classes to Create Objects
         Integer intObj = Integer.valueOf(12);
         String strObj = String.valueOf("Godfrey");
-        Byte byteObj = Byte.valueOf((byte)10);
+        Byte byteObj = Byte.valueOf((byte)20);
         Boolean boolObj = Boolean.valueOf(true);
         Double doubleObj = Double.valueOf(3.142);
         Float floatObj = Float.valueOf((float) 4.5);
         Long longObj = Long.valueOf(30031990L);
         Character charObj = Character.valueOf('G');
+        Short shortObj = Short.valueOf((short)765);
 
         System.out.println("Integer object: " +intObj);
         System.out.println("String object: " +strObj);
@@ -48,6 +49,7 @@ public class WrapperClassesDemo {
         System.out.println("Float object: " +floatObj);
         System.out.println("Long object: " +longObj);
         System.out.println("Character object: " +charObj);
+        System.out.println("Short object: " +shortObj);
 
         //2.Using Wrapper Classes in Collections
         ArrayList<Integer> intList = new ArrayList<>();
@@ -74,10 +76,10 @@ public class WrapperClassesDemo {
         System.out.println("The minimum integer value: " +min);
 
         //6.Comparing wrapper objects
-        Integer first = Integer.valueOf(35);
-        Integer second = Integer.valueOf(35);
-        System.out.println(first.equals(second));
-        System.out.println(first == second);
+        Integer first = Integer.valueOf(1000);
+        Integer second = Integer.valueOf(1000);
+        System.out.println(first.equals(second));//Comparing content returns truw
+        System.out.println(first == second);//Comparing reference to memory location return false
 
         //7.Immutability
         Integer originalValue = Integer.valueOf(200);
@@ -90,6 +92,15 @@ public class WrapperClassesDemo {
         System.out.println("After increamenting the new value:");
         System.out.println("The original value: " +originalValue);//Still 200
         System.out.println("The new value: " +newValue);//202
+
+        //8.Autoboxing and unboxing
+        Integer number = 34; //This line automatically converts the primitive int value 34 to an Integer object. It is equivalent to Integer.valueOf(34).
+        int y = number; // This line automatically converts the Integer object number to a primitive int value. It is equivalent to number.intValue().
+        //Comparing primitive type to its wrapper class
+        System.out.println(number == y);
+
+
+
 
     }
 }
