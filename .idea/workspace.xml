@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Wrapper class demo">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List/ListDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="List demo">
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListCloneDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" afterDir="false" />
     </list>
@@ -60,6 +59,7 @@
     "Application.AbstractDemo.Main.executor": "Run",
     "Application.AnalyzeCharacter.executor": "Run",
     "Application.AnimalMain.executor": "Run",
+    "Application.ArrayListCloneDemo.executor": "Run",
     "Application.ArrayListDemo.executor": "Run",
     "Application.Array_BinarySearch.executor": "Run",
     "Application.BinaryAddition.executor": "Run",
@@ -423,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719834833830</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="List demo">
+      <option name="closed" value="true" />
+      <created>1719837509325</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719837509325</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -444,7 +452,8 @@
     <MESSAGE value="Convert array to array list" />
     <MESSAGE value="Convert array list to array" />
     <MESSAGE value="Wrapper class demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapper class demo" />
+    <MESSAGE value="List demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="List demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
