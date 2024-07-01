@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="List demo">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListCloneDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list demo">
+      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +109,7 @@
     "Application.HexToDecimal.executor": "Run",
     "Application.IndexOfString.executor": "Run",
     "Application.InsertObjects.executor": "Run",
+    "Application.IntegerMethods.executor": "Run",
     "Application.InterfaceDemo.Main.executor": "Run",
     "Application.JavaTypes.executor": "Run",
     "Application.JoinString.executor": "Run",
@@ -431,7 +432,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719837509325</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Array list clone demo">
+      <option name="closed" value="true" />
+      <created>1719838849211</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719838849211</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Array list demo">
+      <option name="closed" value="true" />
+      <created>1719838876851</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719838876851</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -453,7 +470,9 @@
     <MESSAGE value="Convert array list to array" />
     <MESSAGE value="Wrapper class demo" />
     <MESSAGE value="List demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="List demo" />
+    <MESSAGE value="Array list clone demo" />
+    <MESSAGE value="Array list demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array list demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
