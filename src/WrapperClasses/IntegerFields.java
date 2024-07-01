@@ -8,11 +8,11 @@ The Integer class has two fields that contain the maximum and minimum possible v
 public class IntegerFields {
     public static void main(String[] args) {
         //1.Maximum possible integer value
-        int max = Integer.MAX_VALUE;
-        System.out.println(String.format("The maximum possible integer value: %d", max));
+        int maxInteger = Integer.MAX_VALUE;
+        System.out.println(String.format("The maximum possible integer value: %d", maxInteger));
 
         //2.Minimum possible integer value
-        int min = Integer.MIN_VALUE;
-        System.out.println(String.format("The minimum possible integer value: %d", min));
+        int minInteger = Integer.MIN_VALUE;
+        System.out.println(String.format("The minimum possible integer value: %d", minInteger));
     }
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Integer class">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Integer class fields">
+      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/DoubleFields.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrapperClasses/DoubleMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/IntegerFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +99,7 @@
     "Application.DeleteCharacter.executor": "Run",
     "Application.DeleteString.executor": "Run",
     "Application.Dog.executor": "Run",
+    "Application.DoubleFields.executor": "Run",
     "Application.EmptySpace.executor": "Run",
     "Application.EnhancedLoop.executor": "Run",
     "Application.Example.executor": "Run",
@@ -466,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719872412754</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=" Integer class methods">
+      <option name="closed" value="true" />
+      <created>1719873072261</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719873072261</updated>
+    </task>
+    <task id="LOCAL-00031" summary=" Integer class fields">
+      <option name="closed" value="true" />
+      <created>1719873162205</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719873162205</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -491,7 +507,9 @@
     <MESSAGE value="Array list clone demo" />
     <MESSAGE value="Array list demo" />
     <MESSAGE value="Integer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integer class" />
+    <MESSAGE value=" Integer class methods" />
+    <MESSAGE value=" Integer class fields" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Integer class fields" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
