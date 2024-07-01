@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Interface demo">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Convert array list to array">
       <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge01ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge02ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +149,7 @@
     "Application.Typecasing.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
+    "Application.WrapperClassesDemo.executor": "Run",
     "Application.array_copyOf.executor": "Run",
     "Application.array_fill.executor": "Run",
     "Application.array_sort.executor": "Run",
@@ -390,7 +389,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719639243833</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Array List Demo">
+      <option name="closed" value="true" />
+      <created>1719785227657</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785227657</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Convert array to array list">
+      <option name="closed" value="true" />
+      <created>1719785292955</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785292955</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Convert array list to array">
+      <option name="closed" value="true" />
+      <created>1719785323286</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785323286</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -407,7 +430,10 @@
     <MESSAGE value="Updated abstraction demo" />
     <MESSAGE value="Abstraction challenge#02" />
     <MESSAGE value="Interface demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface demo" />
+    <MESSAGE value="Array List Demo" />
+    <MESSAGE value="Convert array to array list" />
+    <MESSAGE value="Convert array list to array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert array list to array" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
