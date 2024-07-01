@@ -15,6 +15,7 @@ public class ArrayListDemo {
         fruits.add("Apple");
         fruits.add("Pears");
         fruits.add("Banana");
+        fruits.add("Mango");
         //3.Accessing elements
         System.out.println("The first fruit is " +fruits.getFirst()+ ", while the third fruit is " +fruits.get(2) +".");
         //4.Modify element
