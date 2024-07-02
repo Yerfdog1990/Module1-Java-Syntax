@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Integer class fields">
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/DoubleFields.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Double class fields">
       <change afterPath="$PROJECT_DIR$/src/WrapperClasses/DoubleMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +102,7 @@
     "Application.DeleteString.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.DoubleFields.executor": "Run",
+    "Application.DoubleMethods.executor": "Run",
     "Application.EmptySpace.executor": "Run",
     "Application.EnhancedLoop.executor": "Run",
     "Application.Example.executor": "Run",
@@ -482,8 +485,35 @@
       <option name="project" value="LOCAL" />
       <updated>1719873162205</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=" Double class fields">
+      <option name="closed" value="true" />
+      <created>1719874682976</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719874682976</updated>
+    </task>
+    <task id="LOCAL-00033" summary=" Double class fields">
+      <option name="closed" value="true" />
+      <created>1719874749925</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719874749925</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is a while loop" />
@@ -509,7 +539,9 @@
     <MESSAGE value="Integer class" />
     <MESSAGE value=" Integer class methods" />
     <MESSAGE value=" Integer class fields" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Integer class fields" />
+    <MESSAGE value="Integer class fields" />
+    <MESSAGE value=" Double class fields" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Double class fields" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
