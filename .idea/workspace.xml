@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list demo">
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/DiamondOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SyntacticSugar/DiamondOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +97,7 @@
     "Application.DefaultValue.executor": "Run",
     "Application.DeleteCharacter.executor": "Run",
     "Application.DeleteString.executor": "Run",
+    "Application.DiamondOperator.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.EmptySpace.executor": "Run",
     "Application.EnhancedLoop.executor": "Run",
