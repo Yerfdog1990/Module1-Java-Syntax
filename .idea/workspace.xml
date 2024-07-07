@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list demo">
+      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yerfdog1990&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yerfdog1990/java_course.git&quot;,
+    &quot;accountId&quot;: &quot;9cf50a7b-23b2-4ab1-8c5d-8121da3093e6&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/JavaTypes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fGdPYL4yPdrLpusPgzAdPIcTJe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractDemo.Main.executor": "Run",
+    "Application.AnalyzeCharacter.executor": "Run",
+    "Application.AnimalMain.executor": "Run",
+    "Application.ArrayListCloneDemo.executor": "Run",
+    "Application.ArrayListDemo.executor": "Run",
+    "Application.Array_BinarySearch.executor": "Run",
+    "Application.BinaryAddition.executor": "Run",
+    "Application.BinaryToDecimal.executor": "Run",
+    "Application.BlankString.executor": "Run",
+    "Application.BooleanEndsWith.executor": "Run",
+    "Application.BooleanEqualsIgnoreCase.executor": "Run",
+    "Application.BooleanRegionMatches.executor": "Run",
+    "Application.BooleanStartsWith.executor": "Run",
+    "Application.Break_in_loop.executor": "Run",
+    "Application.Challenge01Abstraction.Main.executor": "Run",
+    "Application.Challenge01ArrayList.executor": "Run",
+    "Application.Challenge02ArrayList.executor": "Run",
+    "Application.Challenge1_BinaryAddition.executor": "Run",
+    "Application.Challenge1_LongestCommonString.executor": "Run",
+    "Application.Challenge1_Palindrome.executor": "Run",
+    "Application.Challenge1_TemperatureConverter.executor": "Run",
+    "Application.Challenge2Abstraction.Main.executor": "Run",
+    "Application.Challenge2_BinarySubtraction.executor": "Run",
+    "Application.Challenge2_CheckPalindrome.executor": "Run",
+    "Application.Challenge2_ReverseString.executor": "Run",
+    "Application.Challenge3_CheckUpperCase.executor": "Run",
+    "Application.Challenge3_ReverseString.executor": "Run",
+    "Application.Challenge4_CheckUpperCase.executor": "Run",
+    "Application.CharToArray.executor": "Run",
+    "Application.CharToByte.executor": "Run",
+    "Application.ChildOfPublic.executor": "Run",
+    "Application.CombineArrays.executor": "Run",
+    "Application.CompareToIgnoreCase.executor": "Run",
+    "Application.CompareToString.executor": "Run",
+    "Application.CompileTmePolymorphism.executor": "Run",
+    "Application.Continue_in_loop.executor": "Run",
+    "Application.DecimalToBinary.executor": "Run",
+    "Application.DecimalToHexadecimal.executor": "Run",
+    "Application.DecimalToOctal.executor": "Run",
+    "Application.DefaultValue.executor": "Run",
+    "Application.DeleteCharacter.executor": "Run",
+    "Application.DeleteString.executor": "Run",
+    "Application.Dog.executor": "Run",
+    "Application.EmptySpace.executor": "Run",
+    "Application.EnhancedLoop.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.Example2.executor": "Run",
+    "Application.Fill_Array.executor": "Run",
+    "Application.FormatString.executor": "Run",
+    "Application.GymMembership.executor": "Run",
+    "Application.HexToDecimal.executor": "Run",
+    "Application.IndexOfString.executor": "Run",
+    "Application.InsertObjects.executor": "Run",
+    "Application.IntegerMethods.executor": "Run",
+    "Application.InterfaceDemo.Main.executor": "Run",
+    "Application.JavaTypes.executor": "Run",
+    "Application.JoinString.executor": "Run",
+    "Application.LastIndex.executor": "Run",
+    "Application.LastIndexOfString.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.LowerCaseString.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectOrientedProgramming.Main.executor": "Run",
+    "Application.OctalToDecimal.executor": "Run",
+    "Application.OuterClass1.executor": "Run",
+    "Application.OuterClass2.executor": "Run",
+    "Application.Parent.executor": "Run",
+    "Application.PartOfString.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Practice_Arrays.executor": "Run",
+    "Application.PrimitiveDataTypes.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "Application.RepeatString.executor": "Run",
+    "Application.ReplaceAllString.executor": "Run",
+    "Application.ReplaceFirstString.executor": "Run",
+    "Application.ReplaceString.executor": "Run",
+    "Application.ReturnCharacter.executor": "Run",
+    "Application.ReturnSubstring.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RuntimePolymorphism.executor": "Run",
+    "Application.SetCharacter.executor": "Run",
+    "Application.SplitString.executor": "Run",
+    "Application.StringAppend.executor": "Run",
+    "Application.StringCharacter.executor": "Run",
+    "Application.StringConcatention.executor": "Run",
+    "Application.StringEquals.executor": "Run",
+    "Application.StringIndex.executor": "Run",
+    "Application.StringIntern.executor": "Run",
+    "Application.StringLength.executor": "Run",
+    "Application.StringMatches.executor": "Run",
+    "Application.StringToken.executor": "Run",
+    "Application.Test_public.executor": "Run",
+    "Application.TrimString.executor": "Run",
+    "Application.Typecasing.executor": "Run",
+    "Application.UpperCaseString.executor": "Run",
+    "Application.While_loop.executor": "Run",
+    "Application.WrapperClassesDemo.executor": "Run",
+    "Application.array_copyOf.executor": "Run",
+    "Application.array_fill.executor": "Run",
+    "Application.array_sort.executor": "Run",
+    "Application.arrays_List.executor": "Run",
+    "Application.arrays_String.executor": "Run",
+    "Application.arrays_equals.executor": "Run",
+    "Application.challenge11_sumOfElements_inDiagonal.executor": "Run",
+    "Application.challenge12_Display_Values.executor": "Run",
+    "Application.challenge1_reverseArrays.executor": "Run",
+    "Application.challenge_1.executor": "Run",
+    "Application.challenge_2.executor": "Run",
+    "Application.doWhile_loop.executor": "Run",
+    "Application.for_loop.executor": "Run",
+    "Application.newArray.executor": "Run",
+    "Application.two_D_Arrays.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax",
+    "onboarding.tips.debug.path": "C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Abstraction" />
+      <recent name="Challenge01AbstractClass" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DataTypes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaTypes" />
+      <module name="JavaSyntax" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaSyntax" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="While_loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.While_loop" />
+      <module name="JavaSyntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaTypes" />
+        <item itemvalue="Application.While_loop" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="" />
+      <created>1713431329878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713431329878</updated>
+    </task>
+    <task id="LOCAL-00001" summary="This is a while loop">
+      <option name="closed" value="true" />
+      <created>1716960735198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716960735199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717368455243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717368455243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717372872042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717372872042</updated>
+    </task>
+    <task id="LOCAL-00004" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717373966949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717373966949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717907303535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717907303535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1717973326985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717973326985</updated>
+    </task>
+    <task id="LOCAL-00007" summary="These are java course practice with CodeGym University.">
+      <option name="closed" value="true" />
+      <created>1718445062460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718445062482</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Challenge to find the longest common prefix from the array.">
+      <option name="closed" value="true" />
+      <created>1718524271442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718524271442</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Data types basics">
+      <option name="closed" value="true" />
+      <created>1718749261226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718749261226</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Challenge 1: Temperature converter">
+      <option name="closed" value="true" />
+      <created>1718752036462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718752036462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Challenge 1: Adding binary">
+      <option name="closed" value="true" />
+      <created>1718795990685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718795990685</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Challenge 1: Temperature converter">
+      <option name="closed" value="true" />
+      <created>1718796330834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718796330834</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Object oriented programming practices.">
+      <option name="closed" value="true" />
+      <created>1719023671348</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719023671358</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Object oriented programming practices.">
+      <option name="closed" value="true" />
+      <created>1719398665522</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398665522</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Challenge 30">
+      <option name="closed" value="true" />
+      <created>1719405999687</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719405999695</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Abstraction demo">
+      <option name="closed" value="true" />
+      <created>1719585174031</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719585174031</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Abstraction challenge #01">
+      <option name="closed" value="true" />
+      <created>1719614035284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614035284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated abstraction demo">
+      <option name="closed" value="true" />
+      <created>1719614275614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614275614</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Abstraction challenge#02">
+      <option name="closed" value="true" />
+      <created>1719617787650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719617787650</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Interface demo">
+      <option name="closed" value="true" />
+      <created>1719639243814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719639243833</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Array List Demo">
+      <option name="closed" value="true" />
+      <created>1719785227657</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785227657</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Convert array to array list">
+      <option name="closed" value="true" />
+      <created>1719785292955</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785292955</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Convert array list to array">
+      <option name="closed" value="true" />
+      <created>1719785323286</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785323286</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Wrapper class demo">
+      <option name="closed" value="true" />
+      <created>1719834833830</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719834833830</updated>
+    </task>
+    <task id="LOCAL-00025" summary="List demo">
+      <option name="closed" value="true" />
+      <created>1719837509325</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719837509325</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Array list clone demo">
+      <option name="closed" value="true" />
+      <created>1719838849211</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719838849211</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Array list demo">
+      <option name="closed" value="true" />
+      <created>1719838876851</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719838876851</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is a while loop" />
+    <MESSAGE value="These are java course practice with CodeGym University." />
+    <MESSAGE value="Challenge to find the longest common prefix from the array." />
+    <MESSAGE value="Data types basics" />
+    <MESSAGE value="Challenge 1: Adding binary" />
+    <MESSAGE value="Challenge 1: Temperature converter" />
+    <MESSAGE value="Object oriented programming practices." />
+    <MESSAGE value="Challenge 30" />
+    <MESSAGE value="Abstraction demo" />
+    <MESSAGE value="Abstraction challenge #01" />
+    <MESSAGE value="Updated abstraction demo" />
+    <MESSAGE value="Abstraction challenge#02" />
+    <MESSAGE value="Interface demo" />
+    <MESSAGE value="Array List Demo" />
+    <MESSAGE value="Convert array to array list" />
+    <MESSAGE value="Convert array list to array" />
+    <MESSAGE value="Wrapper class demo" />
+    <MESSAGE value="List demo" />
+    <MESSAGE value="Array list clone demo" />
+    <MESSAGE value="Array list demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array list demo" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
