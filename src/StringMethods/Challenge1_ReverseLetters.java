@@ -2,7 +2,7 @@ package StringMethods;
 
 public class Challenge1_ReverseLetters {
     public static void main(String[] args) {
-        String originalString = "madam";
+        String originalString = "Madam";
         StringBuilder reversedString = new StringBuilder();
         reversedString.append(originalString);
         reversedString = reversedString.reverse();
