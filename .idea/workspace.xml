@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list methods demo">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge03ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/Challenge04ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/ResizeArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InstanceOf/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InstanceOf/TypeSpecificOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/AutoboxingandUnboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/DiamondOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/LambdasFunctionalInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/StringSwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/TernaryOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/VariableArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/BooleanClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/Challenge01_AnalyzingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrapperClasses/CharacterMethods.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Reverse letters challenge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge1_ReverseLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringMethods/Challenge1_ReverseLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SyntacticSugar/TernaryOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -548,7 +534,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720330948208</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Reverse letters challenge">
+      <option name="closed" value="true" />
+      <created>1720331487083</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1720331487083</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Reverse letters challenge">
+      <option name="closed" value="true" />
+      <created>1720331670970</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1720331670970</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -563,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Data types basics" />
     <MESSAGE value="Challenge 1: Adding binary" />
     <MESSAGE value="Challenge 1: Temperature converter" />
     <MESSAGE value="Object oriented programming practices." />
@@ -588,7 +589,8 @@
     <MESSAGE value=" Double Methods" />
     <MESSAGE value="Wrapper classes demo" />
     <MESSAGE value="Array list methods demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array list methods demo" />
+    <MESSAGE value="Reverse letters challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse letters challenge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
