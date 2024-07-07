@@ -27,6 +27,13 @@ that represent the maximum and minimum values the primitive types can hold.
 7.Autoboxing and Unboxing: Java provides automatic conversion between primitives and wrapper objects through
 autoboxing (converting a primitive to a wrapper object) and
 unboxing (converting a wrapper object to a primitive).
+8.Caching values during autoboxing: Objects are cached for values -128 through 127 inclusive.
+The Integer class has a hidden array that stores objects: Integer(-128), Integer(-127), ... Integer(126), Integer(127)
+If you write Integer x = 128, then the autoboxing process creates a new object, but if you write Integer x = 127,
+then the autoboxing process retrieves the existing object from the cache (from the array).
+
+Note: All wrapper types have such a cache: Integer, Long, Byte, Short, Boolean.
+For the Boolean type, its TRUE and FALSE values are both constants, so they are also essentially cached.
  */
 public class WrapperClassesDemo {
     public static void main(String[] args) {
@@ -76,12 +83,21 @@ public class WrapperClassesDemo {
         System.out.println("The minimum integer value: " +min);
 
         //6.Comparing wrapper objects
-        Integer first = Integer.valueOf(1000);
-        Integer second = Integer.valueOf(1000);
-        System.out.println(first.equals(second));//Comparing content returns truw
-        System.out.println(first == second);//Comparing reference to memory location return false
+        Integer first = Integer.valueOf(1200);
+        Integer second = Integer.valueOf(1200);
+        System.out.println(first.equals(second));//Comparing content returns true
+        System.out.println(first == second);//Comparing reference to memory location return false if the object is not cached
 
-        //7.Immutability
+        //8.Caching values during autoboxing
+        Integer third = Integer.valueOf(100);
+        Integer fourth = Integer.valueOf(100);
+        System.out.println(third.equals(fourth));//Comparing content returns true
+        System.out.println(third == fourth);//Returns true. Objects are cached for values -128 through 127 inclusive.
+
+        //9.Avoiding the Integer object to come from the cache
+        //Integer x = new Integer(120); Although this method is deprecated since version 9 and marked for removal
+        
+        //10.Immutability
         Integer originalValue = Integer.valueOf(200);
         Integer newValue = Integer.valueOf(originalValue + 1);
         System.out.println("The original value: " +originalValue);//Still 200
@@ -93,7 +109,7 @@ public class WrapperClassesDemo {
         System.out.println("The original value: " +originalValue);//Still 200
         System.out.println("The new value: " +newValue);//202
 
-        //8.Autoboxing and unboxing
+        //11.Autoboxing and unboxing
         Integer number = 34; //This line automatically converts the primitive int value 34 to an Integer object. It is equivalent to Integer.valueOf(34).
         int y = number; // This line automatically converts the Integer object number to a primitive int value. It is equivalent to number.intValue().
         //Comparing primitive type to its wrapper class
