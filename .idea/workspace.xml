@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Bank service queue project">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list demo">
       <change afterPath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -518,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720530809982</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Array list demo">
+      <option name="closed" value="true" />
+      <created>1720561039904</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1720561039904</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,13 +559,13 @@
     <MESSAGE value="Wrapper class demo" />
     <MESSAGE value="List demo" />
     <MESSAGE value="Array list clone demo" />
-    <MESSAGE value="Array list demo" />
     <MESSAGE value="Diamond operator to demostrate syntactic sugar" />
     <MESSAGE value="Generic class" />
     <MESSAGE value="Linked list" />
     <MESSAGE value="Queue demo" />
     <MESSAGE value="Bank service queue project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank service queue project" />
+    <MESSAGE value="Array list demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array list demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
