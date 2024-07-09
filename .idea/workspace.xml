@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Generic class">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/LinkedListDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Linked list">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/LinkedListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,7 @@
     "Application.Person.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
     "Application.PrimitiveDataTypes.executor": "Run",
+    "Application.QueueDemo.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RepeatString.executor": "Run",
     "Application.ReplaceAllString.executor": "Run",
@@ -474,7 +476,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720356893799</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Linked list">
+      <option name="closed" value="true" />
+      <created>1720480848562</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720480848562</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Linked list">
+      <option name="closed" value="true" />
+      <created>1720519550969</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1720519550969</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +529,8 @@
     <MESSAGE value="Array list demo" />
     <MESSAGE value="Diamond operator to demostrate syntactic sugar" />
     <MESSAGE value="Generic class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic class" />
+    <MESSAGE value="Linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

@@ -75,10 +75,14 @@ public class LinkedListDemo {
         System.out.println("The number of elements in the list is: " +list.size());
 
         //iterator(): Returns an iterator over the elements in the list in proper sequence.
-        System.out.println("Iterate over the elements:");
+        System.out.println("Iterate over the elements using \"iterator()\":");
         Iterator<String> iterator = list.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
+        }
+        System.out.println("Iterate over the elements using \"For-each loop\":");
+        for(String s : list){
+            System.out.println(s);
         }
 
         //isEmpty(): Returns true if the list contains no elements.
