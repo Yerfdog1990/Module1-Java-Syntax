@@ -85,6 +85,7 @@ public class LinkedListDemo {
         System.out.println("The list is empty: " +list.isEmpty());
 
         //clear(): Removes all elements from the list.
+        list.clear();
         System.out.println("The size of the list is: " +list.size());
     }
 }
