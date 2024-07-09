@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array list demo">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Hashset demo">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/ImmigrationOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +110,7 @@
     "Application.GymMembership.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.HexToDecimal.executor": "Run",
+    "Application.ImmigrationOffice.executor": "Run",
     "Application.IndexOfString.executor": "Run",
     "Application.InsertObjects.executor": "Run",
     "Application.IntegerMethods.executor": "Run",
@@ -525,7 +526,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720561039904</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Hashset demo">
+      <option name="closed" value="true" />
+      <created>1720562209937</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1720562209937</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Hashset demo">
+      <option name="closed" value="true" />
+      <created>1720562234342</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1720562234342</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="This is a while loop" />
     <MESSAGE value="These are java course practice with CodeGym University." />
     <MESSAGE value="Challenge to find the longest common prefix from the array." />
     <MESSAGE value="Data types basics" />
@@ -565,7 +581,8 @@
     <MESSAGE value="Queue demo" />
     <MESSAGE value="Bank service queue project" />
     <MESSAGE value="Array list demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array list demo" />
+    <MESSAGE value="Hashset demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashset demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
