@@ -2,6 +2,7 @@ package CollectionClasses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Iterator;
 
 /*
 Key Features of ArrayDeque
@@ -17,6 +18,8 @@ public class ArrayDequeDemo {
         Deque<String> deque = new ArrayDeque<>();
 
         //addFirst() is used to add elements to the front.
+        deque.add("One");
+        deque.add("Two");
         deque.addFirst("First");
         deque.addFirst("Second");
         //addLast() is used to add elements to the end.
@@ -48,5 +51,17 @@ public class ArrayDequeDemo {
         String popElement = deque.pop();
         System.out.println("Popped element: " +popElement);
         System.out.println("Deque after pop: " +deque);
+
+        //Iterate over the elements using for each loop
+        System.out.println("Iterating over the elements:");
+        for (String str: deque) {
+            System.out.println(str);
+        }
+        //Iterate over the elements using while loop
+        System.out.println("Iterating over the elements:");
+        Iterator<String > iterator = deque.iterator();
+        while(iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 }
