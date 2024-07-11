@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="LIFO demo">
-      <change afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Array to HashSet demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/BankServiceQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/BankServiceQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -605,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720703345789</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Array to HashSet demo">
+      <option name="closed" value="true" />
+      <created>1720737640402</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1720737640402</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Array to HashSet demo">
+      <option name="closed" value="true" />
+      <created>1720737717069</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1720737717069</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -620,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Challenge 30" />
     <MESSAGE value="Abstraction demo" />
     <MESSAGE value="Abstraction challenge #01" />
     <MESSAGE value="Updated abstraction demo" />
@@ -645,7 +661,8 @@
     <MESSAGE value="HashMap demo" />
     <MESSAGE value="FIFO demo" />
     <MESSAGE value="LIFO demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="LIFO demo" />
+    <MESSAGE value="Array to HashSet demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array to HashSet demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

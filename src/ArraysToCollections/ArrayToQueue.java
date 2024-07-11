@@ -26,6 +26,13 @@ public class ArrayToQueue {
             System.out.println("Country " +i+ " : " +array[i]);
         }
         //Print the Queue
-        System.out.println("Queue: " +convertToQueue(array));
+        Queue<String> stringQueue = new LinkedList<>(convertToQueue(array));
+        System.out.println("Queue: " +stringQueue);
+        //Remove head element
+        System.out.println("Head element: " +stringQueue.poll());
+        //Print Queue after poll
+        System.out.println("Remaining queue: " +stringQueue);
+        //Peek head element
+        System.out.println("Head element after poll: " +stringQueue.peek());
     }
 }
