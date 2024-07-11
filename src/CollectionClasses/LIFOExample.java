@@ -30,6 +30,6 @@ public class LIFOExample {
         //Peeking at the top element
         System.out.println("Top element: " +stack.peek());
         //Displaying the stack after peek
-        System.out.println("Stack after pop: " +stack);
+        System.out.println("Stack after peek: " +stack);
     }
 }
