@@ -31,7 +31,7 @@ public class BankServiceQueue {
         while(!serviceQueue.isEmpty()){
             //Retrieve and remove head queue
             int receiptNumber = serviceQueue.poll();
-            System.out.println("Receipt number " +receiptNumber +" go to counter number " +Math.floor(Math.random()*9) );
+            System.out.println("Receipt number " +receiptNumber +" go to counter number "  );
             waitingCustomer(receiptNumber);
         }
     }
