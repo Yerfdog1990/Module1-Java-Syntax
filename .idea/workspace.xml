@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="LIFO demo">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/FIFOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LIFOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/LIFOExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,8 @@
     "Application.ArrayDequeDemo.executor": "Run",
     "Application.ArrayListCloneDemo.executor": "Run",
     "Application.ArrayListDemo.executor": "Run",
+    "Application.ArrayToHashSet.executor": "Run",
+    "Application.ArrayToQueue.executor": "Run",
     "Application.Array_BinarySearch.executor": "Run",
     "Application.BankServiceQueue.executor": "Run",
     "Application.BinaryAddition.executor": "Run",
@@ -587,7 +589,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720702318238</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="FIFO demo">
+      <option name="closed" value="true" />
+      <created>1720703327298</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1720703327298</updated>
+    </task>
+    <task id="LOCAL-00045" summary="LIFO demo">
+      <option name="closed" value="true" />
+      <created>1720703345789</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1720703345789</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Object oriented programming practices." />
     <MESSAGE value="Challenge 30" />
     <MESSAGE value="Abstraction demo" />
     <MESSAGE value="Abstraction challenge #01" />
@@ -626,6 +643,7 @@
     <MESSAGE value="Verify identity using HashSet." />
     <MESSAGE value="ArrayDeque demo" />
     <MESSAGE value="HashMap demo" />
+    <MESSAGE value="FIFO demo" />
     <MESSAGE value="LIFO demo" />
     <option name="LAST_COMMIT_MESSAGE" value="LIFO demo" />
   </component>
