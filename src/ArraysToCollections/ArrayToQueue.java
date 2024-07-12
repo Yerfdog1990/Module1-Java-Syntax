@@ -34,5 +34,10 @@ public class ArrayToQueue {
         System.out.println("Remaining queue: " +stringQueue);
         //Peek head element
         System.out.println("Head element after poll: " +stringQueue.peek());
+        //Iterate over the elements
+        System.out.println("Iterate over the elements:");
+        for(String str : stringQueue){
+            System.out.println(str);
+        }
     }
 }
