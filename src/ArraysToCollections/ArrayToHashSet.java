@@ -25,6 +25,9 @@ public class ArrayToHashSet {
             System.out.println("Country " +i+ " : " +array[i]);
         }
         //Print HashSet
-        System.out.println("HashSet: " +convertToHashSet(array));
+        HashSet<String> hashSet = new HashSet<>(convertToHashSet(array));
+        System.out.println("HashSet: " +hashSet);
+        //Check if if an element exists
+        System.out.println("Is Tanzania in the set? " +hashSet.contains("Tanzania"));
     }
 }
