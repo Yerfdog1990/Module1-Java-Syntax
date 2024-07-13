@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Convert array to HashSet">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/PasswordChecker.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Account creation and verification using HashSet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/AccountCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,14 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00004" summary="These are java course practice with CodeGym University.">
-      <option name="closed" value="true" />
-      <created>1717373966949</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717373966949</updated>
     </task>
     <task id="LOCAL-00005" summary="These are java course practice with CodeGym University.">
       <option name="closed" value="true" />
@@ -637,7 +629,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720820847011</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Account creation and verification using HashSet">
+      <option name="closed" value="true" />
+      <created>1720843272684</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1720843272684</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -652,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Interface demo" />
     <MESSAGE value="Array List Demo" />
     <MESSAGE value="Convert array to array list" />
     <MESSAGE value="Convert array list to array" />
@@ -677,7 +676,8 @@
     <MESSAGE value="Apply queue in bank service" />
     <MESSAGE value="Convert array to queue" />
     <MESSAGE value="Convert array to HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert array to HashSet" />
+    <MESSAGE value="Account creation and verification using HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Account creation and verification using HashSet" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
