@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Account creation and verification using HashMap">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Union and intersection of a set">
+      <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodeClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodeClass/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodeClass/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +135,7 @@
     "Application.ListDemo.executor": "Run",
     "Application.LowerCaseString.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.NodeClass.Main.executor": "Run",
     "Application.ObjectOrientedProgramming.Main.executor": "Run",
     "Application.OctalToDecimal.executor": "Run",
     "Application.OuterClass1.executor": "Run",
@@ -247,14 +254,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00006" summary="These are java course practice with CodeGym University.">
-      <option name="closed" value="true" />
-      <created>1717973326985</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717973326985</updated>
     </task>
     <task id="LOCAL-00007" summary="These are java course practice with CodeGym University.">
       <option name="closed" value="true" />
@@ -640,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720846826702</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Union and intersection of a set">
+      <option name="closed" value="true" />
+      <created>1720930428009</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1720930428009</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -655,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Convert array to array list" />
     <MESSAGE value="Convert array list to array" />
     <MESSAGE value="Wrapper class demo" />
     <MESSAGE value="List demo" />
@@ -680,7 +686,8 @@
     <MESSAGE value="Convert array to HashSet" />
     <MESSAGE value="Account creation and verification using HashSet" />
     <MESSAGE value="Account creation and verification using HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account creation and verification using HashMap" />
+    <MESSAGE value="Union and intersection of a set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Union and intersection of a set" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
