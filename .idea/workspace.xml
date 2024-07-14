@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Account creation and verification using HashSet">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Account creation and verification using HashMap">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/AccountCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +150,7 @@
     "Application.ReverseString.executor": "Run",
     "Application.RuntimePolymorphism.executor": "Run",
     "Application.SetCharacter.executor": "Run",
+    "Application.Sets.executor": "Run",
     "Application.SplitString.executor": "Run",
     "Application.StringAppend.executor": "Run",
     "Application.StringCharacter.executor": "Run",
@@ -163,6 +164,8 @@
     "Application.Test_public.executor": "Run",
     "Application.TrimString.executor": "Run",
     "Application.Typecasing.executor": "Run",
+    "Application.UnionOfSet.executor": "Run",
+    "Application.Union_IntersectionOfSet.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
     "Application.WrapperClassesDemo.executor": "Run",
@@ -244,14 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00005" summary="These are java course practice with CodeGym University.">
-      <option name="closed" value="true" />
-      <created>1717907303535</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717907303535</updated>
     </task>
     <task id="LOCAL-00006" summary="These are java course practice with CodeGym University.">
       <option name="closed" value="true" />
@@ -637,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720843272684</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Account creation and verification using HashMap">
+      <option name="closed" value="true" />
+      <created>1720846826702</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1720846826702</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -652,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array List Demo" />
     <MESSAGE value="Convert array to array list" />
     <MESSAGE value="Convert array list to array" />
     <MESSAGE value="Wrapper class demo" />
@@ -677,7 +679,8 @@
     <MESSAGE value="Convert array to queue" />
     <MESSAGE value="Convert array to HashSet" />
     <MESSAGE value="Account creation and verification using HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account creation and verification using HashSet" />
+    <MESSAGE value="Account creation and verification using HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Account creation and verification using HashMap" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
