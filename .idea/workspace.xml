@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="LinkedList class implement List interface">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/ConvertListToSet.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Convert a list to a set">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/ElementIteration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +104,7 @@
     "Application.DeleteString.executor": "Run",
     "Application.DiamondOperator.executor": "Run",
     "Application.Dog.executor": "Run",
+    "Application.ElementIteration.executor": "Run",
     "Application.EmptySpace.executor": "Run",
     "Application.EnhancedLoop.executor": "Run",
     "Application.Example.executor": "Run",
@@ -250,14 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Challenge 1: Adding binary">
-      <option name="closed" value="true" />
-      <created>1718795990685</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718795990685</updated>
     </task>
     <task id="LOCAL-00012" summary="Challenge 1: Temperature converter">
       <option name="closed" value="true" />
@@ -643,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721216053872</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Convert a list to a set">
+      <option name="closed" value="true" />
+      <created>1721217475847</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1721217475847</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -658,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array list clone demo" />
     <MESSAGE value="Diamond operator to demostrate syntactic sugar" />
     <MESSAGE value="Generic class" />
     <MESSAGE value="Linked list" />
@@ -683,7 +683,8 @@
     <MESSAGE value="Node Class for a Linked List" />
     <MESSAGE value="List demo" />
     <MESSAGE value="LinkedList class implement List interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList class implement List interface" />
+    <MESSAGE value="Convert a list to a set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert a list to a set" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
