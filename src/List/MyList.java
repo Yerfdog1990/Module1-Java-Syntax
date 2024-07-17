@@ -20,7 +20,7 @@ using an iterator, for-each loop, or a traditional for loop.
 7.Collection Interface Methods: Since List extends the Collection interface,
 it inherits methods like add(E e), remove(Object o), contains(Object o), size(), isEmpty(), and clear().
  */
-public class ListDemo {
+public class MyList {
     public static void main(String[] args) {
         //1.Creating a list
         List<String> fruits = new ArrayList<>();
