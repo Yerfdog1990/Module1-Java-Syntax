@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Node Class for a Linked List">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="List demo">
       <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodeClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeClass/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodeClass/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +130,7 @@
     &quot;Application.LastIndexOfString.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedListDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListInterface_LinkedList.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.LowerCaseString.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.NodeClass.Main.executor&quot;: &quot;Run&quot;,
@@ -254,22 +252,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Challenge to find the longest common prefix from the array.">
-      <option name="closed" value="true" />
-      <created>1718524271442</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718524271442</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Data types basics">
-      <option name="closed" value="true" />
-      <created>1718749261226</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718749261226</updated>
     </task>
     <task id="LOCAL-00010" summary="Challenge 1: Temperature converter">
       <option name="closed" value="true" />
@@ -647,7 +629,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720954897935</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Node Class for a Linked List">
+      <option name="closed" value="true" />
+      <created>1721186715460</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1721186715460</updated>
+    </task>
+    <task id="LOCAL-00058" summary="List demo">
+      <option name="closed" value="true" />
+      <created>1721186770350</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1721186770350</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -663,7 +661,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Wrapper class demo" />
-    <MESSAGE value="List demo" />
     <MESSAGE value="Array list clone demo" />
     <MESSAGE value="Diamond operator to demostrate syntactic sugar" />
     <MESSAGE value="Generic class" />
@@ -687,7 +684,8 @@
     <MESSAGE value="Account creation and verification using HashMap" />
     <MESSAGE value="Union and intersection of a set" />
     <MESSAGE value="Node Class for a Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node Class for a Linked List" />
+    <MESSAGE value="List demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="List demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
