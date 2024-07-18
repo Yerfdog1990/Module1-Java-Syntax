@@ -24,6 +24,7 @@ Commonly Used Methods of ArrayList:
  */
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -64,6 +65,32 @@ public class ArrayListDemo {
         // Get the size of the ArrayList
         int size = easternAfricaNations.size();
         System.out.println("Size of the list: " + size);
+
+        //Remove elements by the name using enhanced loop
+        ArrayList<String> listCopy = new ArrayList<>(easternAfricaNations);
+        for(String str : listCopy){
+            if(str.equals("Ethiopia")){
+                easternAfricaNations.remove(str);
+            }
+        }
+        //Remove elements by the name using for-each loop
+        for (int i = 0; i < easternAfricaNations.size(); i++) {
+            String str = easternAfricaNations.get(i);
+            if(easternAfricaNations.equals("Tanzania")){
+                easternAfricaNations.remove(str);
+                i--;
+            }
+        }
+        //Remove elements by the name using explicit iterator
+        Iterator iterator = easternAfricaNations.iterator();
+        while(iterator.hasNext()){
+            String str = iterator.next().toString();
+            if(str.equals("Uganda")){
+                iterator.remove();
+            }
+        }
+        //Print number of elements after removal
+        System.out.println("Number of remaining countries: " +easternAfricaNations.size());
 
         // Clear the ArrayList
         easternAfricaNations.clear();
