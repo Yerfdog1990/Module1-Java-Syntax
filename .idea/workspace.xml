@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Iterate over elements suign while loop, for-each loop, and enhanced for loop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HashMap demo">
       <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" afterDir="false" />
     </list>
@@ -252,14 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Object oriented programming practices.">
-      <option name="closed" value="true" />
-      <created>1719023671348</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1719023671358</updated>
     </task>
     <task id="LOCAL-00014" summary="Object oriented programming practices.">
       <option name="closed" value="true" />
@@ -645,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721220976916</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="HashMap demo">
+      <option name="closed" value="true" />
+      <created>1721280886997</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1721280886997</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -669,7 +668,6 @@
     <MESSAGE value="Verify identity at the immigration office." />
     <MESSAGE value="Verify identity using HashSet." />
     <MESSAGE value="ArrayDeque demo" />
-    <MESSAGE value="HashMap demo" />
     <MESSAGE value="FIFO demo" />
     <MESSAGE value="LIFO demo" />
     <MESSAGE value="Array to HashSet demo" />
@@ -685,7 +683,8 @@
     <MESSAGE value="LinkedList class implement List interface" />
     <MESSAGE value="Convert a list to a set" />
     <MESSAGE value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
+    <MESSAGE value="HashMap demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

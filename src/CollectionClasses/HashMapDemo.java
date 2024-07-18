@@ -54,7 +54,7 @@ public class HashMapDemo  {
         for(Map.Entry<String, Integer> entry : hashMap.entrySet()){
             System.out.println(entry.getKey()+ " --> " +entry.getValue());
         }
-        //for loop to iterate over the keys of the map
+        //keySet() method returns a set of keys by iterating over the keys of the map
         System.out.println("Iterating over HashMap");
         for(String key : hashMap.keySet()){
             Integer value = hashMap.get(key);
