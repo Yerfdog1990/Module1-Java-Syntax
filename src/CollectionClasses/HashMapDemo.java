@@ -60,5 +60,6 @@ public class HashMapDemo  {
             Integer value = hashMap.get(key);
             System.out.println(key + " --> " + value);
         }
+
     }
 }
