@@ -52,7 +52,13 @@ public class HashMapDemo  {
         //entrySet() method provides a set view of the key-value pairs in the HashMap, which is then iterated over using a for-each loop.
         System.out.println("Iterating over HashMap");
         for(Map.Entry<String, Integer> entry : hashMap.entrySet()){
-            System.out.println(entry.getKey()+ " : " +entry.getValue());
+            System.out.println(entry.getKey()+ " --> " +entry.getValue());
+        }
+        //for loop to iterate over the keys of the map
+        System.out.println("Iterating over HashMap");
+        for(String key : hashMap.keySet()){
+            Integer value = hashMap.get(key);
+            System.out.println(key + " --> " + value);
         }
     }
 }
