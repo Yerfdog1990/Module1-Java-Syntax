@@ -46,7 +46,7 @@ public class MyLinkedList<E> implements MyList{
         for(Object e : c){ // Loop through each element in the collection
             addLast(e); // Add each element from the collection at the end of the list
         }
-        return true; // Indicate that the elements were added successfully
+        return true; // Indicate that the elements were added successfully  
     }
 
     @Override
