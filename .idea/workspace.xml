@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HashMap demo">
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HasMap demo">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/StudentPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,22 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Object oriented programming practices.">
-      <option name="closed" value="true" />
-      <created>1719398665522</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1719398665522</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Challenge 30">
-      <option name="closed" value="true" />
-      <created>1719405999687</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1719405999695</updated>
     </task>
     <task id="LOCAL-00016" summary="Abstraction demo">
       <option name="closed" value="true" />
@@ -644,7 +628,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721280886997</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ArrayList demo">
+      <option name="closed" value="true" />
+      <created>1721281479761</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1721281479761</updated>
+    </task>
+    <task id="LOCAL-00064" summary="HasMap demo">
+      <option name="closed" value="true" />
+      <created>1721281502902</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1721281502902</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -659,8 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generic class" />
-    <MESSAGE value="Linked list" />
     <MESSAGE value="Queue demo" />
     <MESSAGE value="Bank service queue project" />
     <MESSAGE value="Array list demo" />
@@ -684,7 +682,9 @@
     <MESSAGE value="Convert a list to a set" />
     <MESSAGE value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
     <MESSAGE value="HashMap demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap demo" />
+    <MESSAGE value="ArrayList demo" />
+    <MESSAGE value="HasMap demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HasMap demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
