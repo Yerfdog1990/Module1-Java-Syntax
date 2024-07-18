@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Student performance entries using HashMap">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/LetterCounter.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HashMap demo">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/TreeMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +169,7 @@
     "Application.StringToken.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
     "Application.Test_public.executor": "Run",
+    "Application.TreeMapDemo.executor": "Run",
     "Application.TrimString.executor": "Run",
     "Application.Typecasing.executor": "Run",
     "Application.UnionOfSet.executor": "Run",
@@ -254,22 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Abstraction challenge #01">
-      <option name="closed" value="true" />
-      <created>1719614035284</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1719614035284</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Updated abstraction demo">
-      <option name="closed" value="true" />
-      <created>1719614275614</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1719614275614</updated>
     </task>
     <task id="LOCAL-00019" summary="Abstraction challenge#02">
       <option name="closed" value="true" />
@@ -647,7 +632,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721282808362</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Letter counter">
+      <option name="closed" value="true" />
+      <created>1721291429502</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1721291429502</updated>
+    </task>
+    <task id="LOCAL-00067" summary="HashMap demo">
+      <option name="closed" value="true" />
+      <created>1721291454296</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1721291454296</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bank service queue project" />
     <MESSAGE value="Array list demo" />
     <MESSAGE value="Hashset demo" />
     <MESSAGE value="Verify identity at the immigration office." />
@@ -683,11 +683,12 @@
     <MESSAGE value="LinkedList class implement List interface" />
     <MESSAGE value="Convert a list to a set" />
     <MESSAGE value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
-    <MESSAGE value="HashMap demo" />
     <MESSAGE value="ArrayList demo" />
     <MESSAGE value="HasMap demo" />
     <MESSAGE value="Student performance entries using HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Student performance entries using HashMap" />
+    <MESSAGE value="Letter counter" />
+    <MESSAGE value="HashMap demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
