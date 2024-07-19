@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Store sorted keys and values in the Treemap using comparable interface">
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/PersonComparator.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Store sorted keys and values in the Treemap using comparator interface">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/SalariesAndJobTitles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +156,7 @@
     "Application.ReturnSubstring.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RuntimePolymorphism.executor": "Run",
+    "Application.SalariesAndJobTitles.executor": "Run",
     "Application.SetCharacter.executor": "Run",
     "Application.Sets.executor": "Run",
     "Application.SplitString.executor": "Run",
@@ -258,14 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Convert array to array list">
-      <option name="closed" value="true" />
-      <created>1719785292955</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1719785292955</updated>
     </task>
     <task id="LOCAL-00023" summary="Convert array list to array">
       <option name="closed" value="true" />
@@ -651,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721371817804</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Store sorted keys and values in the Treemap using comparator interface">
+      <option name="closed" value="true" />
+      <created>1721377633349</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1721377633349</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,7 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Verify identity using HashSet." />
     <MESSAGE value="ArrayDeque demo" />
     <MESSAGE value="FIFO demo" />
     <MESSAGE value="LIFO demo" />
@@ -691,7 +689,8 @@
     <MESSAGE value="TreeMap demo" />
     <MESSAGE value="Linked list demo" />
     <MESSAGE value="Store sorted keys and values in the Treemap using comparable interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Store sorted keys and values in the Treemap using comparable interface" />
+    <MESSAGE value="Store sorted keys and values in the Treemap using comparator interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Store sorted keys and values in the Treemap using comparator interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
