@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Generate job titles and corresponding salaries using a TreeMap.">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/Collections_Helper_Class.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Collection methods">
+      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/WordCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +179,7 @@
     "Application.Union_IntersectionOfSet.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
+    "Application.WordCounter.executor": "Run",
     "Application.WrapperClassesDemo.executor": "Run",
     "Application.array_copyOf.executor": "Run",
     "Application.array_fill.executor": "Run",
@@ -258,14 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Wrapper class demo">
-      <option name="closed" value="true" />
-      <created>1719834833830</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1719834833830</updated>
     </task>
     <task id="LOCAL-00025" summary="List demo">
       <option name="closed" value="true" />
@@ -651,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721381462974</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Collection methods">
+      <option name="closed" value="true" />
+      <created>1721395163380</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1721395163380</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,7 +667,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FIFO demo" />
     <MESSAGE value="LIFO demo" />
     <MESSAGE value="Array to HashSet demo" />
     <MESSAGE value="Convert array to Queue demo" />
@@ -691,7 +691,8 @@
     <MESSAGE value="Store sorted keys and values in the Treemap using comparable interface" />
     <MESSAGE value="Store sorted keys and values in the Treemap using comparator interface" />
     <MESSAGE value="Generate job titles and corresponding salaries using a TreeMap." />
-    <option name="LAST_COMMIT_MESSAGE" value="Generate job titles and corresponding salaries using a TreeMap." />
+    <MESSAGE value="Collection methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection methods" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
