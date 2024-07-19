@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HashMap demo">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/TreeMapDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Linked list demo">
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,7 @@
     "Application.CharToByte.executor": "Run",
     "Application.ChildOfPublic.executor": "Run",
     "Application.CombineArrays.executor": "Run",
+    "Application.ComparableInterface.Main.executor": "Run",
     "Application.CompareToIgnoreCase.executor": "Run",
     "Application.CompareToString.executor": "Run",
     "Application.CompileTmePolymorphism.executor": "Run",
@@ -255,22 +256,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Abstraction challenge#02">
-      <option name="closed" value="true" />
-      <created>1719617787650</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1719617787650</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Interface demo">
-      <option name="closed" value="true" />
-      <created>1719639243814</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1719639243833</updated>
     </task>
     <task id="LOCAL-00021" summary="Array List Demo">
       <option name="closed" value="true" />
@@ -648,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721291454296</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="TreeMap demo">
+      <option name="closed" value="true" />
+      <created>1721322382565</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1721322382565</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Linked list demo">
+      <option name="closed" value="true" />
+      <created>1721322410685</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1721322410685</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -663,8 +664,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array list demo" />
-    <MESSAGE value="Hashset demo" />
     <MESSAGE value="Verify identity at the immigration office." />
     <MESSAGE value="Verify identity using HashSet." />
     <MESSAGE value="ArrayDeque demo" />
@@ -688,7 +687,9 @@
     <MESSAGE value="Student performance entries using HashMap" />
     <MESSAGE value="Letter counter" />
     <MESSAGE value="HashMap demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap demo" />
+    <MESSAGE value="TreeMap demo" />
+    <MESSAGE value="Linked list demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
