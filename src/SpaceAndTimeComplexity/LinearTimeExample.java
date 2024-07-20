@@ -10,13 +10,12 @@ Example in Java Collections:
  */
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.LinkedList;
 
 
 public class LinearTimeExample {
     public static void main(String[] args) {
-        //Iterating over an ArrayList or LinkedList:
+        //Iterating over an ArrayList:
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("Godfrey");
         arrayList.add("Okoth");
@@ -27,6 +26,7 @@ public class LinearTimeExample {
         for(String name : arrayList){
             System.out.println(name);
         }
+        //Iterating over a LinkedList:
         LinkedList<String> linkedList = new LinkedList<>();
         linkedList.add("Kenya");
         linkedList.add("Uganda");
@@ -36,5 +36,10 @@ public class LinearTimeExample {
         for(String country : linkedList){
             System.out.println(country);
         }
+        //Removing an element from a LinkedList by value:
+        System.out.println("Original linkedList: " +linkedList);
+        linkedList.remove(1);
+        System.out.println("Linkedlist after removal: " +linkedList);
+
     }
 }
