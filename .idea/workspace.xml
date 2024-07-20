@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Bubble sort example">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Quadratic time example">
       <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantSpaceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,22 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Generic class">
-      <option name="closed" value="true" />
-      <created>1720356893799</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1720356893799</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Linked list">
-      <option name="closed" value="true" />
-      <created>1720480848562</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1720480848562</updated>
     </task>
     <task id="LOCAL-00032" summary="Linked list">
       <option name="closed" value="true" />
@@ -657,7 +641,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721468500940</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Bubble sort example">
+      <option name="closed" value="true" />
+      <created>1721468711574</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1721468711574</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Quadratic time example">
+      <option name="closed" value="true" />
+      <created>1721468744679</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1721468744679</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -695,9 +695,9 @@
     <MESSAGE value="Constant time O(1) example" />
     <MESSAGE value="Linear time O(n) example" />
     <MESSAGE value="Log-linear time example" />
-    <MESSAGE value="Quadratic time example" />
     <MESSAGE value="Bubble sort example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort example" />
+    <MESSAGE value="Quadratic time example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quadratic time example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
