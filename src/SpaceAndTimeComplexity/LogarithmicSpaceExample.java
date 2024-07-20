@@ -23,7 +23,6 @@ public class LogarithmicSpaceExample {
             return binarySearch(array, target, low, mid - 1); // Recursive call on left half
         }
     }
-
     public static void main(String[] args) {
         // Initialize an array of integers
         int[] array = {2, 10, 15, 30, 40};
