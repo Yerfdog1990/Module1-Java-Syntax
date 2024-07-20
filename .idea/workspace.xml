@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Collection methods">
-      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantTimeExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Constant time O(1) example">
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +132,7 @@
     "Application.LastIndex.executor": "Run",
     "Application.LastIndexOfString.executor": "Run",
     "Application.LetterCounter.executor": "Run",
+    "Application.LinearTimeExample.executor": "Run",
     "Application.LinkedListDemo.executor": "Run",
     "Application.ListDemo.executor": "Run",
     "Application.ListInterface_LinkedList.Main.executor": "Run",
@@ -260,14 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00025" summary="List demo">
-      <option name="closed" value="true" />
-      <created>1719837509325</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1719837509325</updated>
     </task>
     <task id="LOCAL-00026" summary="Array list clone demo">
       <option name="closed" value="true" />
@@ -653,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721395163380</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Constant time O(1) example">
+      <option name="closed" value="true" />
+      <created>1721453204757</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1721453204757</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -668,7 +669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LIFO demo" />
     <MESSAGE value="Array to HashSet demo" />
     <MESSAGE value="Convert array to Queue demo" />
     <MESSAGE value="Apply queue in bank service" />
@@ -693,7 +693,8 @@
     <MESSAGE value="Store sorted keys and values in the Treemap using comparator interface" />
     <MESSAGE value="Generate job titles and corresponding salaries using a TreeMap." />
     <MESSAGE value="Collection methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection methods" />
+    <MESSAGE value="Constant time O(1) example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constant time O(1) example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
