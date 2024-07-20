@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Log-linear time example">
-      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticTimeExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Quadratic time example">
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantSpaceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +152,7 @@
     "Application.Person.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
     "Application.PrimitiveDataTypes.executor": "Run",
+    "Application.QuadraticTimeExample.executor": "Run",
     "Application.QueueDemo.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RepeatString.executor": "Run",
@@ -263,14 +265,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Diamond operator to demostrate syntactic sugar">
-      <option name="closed" value="true" />
-      <created>1720340626687</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1720340626687</updated>
     </task>
     <task id="LOCAL-00029" summary="Generic class">
       <option name="closed" value="true" />
@@ -656,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721466082415</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Quadratic time example">
+      <option name="closed" value="true" />
+      <created>1721467074357</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1721467074357</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,7 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply queue in bank service" />
     <MESSAGE value="Convert array to queue" />
     <MESSAGE value="Convert array to HashSet" />
     <MESSAGE value="Account creation and verification using HashSet" />
@@ -696,7 +697,8 @@
     <MESSAGE value="Constant time O(1) example" />
     <MESSAGE value="Linear time O(n) example" />
     <MESSAGE value="Log-linear time example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log-linear time example" />
+    <MESSAGE value="Quadratic time example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quadratic time example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
