@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Constant time O(1) example">
-      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Linear time O(n) example">
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicTimeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +137,7 @@
     "Application.LinkedListDemo.executor": "Run",
     "Application.ListDemo.executor": "Run",
     "Application.ListInterface_LinkedList.Main.executor": "Run",
+    "Application.LogarithmicTimeExample.executor": "Run",
     "Application.LowerCaseString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NodeClass.Main.executor": "Run",
@@ -261,14 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Array list clone demo">
-      <option name="closed" value="true" />
-      <created>1719838849211</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1719838849211</updated>
     </task>
     <task id="LOCAL-00027" summary="Array list demo">
       <option name="closed" value="true" />
@@ -654,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721453204757</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Linear time O(n) example">
+      <option name="closed" value="true" />
+      <created>1721454920711</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1721454920711</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -669,7 +671,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array to HashSet demo" />
     <MESSAGE value="Convert array to Queue demo" />
     <MESSAGE value="Apply queue in bank service" />
     <MESSAGE value="Convert array to queue" />
@@ -694,7 +695,8 @@
     <MESSAGE value="Generate job titles and corresponding salaries using a TreeMap." />
     <MESSAGE value="Collection methods" />
     <MESSAGE value="Constant time O(1) example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constant time O(1) example" />
+    <MESSAGE value="Linear time O(n) example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linear time O(n) example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
