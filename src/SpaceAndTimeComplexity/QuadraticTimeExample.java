@@ -13,8 +13,8 @@ public class QuadraticTimeExample {
         // Create an array with random integers
         int[] array = {23, 56, 12, 90, 45, 23, 17, 5};
         // Perform Bubble Sort which has O(n^2) complexity
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length-1; j++) {
+        for (int i = 0; i < array.length-1; i++) {
+            for (int j = 0; j < array.length-1-1-i; j++) {
                 if(array[j] > array[j+1]){
                     // Swap array[j] and array[j+1]
                     int temp = array[j];
