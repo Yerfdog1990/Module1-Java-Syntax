@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Collection methods">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantTimeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +97,7 @@
     "Application.CompareToIgnoreCase.executor": "Run",
     "Application.CompareToString.executor": "Run",
     "Application.CompileTmePolymorphism.executor": "Run",
+    "Application.ConstantTimeExample.executor": "Run",
     "Application.Continue_in_loop.executor": "Run",
     "Application.ConvertListToSet.executor": "Run",
     "Application.DecimalToBinary.executor": "Run",
