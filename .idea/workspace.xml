@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Linear space example">
-      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicSpaceExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Logarithmic space example">
+      <change afterPath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticSpaceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +155,7 @@
     "Application.Person.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
     "Application.PrimitiveDataTypes.executor": "Run",
+    "Application.QuadraticSpaceExample.executor": "Run",
     "Application.QuadraticTimeExample.executor": "Run",
     "Application.QueueDemo.executor": "Run",
     "Application.Rectangle.executor": "Run",
@@ -269,14 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Bank service queue project">
-      <option name="closed" value="true" />
-      <created>1720530809966</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1720530809982</updated>
     </task>
     <task id="LOCAL-00036" summary="Array list demo">
       <option name="closed" value="true" />
@@ -662,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721470475159</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Logarithmic space example">
+      <option name="closed" value="true" />
+      <created>1721487822710</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1721487822710</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -677,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Account creation and verification using HashMap" />
     <MESSAGE value="Union and intersection of a set" />
     <MESSAGE value="Node Class for a Linked List" />
     <MESSAGE value="List demo" />
@@ -702,7 +702,8 @@
     <MESSAGE value="Quadratic time example" />
     <MESSAGE value="Constant space example" />
     <MESSAGE value="Linear space example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear space example" />
+    <MESSAGE value="Logarithmic space example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logarithmic space example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
