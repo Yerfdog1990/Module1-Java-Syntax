@@ -31,10 +31,10 @@ public class BubbleSort {
         int n = arr.length;
         boolean swapped;
         // Outer loop for each pass through the array
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
             swapped = false;
             // Inner loop for comparing adjacent elements
-            for (int j = 0; j < n-1; j++) {
+            for (int j = 0; j < n-1-i; j++) {
                 // If the current element is greater than the next element, swap them
                 if(arr[j] > arr[j+1]){
                     // Swap arr[j] and arr[j + 1]
