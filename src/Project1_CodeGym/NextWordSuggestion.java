@@ -84,6 +84,7 @@ public class NextWordSuggestion {
     public static void main(String[] args) {
         // Scanner object accept user input
         Scanner userInput = new Scanner(System.in);
+        //Prompt user to enter input
         System.out.println("Enter the input text:");
         String input = userInput.nextLine();
         // Build the word map from the input text
