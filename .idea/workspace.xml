@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Logarithmic space example">
-      <change afterPath="$PROJECT_DIR$/src/Project1_CodeGym/NextWordSuggestion.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Word suggestion project">
+      <change afterPath="$PROJECT_DIR$/src/Enum/Day.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -102,6 +103,7 @@
     "Application.ConstantTimeExample.executor": "Run",
     "Application.Continue_in_loop.executor": "Run",
     "Application.ConvertListToSet.executor": "Run",
+    "Application.Day.executor": "Run",
     "Application.DecimalToBinary.executor": "Run",
     "Application.DecimalToHexadecimal.executor": "Run",
     "Application.DecimalToOctal.executor": "Run",
@@ -274,22 +276,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Verify identity using HashSet.">
-      <option name="closed" value="true" />
-      <created>1720565755999</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1720565756004</updated>
-    </task>
-    <task id="LOCAL-00040" summary="ArrayDeque demo">
-      <option name="closed" value="true" />
-      <created>1720615862529</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1720615862545</updated>
     </task>
     <task id="LOCAL-00041" summary="ArrayDeque demo">
       <option name="closed" value="true" />
@@ -667,7 +653,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721494492846</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Word suggestion project">
+      <option name="closed" value="true" />
+      <created>1721543064950</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1721543064951</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Word suggestion project">
+      <option name="closed" value="true" />
+      <created>1721543237189</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1721543237189</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -682,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="List demo" />
     <MESSAGE value="LinkedList class implement List interface" />
     <MESSAGE value="Convert a list to a set" />
     <MESSAGE value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
@@ -707,7 +708,8 @@
     <MESSAGE value="Quadratic space example" />
     <MESSAGE value="hashCode() and equals() methods" />
     <MESSAGE value="Logarithmic space example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logarithmic space example" />
+    <MESSAGE value="Word suggestion project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Word suggestion project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
