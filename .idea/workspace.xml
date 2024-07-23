@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Create a singleton using a Private Constructor and a Public Static Final Field">
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Create a singleton using a Private Constructor and a Public Static Method">
+      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -284,14 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Account creation and verification using HashMap">
-      <option name="closed" value="true" />
-      <created>1720846826702</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1720846826702</updated>
     </task>
     <task id="LOCAL-00055" summary="Union and intersection of a set">
       <option name="closed" value="true" />
@@ -677,7 +668,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721742911883</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Create a singleton using a Private Constructor and a Public Static Method">
+      <option name="closed" value="true" />
+      <created>1721745227573</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1721745227573</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -692,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linked list demo" />
     <MESSAGE value="Store sorted keys and values in the Treemap using comparable interface" />
     <MESSAGE value="Store sorted keys and values in the Treemap using comparator interface" />
     <MESSAGE value="Generate job titles and corresponding salaries using a TreeMap." />
@@ -717,7 +715,8 @@
     <MESSAGE value="Store values of the enum in java collections (e.g List)." />
     <MESSAGE value="Store enum in arrays" />
     <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Final Field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a singleton using a Private Constructor and a Public Static Final Field" />
+    <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a singleton using a Private Constructor and a Public Static Method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

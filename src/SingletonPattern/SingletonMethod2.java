@@ -26,8 +26,8 @@ public class SingletonMethod2 {
         SingletonMethod2 singleton3 = SingletonMethod2.getInstance();
         SingletonMethod2 singleton4 = SingletonMethod2.getInstance();
         // Print to demonstrate that both references point to the same instance
-        System.out.println("Singleton 3: " +singleton3);
-        System.out.println("Singleton 4: " +singleton4);
+        System.out.println("Singleton 3 reference: " +singleton3);
+        System.out.println("Singleton 4 reference: " +singleton4);
         // Call the print method
         singleton3.printMessage();
         singleton4.printMessage();
