@@ -1,6 +1,6 @@
 package Enum;
 
-public enum OriginalEnum {
+public enum DayEnum {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
 
     //Method to get days
@@ -23,19 +23,19 @@ public enum OriginalEnum {
     public static void main(String[] args) {
         //Print all days
         System.out.println("Days of the week and their ordinal:");
-        for(OriginalEnum day : OriginalEnum.values()){
+        for(DayEnum day : DayEnum.values()){
             System.out.println("Day: " +day.getName()+ " ,Ordinal: " +day.getOrdinal());
         }
         //Check if Wednesday is a weekday or a weekend
-        OriginalEnum day = OriginalEnum.WEDNESDAY;
+        DayEnum day = DayEnum.WEDNESDAY;
         System.out.println("Wednesday is a weekday: " +day.isWeekday());
         System.out.println("Wednesday is a weekend: " +day.isWeekend());
 
         //Using valueOf() to get day of the week by ordinal
-        OriginalEnum dayByOrdinal = OriginalEnum.values()[1];
+        DayEnum dayByOrdinal = DayEnum.values()[1];
         System.out.println("Day by ordinal 1: " +dayByOrdinal);
         //Using valueOf() to get enum constant by name
-        OriginalEnum dayByName = OriginalEnum.valueOf("TUESDAY");
+        DayEnum dayByName = DayEnum.valueOf("TUESDAY");
         System.out.println("Day by name: " +dayByName);
     }
 }
