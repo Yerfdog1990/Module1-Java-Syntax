@@ -87,10 +87,10 @@ public class DayClass1 {
         System.out.println("Wednesday is a weekday: " +day.itIsWeekDay());
         System.out.println("Wednesday is a weekend: " +day.itIsWeekDay());
 
-        //Using valueOf() to get day of the week by ordinal
+        //Get day of the week by ordinal
         DayClass1 dayByOrdinal = DayClass1.findDayByOrdinal(1);
         System.out.println("Day by ordinal 1: " +dayByOrdinal.getName());
-        //Using valueOf() to get enum constant by name
+        //Get enum constant by name
         DayClass1 dayByName = DayClass1.findDayByName("TUESDAY");
         System.out.println("Day by name: " +dayByName.getName());
     }
