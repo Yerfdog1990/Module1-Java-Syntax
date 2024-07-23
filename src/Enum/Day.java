@@ -37,6 +37,10 @@ public enum Day {
         for (int i = 0; i < days.length; i++) {
             System.out.println("Day " +(i+1)+ " : " +days[i]);
         }
+        System.out.println("Ordinal number of the days:");
+        for (int i = 0; i < days.length; i++) {
+            System.out.println("Index of " +days[i] + " is " +days[i].ordinal());
+        }
         // Example usage of custom methods
         Day today = Day.Thursday;
         System.out.println("Is Thursday a weekday? " +today.isWeekDay());
