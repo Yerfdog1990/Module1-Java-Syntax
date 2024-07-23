@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Find next value from enum constant">
-      <change afterPath="$PROJECT_DIR$/src/Enum/Seasons.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Store values of the enum in java collections (e.g List).">
+      <change afterPath="$PROJECT_DIR$/src/Enum/SeasonalMonths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +176,7 @@
     "Application.ReverseString.executor": "Run",
     "Application.RuntimePolymorphism.executor": "Run",
     "Application.SalariesAndJobTitles.executor": "Run",
+    "Application.SeasonalMonths.executor": "Run",
     "Application.Seasons.executor": "Run",
     "Application.SetCharacter.executor": "Run",
     "Application.Sets.executor": "Run",
@@ -281,14 +282,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Convert array to HashSet">
-      <option name="closed" value="true" />
-      <created>1720820832161</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1720820832161</updated>
     </task>
     <task id="LOCAL-00052" summary="Convert array to HashSet">
       <option name="closed" value="true" />
@@ -674,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721729315835</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Store values of the enum in java collections (e.g List).">
+      <option name="closed" value="true" />
+      <created>1721730061025</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1721730061025</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -689,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Letter counter" />
     <MESSAGE value="HashMap demo" />
     <MESSAGE value="TreeMap demo" />
     <MESSAGE value="Linked list demo" />
@@ -714,7 +714,8 @@
     <MESSAGE value="Method 1 to convert the DayEnum to class" />
     <MESSAGE value="Method 2 to convert the DayEnum to class" />
     <MESSAGE value="Find next value from enum constant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find next value from enum constant" />
+    <MESSAGE value="Store values of the enum in java collections (e.g List)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Store values of the enum in java collections (e.g List)." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
