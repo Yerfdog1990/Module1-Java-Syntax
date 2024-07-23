@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Method 1 to convert the DayEnum to class">
-      <change afterPath="$PROJECT_DIR$/src/Enum/DayClass2.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Method 2 to convert the DayEnum to class">
+      <change afterPath="$PROJECT_DIR$/src/Enum/Month.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/DayClass1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -150,6 +149,7 @@
     "Application.LogarithmicTimeExample.executor": "Run",
     "Application.LowerCaseString.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Month.executor": "Run",
     "Application.NextWordSuggestion.executor": "Run",
     "Application.NodeClass.Main.executor": "Run",
     "Application.ObjectOrientedProgramming.Main.executor": "Run",
@@ -280,22 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Convert array to Queue demo">
-      <option name="closed" value="true" />
-      <created>1720739015193</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1720739015193</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Apply queue in bank service">
-      <option name="closed" value="true" />
-      <created>1720739065874</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1720739065874</updated>
     </task>
     <task id="LOCAL-00050" summary="Convert array to queue">
       <option name="closed" value="true" />
@@ -673,7 +657,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721716688205</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Method 1 to convert the DayEnum to class">
+      <option name="closed" value="true" />
+      <created>1721724737627</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1721724737627</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Method 2 to convert the DayEnum to class">
+      <option name="closed" value="true" />
+      <created>1721724766427</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1721724766427</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -688,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HasMap demo" />
     <MESSAGE value="Student performance entries using HashMap" />
     <MESSAGE value="Letter counter" />
     <MESSAGE value="HashMap demo" />
@@ -713,7 +712,8 @@
     <MESSAGE value="Original Enum" />
     <MESSAGE value="Original day Enum" />
     <MESSAGE value="Method 1 to convert the DayEnum to class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method 1 to convert the DayEnum to class" />
+    <MESSAGE value="Method 2 to convert the DayEnum to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method 2 to convert the DayEnum to class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
