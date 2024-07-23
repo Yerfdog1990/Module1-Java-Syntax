@@ -32,7 +32,7 @@ Prediction:
 
 import java.util.*;
 
-public class NextWordSuggestion {
+public class NextWordSuggestion{
     // Method to process the input text and populate the word map
     public static Map<String, Map<String, Integer>> generateWordMap(String input){
         // Initialize the main map
@@ -79,19 +79,5 @@ public class NextWordSuggestion {
         }
         // Return the list of top n suggestions
         return suggestions;
-    }
-
-    public static void main(String[] args) {
-        // Scanner object accept user input
-        Scanner userInput = new Scanner(System.in);
-        //Prompt user to enter input
-        System.out.println("Enter the input text:");
-        String input = userInput.nextLine();
-        // Build the word map from the input text
-        Map<String, Map<String, Integer>> wordMap = generateWordMap(input);
-        // Example usage: get next words for the word "to"
-        List<String> suggestions = getNextWords(wordMap, "to", 3);
-        // Print the suggestions for the word "to"
-        System.out.println("Suggestions for 'to': " +suggestions);
     }
 }
