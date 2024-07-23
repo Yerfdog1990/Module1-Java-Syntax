@@ -1,5 +1,5 @@
 package Enum;
-
+//This is the orginal enum
 public enum DayEnum {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
 

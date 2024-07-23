@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Original Enum">
-      <change afterPath="$PROJECT_DIR$/src/Enum/ConvertEnumToClass1.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Original day Enum">
+      <change afterPath="$PROJECT_DIR$/src/Enum/DayClass1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/OriginalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/DayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/DayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/DayEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +105,7 @@
     "Application.Continue_in_loop.executor": "Run",
     "Application.ConvertListToSet.executor": "Run",
     "Application.Day.executor": "Run",
+    "Application.DayClass1.executor": "Run",
     "Application.DecimalToBinary.executor": "Run",
     "Application.DecimalToHexadecimal.executor": "Run",
     "Application.DecimalToOctal.executor": "Run",
@@ -278,14 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00044" summary="FIFO demo">
-      <option name="closed" value="true" />
-      <created>1720703327298</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1720703327298</updated>
     </task>
     <task id="LOCAL-00045" summary="LIFO demo">
       <option name="closed" value="true" />
@@ -671,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721701540075</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Original day Enum">
+      <option name="closed" value="true" />
+      <created>1721702113702</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702113702</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -686,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iterate over elements suign while loop, for-each loop, and enhanced for loop" />
     <MESSAGE value="ArrayList demo" />
     <MESSAGE value="HasMap demo" />
     <MESSAGE value="Student performance entries using HashMap" />
@@ -711,7 +711,8 @@
     <MESSAGE value="Word suggestion project" />
     <MESSAGE value="Enum demo" />
     <MESSAGE value="Original Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Original Enum" />
+    <MESSAGE value="Original day Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Original day Enum" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
