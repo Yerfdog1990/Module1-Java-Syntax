@@ -29,15 +29,29 @@ public class DayClass2 {
     // Array of all days to simulate the values() method
     public static final DayClass2[] values = {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
     // Method to get the name of the day
-    public String name(){
+    public void name(){
         switch (this.dayNumber){
-            case 0: return "Monday";
-            case 1: return "Tuesday";
-            case 2: return "Wednesday";
-            case 3: return "Thursday";
-            case 4: return "Friday";
-            case 5: return "Saturday";
-            case 6: return "Sunday";
+            case 0:
+                System.out.println("Monday");
+                break;
+            case 1:
+                System.out.println("Tuesday");
+                break;
+            case 2:
+                System.out.println("Wednesday");
+                break;
+            case 3:
+                System.out.println("Thursday");
+                break;
+            case 4:
+                System.out.println("Friday");
+                break;
+            case 5:
+                System.out.println("Saturday");
+                break;
+            case 6:
+                System.out.println("Sunday");
+                break;
             default: throw new IllegalArgumentException("Invalid day number");
         }
     }
