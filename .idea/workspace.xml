@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="FibonacciSeries using recursive method">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Binary search by recursion method.">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,6 +203,7 @@
     "Application.StringToken.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
     "Application.Test_public.executor": "Run",
+    "Application.TowersOfHanoi.executor": "Run",
     "Application.TreeMapDemo.executor": "Run",
     "Application.TrimString.executor": "Run",
     "Application.Typecasing.executor": "Run",
@@ -293,14 +294,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Store sorted keys and values in the Treemap using comparator interface">
-      <option name="closed" value="true" />
-      <created>1721377633349</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1721377633349</updated>
     </task>
     <task id="LOCAL-00072" summary="Generate job titles and corresponding salaries using a TreeMap.">
       <option name="closed" value="true" />
@@ -686,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721902165528</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Binary search by recursion method.">
+      <option name="closed" value="true" />
+      <created>1721905650134</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1721905650134</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -701,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quadratic time example" />
     <MESSAGE value="Constant space example" />
     <MESSAGE value="Linear space example" />
     <MESSAGE value="Quadratic space example" />
@@ -726,7 +726,8 @@
     <MESSAGE value="Indirect recursion" />
     <MESSAGE value="FibonacciSeries using iterative method" />
     <MESSAGE value="FibonacciSeries using recursive method" />
-    <option name="LAST_COMMIT_MESSAGE" value="FibonacciSeries using recursive method" />
+    <MESSAGE value="Binary search by recursion method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search by recursion method." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
