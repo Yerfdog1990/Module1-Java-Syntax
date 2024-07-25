@@ -17,11 +17,15 @@ public class Union_IntersectionOfSet {
     public static void findUnion(int[] union1, int[] union2){
         //Initialize set
         Set<Integer> union = new HashSet<>();
+        //Iterate over array1 and add elements to the set.
         for (int i = 0; i < union1.length; i++) {
             union.add(union1[i]);
         }
+        // Check for each element in the array2 if it is absent in set1
         for (int i = 0; i < union2.length; i++) {
-            union.add(union2[i]);
+            if(!union.contains(union2)){
+                union.add(union2[i]);
+            }
         }
         System.out.println("Union of set = " +union);
     }
@@ -29,12 +33,14 @@ public class Union_IntersectionOfSet {
     public static void findIntersection(int[] intersection1, int[] intersection2){
         //Initialize set
         Set<Integer> intersection = new HashSet<>();
+        //Iterate over array1 and add elements to the set.
         for (int i = 0; i < intersection1.length; i++) {
-            for (int j = 0; j < intersection2.length; j++) {
-                if(intersection1[i] == intersection2[j]){
-                    intersection.add(intersection1[i]);
-                    intersection.add((intersection2[j]));
-                }
+            intersection.add(intersection1[i]);
+        }
+        // Check for each element in the array2 if it is present in set1
+        for (int j = 0; j < intersection2.length; j++) {
+            if(intersection.contains(intersection2)){
+                intersection.add((intersection2[j]));
             }
         }
         System.out.println("Intersection of set = " +intersection);

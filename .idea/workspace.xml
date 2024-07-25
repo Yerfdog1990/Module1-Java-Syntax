@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Method 2 to convert the DayEnum to class">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="HashSet  demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,14 +287,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00062" summary="HashMap demo">
-      <option name="closed" value="true" />
-      <created>1721280886997</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1721280886997</updated>
     </task>
     <task id="LOCAL-00063" summary="ArrayList demo">
       <option name="closed" value="true" />
@@ -680,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721891061650</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="HashSet  demo">
+      <option name="closed" value="true" />
+      <created>1721895575655</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1721895575655</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -695,7 +695,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generate job titles and corresponding salaries using a TreeMap." />
     <MESSAGE value="Collection methods" />
     <MESSAGE value="Constant time O(1) example" />
     <MESSAGE value="Linear time O(n) example" />
@@ -720,7 +719,8 @@
     <MESSAGE value="Word suggestion project" />
     <MESSAGE value="Regular Expressions (Regex)" />
     <MESSAGE value="Method 2 to convert the DayEnum to class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method 2 to convert the DayEnum to class" />
+    <MESSAGE value="HashSet  demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet  demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
