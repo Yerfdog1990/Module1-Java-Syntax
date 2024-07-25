@@ -16,7 +16,7 @@ Methods of Recursion
 1.Direct Recursion: When a function calls itself directly.
 2.Indirect Recursion: When a function is called by another function, which in turn calls the original function.
  */
-public class FactorialCalculation {
+public class FactorialCalculation_DirectRecursion {
     // Recursive method to calculate factorial
     public static int findFactorial(int n){
         if(n == 0){//Base case
