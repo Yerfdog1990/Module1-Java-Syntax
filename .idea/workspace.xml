@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Factorial Calculation by direct recursion.">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/IndirectRecursion.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Indirect recursion">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_RecursiveMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FactorialCalculation_DirectRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/FactorialCalculation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +121,7 @@
     "Application.Example2.executor": "Run",
     "Application.FIFOExample.executor": "Run",
     "Application.FactorialCalculation.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
     "Application.Fill_Array.executor": "Run",
     "Application.FormatString.executor": "Run",
     "Application.Generics.executor": "Run",
@@ -290,22 +290,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Letter counter">
-      <option name="closed" value="true" />
-      <created>1721291429502</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1721291429502</updated>
-    </task>
-    <task id="LOCAL-00067" summary="HashMap demo">
-      <option name="closed" value="true" />
-      <created>1721291454296</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1721291454296</updated>
     </task>
     <task id="LOCAL-00068" summary="TreeMap demo">
       <option name="closed" value="true" />
@@ -683,7 +667,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721898422070</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Factorial Calculation by direct recursion.">
+      <option name="closed" value="true" />
+      <created>1721899999105</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1721899999105</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Indirect recursion">
+      <option name="closed" value="true" />
+      <created>1721900035572</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1721900035572</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linear time O(n) example" />
     <MESSAGE value="Log-linear time example" />
     <MESSAGE value="Bubble sort example" />
     <MESSAGE value="Quadratic time example" />
@@ -723,7 +722,8 @@
     <MESSAGE value="HashSet  demo" />
     <MESSAGE value="Union and intersection of a set." />
     <MESSAGE value="Factorial Calculation by direct recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factorial Calculation by direct recursion." />
+    <MESSAGE value="Indirect recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Indirect recursion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
