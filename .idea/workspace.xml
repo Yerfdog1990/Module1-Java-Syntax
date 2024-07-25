@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="FibonacciSeries using recursive method">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_IterationMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Application.Array_BinarySearch.executor": "Run",
     "Application.BankServiceQueue.executor": "Run",
     "Application.BinaryAddition.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
     "Application.BlankString.executor": "Run",
     "Application.BooleanEndsWith.executor": "Run",
@@ -123,6 +124,7 @@
     "Application.FactorialCalculation.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.FibonacciSeries_IterationMethod.executor": "Run",
+    "Application.FibonacciSeries_RecursiveMethod.executor": "Run",
     "Application.Fill_Array.executor": "Run",
     "Application.FormatString.executor": "Run",
     "Application.Generics.executor": "Run",
@@ -291,22 +293,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Linked list demo">
-      <option name="closed" value="true" />
-      <created>1721322410685</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1721322410685</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Store sorted keys and values in the Treemap using comparable interface">
-      <option name="closed" value="true" />
-      <created>1721371817804</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1721371817804</updated>
     </task>
     <task id="LOCAL-00071" summary="Store sorted keys and values in the Treemap using comparator interface">
       <option name="closed" value="true" />
@@ -684,7 +670,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721901121169</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="FibonacciSeries using iterative method">
+      <option name="closed" value="true" />
+      <created>1721902145306</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1721902145306</updated>
+    </task>
+    <task id="LOCAL-00119" summary="FibonacciSeries using recursive method">
+      <option name="closed" value="true" />
+      <created>1721902165528</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1721902165528</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -699,7 +701,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bubble sort example" />
     <MESSAGE value="Quadratic time example" />
     <MESSAGE value="Constant space example" />
     <MESSAGE value="Linear space example" />
@@ -723,6 +724,7 @@
     <MESSAGE value="Union and intersection of a set." />
     <MESSAGE value="Factorial Calculation by direct recursion." />
     <MESSAGE value="Indirect recursion" />
+    <MESSAGE value="FibonacciSeries using iterative method" />
     <MESSAGE value="FibonacciSeries using recursive method" />
     <option name="LAST_COMMIT_MESSAGE" value="FibonacciSeries using recursive method" />
   </component>
