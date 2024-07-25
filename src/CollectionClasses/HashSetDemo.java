@@ -51,10 +51,14 @@ public class HashSetDemo {
         //Size of the HashSet
         System.out.println("Size of the Hashset: " +countries.size());
         //Iterating through the HashSet
-        System.out.println("Iterate over Hashset elements");
+        System.out.println("Iterate over Hashset elements using while loop");
         Iterator<String> iterator = countries.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
+        }
+        System.out.println("Iterate over Hashset elements using for loop");
+        for(String str : countries){
+            System.out.println(str);
         }
         //Clear the Hashset
         countries.clear();

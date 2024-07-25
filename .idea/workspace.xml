@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Regular Expressions (Regex)">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Method 2 to convert the DayEnum to class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/DayClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,14 +287,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Iterate over elements suign while loop, for-each loop, and enhanced for loop">
-      <option name="closed" value="true" />
-      <created>1721220976916</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1721220976916</updated>
     </task>
     <task id="LOCAL-00062" summary="HashMap demo">
       <option name="closed" value="true" />
@@ -680,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721810825681</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Method 2 to convert the DayEnum to class">
+      <option name="closed" value="true" />
+      <created>1721891061650</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1721891061650</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -711,7 +711,6 @@
     <MESSAGE value="Original Enum" />
     <MESSAGE value="Original day Enum" />
     <MESSAGE value="Method 1 to convert the DayEnum to class" />
-    <MESSAGE value="Method 2 to convert the DayEnum to class" />
     <MESSAGE value="Find next value from enum constant" />
     <MESSAGE value="Store values of the enum in java collections (e.g List)." />
     <MESSAGE value="Store enum in arrays" />
@@ -720,7 +719,8 @@
     <MESSAGE value="Enum Singleton" />
     <MESSAGE value="Word suggestion project" />
     <MESSAGE value="Regular Expressions (Regex)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regular Expressions (Regex)" />
+    <MESSAGE value="Method 2 to convert the DayEnum to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method 2 to convert the DayEnum to class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
