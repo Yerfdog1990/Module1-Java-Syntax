@@ -54,7 +54,7 @@ public class Unchecked_Exceptions {
             if (age < 18) {
                 throw new IllegalArgumentException();
             }
-            System.out.println("You are eligible to vote");
+            System.out.println("Bravo! You are eligible to vote");
         } catch (IllegalArgumentException e) {
             System.out.println("Error! You are illegible to vote. Wait until tour turn 18.");
         }
@@ -65,7 +65,7 @@ public class Unchecked_Exceptions {
             int number = Integer.parseInt(str);
             System.out.println("String " + str + " converted to integer is: " + number);
         } catch (NumberFormatException e) {
-            System.out.println("Error! The string format is invalid.");
+            System.out.println("Error! The string format" + str + " is invalid.");
         }
     }
     //Main method

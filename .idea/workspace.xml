@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Checked exceptions">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Unchecked exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,14 +302,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Bubble sort example">
-      <option name="closed" value="true" />
-      <created>1721468500940</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1721468500940</updated>
     </task>
     <task id="LOCAL-00079" summary="Bubble sort example">
       <option name="closed" value="true" />
@@ -695,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721999948073</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Unchecked exceptions">
+      <option name="closed" value="true" />
+      <created>1722008425939</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1722008425939</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -710,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Enum demo" />
     <MESSAGE value="Original Enum" />
     <MESSAGE value="Original day Enum" />
     <MESSAGE value="Method 1 to convert the DayEnum to class" />
@@ -735,7 +734,8 @@
     <MESSAGE value="Try-Catch block exception." />
     <MESSAGE value="Throw exception" />
     <MESSAGE value="Checked exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checked exceptions" />
+    <MESSAGE value="Unchecked exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unchecked exceptions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
