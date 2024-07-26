@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Check if the brackets are properly paired ([{}])">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SumFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractDemo.Main.executor": "Run",
+    "Application.AccountCreation.executor": "Run",
     "Application.AnalyzeCharacter.executor": "Run",
     "Application.AnimalMain.executor": "Run",
     "Application.ArrayDequeDemo.executor": "Run",
@@ -208,6 +209,7 @@
     "Application.TowersOfHanoi.executor": "Run",
     "Application.TreeMapDemo.executor": "Run",
     "Application.TrimString.executor": "Run",
+    "Application.Try_CatchBlock.executor": "Run",
     "Application.Typecasing.executor": "Run",
     "Application.UnionOfSet.executor": "Run",
     "Application.Union_IntersectionOfSet.executor": "Run",
