@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Throw exception">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/CheckedExceptions.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Checked exceptions">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,6 +213,7 @@
     "Application.TrimString.executor": "Run",
     "Application.Try_CatchBlock.executor": "Run",
     "Application.Typecasing.executor": "Run",
+    "Application.Unchecked_Exceptions.executor": "Run",
     "Application.UnionOfSet.executor": "Run",
     "Application.Union_IntersectionOfSet.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
@@ -301,14 +302,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Quadratic time example">
-      <option name="closed" value="true" />
-      <created>1721467074357</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1721467074357</updated>
     </task>
     <task id="LOCAL-00078" summary="Bubble sort example">
       <option name="closed" value="true" />
@@ -694,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721998813913</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Checked exceptions">
+      <option name="closed" value="true" />
+      <created>1721999948073</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1721999948073</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -709,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Logarithmic space example" />
     <MESSAGE value="Enum demo" />
     <MESSAGE value="Original Enum" />
     <MESSAGE value="Original day Enum" />
@@ -734,7 +734,8 @@
     <MESSAGE value="Check if the brackets are properly paired ([{}])" />
     <MESSAGE value="Try-Catch block exception." />
     <MESSAGE value="Throw exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Throw exception" />
+    <MESSAGE value="Checked exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked exceptions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
