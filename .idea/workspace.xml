@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Tower of Hanoi">
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/PairedBrackets.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Check if the brackets are properly paired ([{}])">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SumFactorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,6 +203,7 @@
     "Application.StringMatches.executor": "Run",
     "Application.StringToken.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
+    "Application.SumFactorial.executor": "Run",
     "Application.Test_public.executor": "Run",
     "Application.TowersOfHanoi.executor": "Run",
     "Application.TreeMapDemo.executor": "Run",
@@ -295,14 +296,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Collection methods">
-      <option name="closed" value="true" />
-      <created>1721395163380</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1721395163380</updated>
     </task>
     <task id="LOCAL-00074" summary="Constant time O(1) example">
       <option name="closed" value="true" />
@@ -688,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721919978714</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Check if the brackets are properly paired ([{}])">
+      <option name="closed" value="true" />
+      <created>1721929199573</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1721929199573</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -703,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linear space example" />
     <MESSAGE value="Quadratic space example" />
     <MESSAGE value="hashCode() and equals() methods" />
     <MESSAGE value="Logarithmic space example" />
@@ -728,7 +728,8 @@
     <MESSAGE value="FibonacciSeries using recursive method" />
     <MESSAGE value="Binary search by recursion method." />
     <MESSAGE value="Tower of Hanoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tower of Hanoi" />
+    <MESSAGE value="Check if the brackets are properly paired ([{}])" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check if the brackets are properly paired ([{}])" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
