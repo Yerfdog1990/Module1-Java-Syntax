@@ -1,5 +1,6 @@
 package Exceptions;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /*
@@ -22,10 +23,10 @@ public class Try_CatchBlock {
        String[] countries = {"Kenya", "Uganda", "Tanzania", "Rwanda", "Burundi"};
        try{
            // Code that may throw an exception
-           System.out.printf("Element at index %d is: %s.", index, countries[index]);
+           System.out.printf("Element at index %d is: %s.%n", index, countries[index]);
        }catch (ArrayIndexOutOfBoundsException e){
            // Handling the specific exception
-           System.out.printf("Exception caught: %s%n", e);
+           System.out.printf("Exception caught: %s.%n", e);
        }
        // Method of a multiple try-catch block
    }
@@ -33,28 +34,47 @@ public class Try_CatchBlock {
     public static void findQuotient(int dividend, int divider){
         // Code that may throw multiple exceptions
         try{
-            int quotient = dividend/divider;
-            System.out.printf("Quotient: %d/%d = %d%n.", dividend, divider, quotient);
+            double quotient = (double) dividend/divider;
+            System.out.printf("Quotient: %d/%d = %.2f%n", dividend, divider, quotient);
         }catch (ArithmeticException e){
-            // Handling the ArithmeticException
+            // Handling divide by zero exception
             System.out.println("Division by zero not allowed");
+        }catch (Exception e){
+            // Handling other exceptions
+            System.out.println("Handling other exceptions!" +e);
         }
-        catch (Exception e){
-            // Handling any other exceptions
-            System.out.println("General exception caught: " + e);
-        }
+
     }
     public static void main(String[] args) {
        Scanner userInput = new Scanner(System.in);
-       System.out.print("Enter the index: ");
-       int index = userInput.nextInt();
-       //Calling single try-catch block method
-        singleCatchBlock(index);
-        System.out.print("Enter dividend: ");
-        int dividend = userInput.nextInt();
-        System.out.print("Enter the divisor: ");
-        int divisor = userInput.nextInt();
-        //Calling the multiple try-catch block
-        findQuotient(dividend, divisor);
+        // Loop for index input
+       while(true){
+           try {
+               System.out.print("Enter the index: ");
+               int index = userInput.nextInt();
+               //Calling single try-catch block method
+               singleCatchBlock(index);
+               break; // Exit loop if input is valid
+           }catch (InputMismatchException e){
+               System.out.printf("Only integers allowed. try again!.%n");
+               userInput.next(); // Clear the invalid input
+           }
+       }
+        // Loop for quotient calculation
+        while(true) {
+            try {
+                System.out.print("Enter dividend: ");
+                int dividend = userInput.nextInt();
+                System.out.print("Enter the divisor: ");
+                int divisor = userInput.nextInt();
+                //Calling the multiple try-catch block
+                findQuotient(dividend, divisor);
+                break; // Exit loop if input is valid
+            } catch (InputMismatchException e) {
+                System.out.println("Only integers allowed. try again!%.n");
+                userInput.next(); // Clear the invalid input
+            }
+        }
+        userInput.close();
     }
 }

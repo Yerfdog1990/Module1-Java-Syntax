@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Check if the brackets are properly paired ([{}])">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Try-Catch block exception.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,14 +298,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Constant time O(1) example">
-      <option name="closed" value="true" />
-      <created>1721453204757</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1721453204757</updated>
     </task>
     <task id="LOCAL-00075" summary="Linear time O(n) example">
       <option name="closed" value="true" />
@@ -691,7 +683,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721929199573</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Try-Catch block exception.">
+      <option name="closed" value="true" />
+      <created>1721975941963</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1721975941963</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -706,7 +706,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quadratic space example" />
     <MESSAGE value="hashCode() and equals() methods" />
     <MESSAGE value="Logarithmic space example" />
     <MESSAGE value="Enum demo" />
@@ -731,7 +730,8 @@
     <MESSAGE value="Binary search by recursion method." />
     <MESSAGE value="Tower of Hanoi" />
     <MESSAGE value="Check if the brackets are properly paired ([{}])" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check if the brackets are properly paired ([{}])" />
+    <MESSAGE value="Try-Catch block exception." />
+    <option name="LAST_COMMIT_MESSAGE" value="Try-Catch block exception." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
