@@ -21,11 +21,11 @@ public class SingletonMethod1 {
     }
     // Main method to demonstrate the Singleton pattern
     public static void main(String[] args) {
-        // Get the single instance of the Singleton class
+        // Get a reference to the single instance of the Singleton class
         SingletonMethod1 singleton1 = SingletonMethod1.INSTANCE;
         // Call a method on the Singleton instance
         System.out.println(singleton1.getMessage());
-        // Get another reference to the single instance
+        // Get another reference to the single instance of the Singleton class
         SingletonMethod1 singleton2 = SingletonMethod1.INSTANCE;
         System.out.println(singleton2.getMessage());
         // Check if both references point to the same instance
