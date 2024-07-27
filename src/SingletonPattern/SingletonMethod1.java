@@ -13,7 +13,7 @@ public class SingletonMethod1 {
     // Field to demonstrate instance initialization
     private String message = "Hello from the Singleton instance!";
     // Private constructor to prevent external instantiation
-    public SingletonMethod1() {
+    private SingletonMethod1() {
     }
     // Method to get the message
     public String getMessage() {
