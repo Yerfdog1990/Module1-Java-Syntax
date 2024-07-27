@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 /*
 Unchecked Exceptions:
-These are exceptions that are not checked at compile-time but are checked at runtime.
-They extend RuntimeException.
-1.ArithmeticException
-2.NullPointerException
-3.ArrayIndexOutOfBoundsException
-4.IllegalArgumentException
-5.NumberFormatException
+Unchecked exceptions in Java are exceptions that are not checked at compile-time, meaning the compiler does not require methods to catch or specify these exceptions.
+These exceptions extend RuntimeException and typically represent programming errors or conditions that the programmer did not foresee.
+Here's when some common unchecked exceptions are used:.
+1.ArithmeticException: Thrown during exceptional arithmetic conditions, such as division by zero.
+2.NullPointerException: Thrown when an operation is performed on a null object reference.
+3.ArrayIndexOutOfBoundsException: Thrown when accessing an array with an illegal index.
+4.IllegalArgumentException: Thrown to indicate an illegal or inappropriate argument passed to a method.
+4.NumberFormatException: Thrown when attempting to convert a string into a numeric type fails.
  */
 public class Unchecked_Exceptions {
     // Method to demonstrate ArithmeticException
