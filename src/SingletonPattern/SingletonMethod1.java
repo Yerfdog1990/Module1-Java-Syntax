@@ -8,14 +8,12 @@ Create a singleton using a Private Constructor and a Public Static Final Field:
 
 // Define the Singleton class
 public class SingletonMethod1 {
-    // Declare a static final field to hold the single instance of the class
+    // Declare a public static final field to hold the single instance of the class
     public static final SingletonMethod1 INSTANCE = new SingletonMethod1();
     // Field to demonstrate instance initialization
-    private String message;
+    private String message = "Hello from the Singleton instance!";
     // Private constructor to prevent external instantiation
-    private SingletonMethod1() {
-        // Initialize the field in the constructor
-        message = "Hello from the Singleton instance!";
+    public SingletonMethod1() {
     }
     // Method to get the message
     public String getMessage() {
