@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Access the parent’s constructors in child class">
-      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Career.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuperKeyword/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/CreateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/CreateException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,22 +307,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Enum demo">
-      <option name="closed" value="true" />
-      <created>1721664640328</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1721664640329</updated>
-    </task>
-    <task id="LOCAL-00091" summary="Enum demo">
-      <option name="closed" value="true" />
-      <created>1721701516408</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1721701516408</updated>
     </task>
     <task id="LOCAL-00092" summary="Original Enum">
       <option name="closed" value="true" />
@@ -701,7 +684,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722140409169</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Access the parent’s overridden method in child class">
+      <option name="closed" value="true" />
+      <created>1722142262386</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1722142262386</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Access the parent’s constructors in child class">
+      <option name="closed" value="true" />
+      <created>1722142301164</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1722142301164</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -716,7 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Store enum in arrays" />
     <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Final Field" />
     <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Method" />
     <MESSAGE value="Enum Singleton" />
@@ -740,6 +738,7 @@
     <MESSAGE value="Singleton class using a Private Constructor and a Public Static Final Field" />
     <MESSAGE value="Custom exception" />
     <MESSAGE value="Access parent’s data members/attributes." />
+    <MESSAGE value="Access the parent’s overridden method in child class" />
     <MESSAGE value="Access the parent’s constructors in child class" />
     <option name="LAST_COMMIT_MESSAGE" value="Access the parent’s constructors in child class" />
   </component>

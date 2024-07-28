@@ -17,6 +17,7 @@ public class CreateException {
             eligibleToWork(12);
         }catch (TooOldError | TooYoungError e){
             System.out.println("Error! You are not eligible to work.");
+            e.printStackTrace();
         }
 
     }
