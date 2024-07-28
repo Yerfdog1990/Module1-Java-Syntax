@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Access parent’s data members/attributes.">
-      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Access the parent’s constructors in child class">
+      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuperKeyword/Father.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,7 @@
     "Application.CharToArray.executor": "Run",
     "Application.CharToByte.executor": "Run",
     "Application.CheckedExceptions.executor": "Run",
+    "Application.Child.executor": "Run",
     "Application.ChildOfPublic.executor": "Run",
     "Application.Collections_Helper_Class.executor": "Run",
     "Application.CombineArrays.executor": "Run",
@@ -305,14 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Word suggestion project">
-      <option name="closed" value="true" />
-      <created>1721543064950</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1721543064951</updated>
     </task>
     <task id="LOCAL-00089" summary="Word suggestion project">
       <option name="closed" value="true" />
@@ -698,7 +690,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722138888429</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Access the parent’s constructors in child class">
+      <option name="closed" value="true" />
+      <created>1722140150864</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1722140150864</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -713,7 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Store values of the enum in java collections (e.g List)." />
     <MESSAGE value="Store enum in arrays" />
     <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Final Field" />
     <MESSAGE value="Create a singleton using a Private Constructor and a Public Static Method" />
@@ -738,7 +737,8 @@
     <MESSAGE value="Singleton class using a Private Constructor and a Public Static Final Field" />
     <MESSAGE value="Custom exception" />
     <MESSAGE value="Access parent’s data members/attributes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Access parent’s data members/attributes." />
+    <MESSAGE value="Access the parent’s constructors in child class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Access the parent’s constructors in child class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

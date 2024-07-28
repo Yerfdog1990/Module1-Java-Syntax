@@ -16,15 +16,18 @@ public class Father {
 }
 class Child extends Father{
     String myName;
+    int age;
     //Parameterized Child class constructor
-    public Child(String fatherName, String myName) {
+    public Child(String fatherName, String myName, int age) {
         super(fatherName);
         this.myName = myName;
+        this.age = age;
     }
     //Main method
     public static void main(String[] args) {
-        Child myProfile = new Child("Disterius", "Godfrey");
-        System.out.println("My name is " +myProfile.myName);
-        System.out.println("My father's name is " +myProfile.fatherName);
+        Child myProfile = new Child("Disterius", "Godfrey", 34);
+        System.out.println("My name is " +myProfile.myName+".");
+        System.out.println("My father's name is " +myProfile.fatherName+".");
+        System.out.println("I am " +myProfile.age+ "years old.");
     }
 }
