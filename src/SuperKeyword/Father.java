@@ -19,7 +19,7 @@ class Child extends Father{
     int age;
     //Parameterized Child class constructor
     public Child(String fatherName, String myName, int age) {
-        super(fatherName);
+        super(fatherName); // The super keyword calls the parameterized constructor of the parent class
         this.myName = myName;
         this.age = age;
     }
