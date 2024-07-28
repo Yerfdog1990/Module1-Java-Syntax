@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Access the parent’s constructors in child class">
+      <change afterPath="$PROJECT_DIR$/src/SuperKeyword/Career.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuperKeyword/Father.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +211,7 @@
     "Application.StringToken.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
     "Application.SumFactorial.executor": "Run",
+    "Application.SwitchCareer.executor": "Run",
     "Application.Test_public.executor": "Run",
     "Application.ThrowOperator.executor": "Run",
     "Application.TowersOfHanoi.executor": "Run",
@@ -305,14 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Word suggestion project">
-      <option name="closed" value="true" />
-      <created>1721543237189</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1721543237189</updated>
     </task>
     <task id="LOCAL-00090" summary="Enum demo">
       <option name="closed" value="true" />
@@ -698,7 +693,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722140150864</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Access the parent’s constructors in child class">
+      <option name="closed" value="true" />
+      <created>1722140409169</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1722140409169</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
