@@ -77,7 +77,7 @@ public class Unchecked_Exceptions {
                 System.out.print("Enter the denominator: ");
                 int denominator = userInput.nextInt();
                 validateDenominator(denominator);
-                break; // Exit loop if input is valid
+                break; // Exit loop if input is invalid
             } catch (InputMismatchException e) {
                 System.out.printf("Only integers allowed. try again!%n");
                 userInput.next(); // Clear the invalid input
@@ -88,7 +88,7 @@ public class Unchecked_Exceptions {
                     System.out.print("Enter the string: ");
                     String str = userInput.nextLine();
                     findStringSize(str);
-                    break; // Exit loop if input is valid
+                    break; // Exit loop if input is invalid
                 }catch (InputMismatchException e){
                     System.out.printf("Only string allowed. try again!%n");
                     userInput.next(); // Clear the invalid input
@@ -99,7 +99,7 @@ public class Unchecked_Exceptions {
                 System.out.print("Enter the index: ");
                 int index = userInput.nextInt();
                 findElement(index);
-                break; // Exit loop if input is valid
+                break; // Exit loop if input is invalid
             } catch (InputMismatchException e) {
                 System.out.printf("Only integers allowed. try again!%n");
                 userInput.next(); // Clear the invalid input
@@ -110,7 +110,7 @@ public class Unchecked_Exceptions {
                 System.out.print("Enter age: ");
                 int age = userInput.nextInt();
                 findAge(age);
-                break; // Exit loop if input is valid
+                break; // Exit loop if input is invalid
             } catch (InputMismatchException e) {
                 System.out.printf("Only integers allowed. try again!%n");
                 userInput.next(); // Clear the invalid input
