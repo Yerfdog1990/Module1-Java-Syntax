@@ -19,6 +19,5 @@ public class CreateException {
             System.out.println("Error! You are not eligible to work.");
             e.printStackTrace();
         }
-
     }
 }
