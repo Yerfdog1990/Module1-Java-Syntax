@@ -32,8 +32,8 @@ public class StackTraceExample {
             e.printStackTrace();// Print stack trace to the standard error stream
         }
         // Get and print the stack trace of the current thread
-        StackTraceElement[] stackTraceElement = Thread.currentThread().getStackTrace();
-        for(StackTraceElement element : stackTraceElement){
+        StackTraceElement[] stackTraceElementExample = Thread.currentThread().getStackTrace();
+        for(StackTraceElement element : stackTraceElementExample){
             System.out.println(element);
         }
     }
