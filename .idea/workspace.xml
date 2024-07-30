@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Sort of elements in an array.">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="StackTrace">
       <change afterPath="$PROJECT_DIR$/src/Arrays/FilterArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackTrace/StackTraceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackTrace/StackTraceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackTrace/StackTraceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,14 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Find next value from enum constant">
-      <option name="closed" value="true" />
-      <created>1721729315835</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1721729315835</updated>
     </task>
     <task id="LOCAL-00100" summary="Store values of the enum in java collections (e.g List).">
       <option name="closed" value="true" />
@@ -705,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722309779700</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="StackTrace">
+      <option name="closed" value="true" />
+      <created>1722350905363</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1722350905363</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -720,7 +720,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Regular Expressions (Regex)" />
     <MESSAGE value="Method 2 to convert the DayEnum to class" />
     <MESSAGE value="HashSet  demo" />
     <MESSAGE value="Union and intersection of a set." />
@@ -745,7 +744,8 @@
     <MESSAGE value="Sorting elements" />
     <MESSAGE value="Sum of elements in an array." />
     <MESSAGE value="Sort of elements in an array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort of elements in an array." />
+    <MESSAGE value="StackTrace" />
+    <option name="LAST_COMMIT_MESSAGE" value="StackTrace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

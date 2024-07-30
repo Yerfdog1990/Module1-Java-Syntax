@@ -29,7 +29,7 @@ public class StackTraceExample {
         try{
             methodA();
         }catch (Exception e){
-            e.getStackTrace();// Print stack trace to the standard error stream
+            e.printStackTrace();// Print stack trace to the standard error stream
         }
         // Get and print the stack trace of the current thread
         StackTraceElement[] stackTraceElement = Thread.currentThread().getStackTrace();
