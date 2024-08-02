@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Stack demo">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Try-with-resources example">
       <change afterPath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Try_With_Resources/TryWithResourcesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Try_With_Resources/MultipleResourcesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,14 +316,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Create a singleton using a Private Constructor and a Public Static Method">
-      <option name="closed" value="true" />
-      <created>1721745227573</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1721745227573</updated>
     </task>
     <task id="LOCAL-00104" summary="Create a singleton using a Private Constructor and a Public Static Method">
       <option name="closed" value="true" />
@@ -709,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722587900556</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Try-with-resources example">
+      <option name="closed" value="true" />
+      <created>1722599351450</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1722599351450</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -724,7 +724,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HashSet  demo" />
     <MESSAGE value="Union and intersection of a set." />
     <MESSAGE value="Factorial Calculation by direct recursion." />
     <MESSAGE value="Indirect recursion" />
@@ -749,7 +748,8 @@
     <MESSAGE value="Sort of elements in an array." />
     <MESSAGE value="StackTrace" />
     <MESSAGE value="Stack demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack demo" />
+    <MESSAGE value="Try-with-resources example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try-with-resources example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
