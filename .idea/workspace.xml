@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Using multiple resources in a single try-with-resources statement.">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Using multiple resources in a single try-catch-finally statement.">
+      <change afterPath="$PROJECT_DIR$/src/AutoCloseable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutoCloseable/MyResource.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Try_With_Resources/TryCatchFinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +69,7 @@
     "Application.ArrayToHashSet.executor": "Run",
     "Application.ArrayToQueue.executor": "Run",
     "Application.Array_BinarySearch.executor": "Run",
+    "Application.AutoCloseable.Main.executor": "Run",
     "Application.BankServiceQueue.executor": "Run",
     "Application.BinaryAddition.executor": "Run",
     "Application.BinarySearch.executor": "Run",
@@ -223,6 +225,7 @@
     "Application.TowersOfHanoi.executor": "Run",
     "Application.TreeMapDemo.executor": "Run",
     "Application.TrimString.executor": "Run",
+    "Application.TryCatchFinally.executor": "Run",
     "Application.TryWithResourcesExample.executor": "Run",
     "Application.Try_CatchBlock.executor": "Run",
     "Application.Typecasing.executor": "Run",
@@ -317,14 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Enum Singleton">
-      <option name="closed" value="true" />
-      <created>1721746169343</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1721746169343</updated>
     </task>
     <task id="LOCAL-00106" summary="Enum Singleton">
       <option name="closed" value="true" />
@@ -710,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722600493818</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary=" Using multiple resources in a single try-catch-finally statement.">
+      <option name="closed" value="true" />
+      <created>1722601700312</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1722601700313</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -725,7 +728,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Factorial Calculation by direct recursion." />
     <MESSAGE value="Indirect recursion" />
     <MESSAGE value="FibonacciSeries using iterative method" />
     <MESSAGE value="FibonacciSeries using recursive method" />
@@ -750,7 +752,8 @@
     <MESSAGE value="Stack demo" />
     <MESSAGE value="Try-with-resources example" />
     <MESSAGE value=" Using multiple resources in a single try-with-resources statement." />
-    <option name="LAST_COMMIT_MESSAGE" value=" Using multiple resources in a single try-with-resources statement." />
+    <MESSAGE value=" Using multiple resources in a single try-catch-finally statement." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Using multiple resources in a single try-catch-finally statement." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
