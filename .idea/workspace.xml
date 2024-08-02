@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="StackTrace">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FilterArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionClasses/StackDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Stack demo">
       <change afterPath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Try_With_Resources/TryWithResourcesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +222,7 @@
     "Application.TowersOfHanoi.executor": "Run",
     "Application.TreeMapDemo.executor": "Run",
     "Application.TrimString.executor": "Run",
+    "Application.TryWithResourcesExample.executor": "Run",
     "Application.Try_CatchBlock.executor": "Run",
     "Application.Typecasing.executor": "Run",
     "Application.Unchecked_Exceptions.executor": "Run",
@@ -316,22 +316,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Store enum in arrays">
-      <option name="closed" value="true" />
-      <created>1721731421549</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1721731421549</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Create a singleton using a Private Constructor and a Public Static Final Field">
-      <option name="closed" value="true" />
-      <created>1721742911883</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1721742911883</updated>
     </task>
     <task id="LOCAL-00103" summary="Create a singleton using a Private Constructor and a Public Static Method">
       <option name="closed" value="true" />
@@ -709,7 +693,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722353998713</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Stack demo">
+      <option name="closed" value="true" />
+      <created>1722587881392</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1722587881393</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Stack demo">
+      <option name="closed" value="true" />
+      <created>1722587900556</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1722587900556</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -724,7 +724,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Method 2 to convert the DayEnum to class" />
     <MESSAGE value="HashSet  demo" />
     <MESSAGE value="Union and intersection of a set." />
     <MESSAGE value="Factorial Calculation by direct recursion." />
@@ -749,7 +748,8 @@
     <MESSAGE value="Sum of elements in an array." />
     <MESSAGE value="Sort of elements in an array." />
     <MESSAGE value="StackTrace" />
-    <option name="LAST_COMMIT_MESSAGE" value="StackTrace" />
+    <MESSAGE value="Stack demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
