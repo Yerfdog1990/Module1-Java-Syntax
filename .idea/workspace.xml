@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment=" Using multiple resources in a single try-catch-finally statement.">
-      <change afterPath="$PROJECT_DIR$/src/AutoCloseable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoCloseable/MyResource.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="AutoCloseable interface">
       <change afterPath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedSwitchStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +126,7 @@
     "Application.ElementIteration.executor": "Run",
     "Application.EmptySpace.executor": "Run",
     "Application.EnhancedLoop.executor": "Run",
+    "Application.EnhancedSwitchStatement.executor": "Run",
     "Application.Error.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Example2.executor": "Run",
@@ -320,14 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Enum Singleton">
-      <option name="closed" value="true" />
-      <created>1721748908227</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1721748908227</updated>
     </task>
     <task id="LOCAL-00107" summary="Word suggestion project">
       <option name="closed" value="true" />
@@ -713,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722601700313</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="AutoCloseable interface">
+      <option name="closed" value="true" />
+      <created>1722603905328</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1722603905328</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -728,7 +728,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Indirect recursion" />
     <MESSAGE value="FibonacciSeries using iterative method" />
     <MESSAGE value="FibonacciSeries using recursive method" />
     <MESSAGE value="Binary search by recursion method." />
@@ -753,7 +752,8 @@
     <MESSAGE value="Try-with-resources example" />
     <MESSAGE value=" Using multiple resources in a single try-with-resources statement." />
     <MESSAGE value=" Using multiple resources in a single try-catch-finally statement." />
-    <option name="LAST_COMMIT_MESSAGE" value=" Using multiple resources in a single try-catch-finally statement." />
+    <MESSAGE value="AutoCloseable interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="AutoCloseable interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
