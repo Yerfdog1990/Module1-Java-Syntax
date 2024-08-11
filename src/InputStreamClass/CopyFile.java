@@ -28,6 +28,8 @@ public class CopyFile {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
+        finally {
+            System.out.println("Operation executed successfully.");
+        }
     }
 }
