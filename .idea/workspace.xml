@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Word autocorrection">
-      <change afterPath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InputStreamClass/InputStreamDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Input stream class">
+      <change afterPath="$PROJECT_DIR$/src/InputStreamClass/SwapFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,6 +221,7 @@
     "Application.StringToken.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
     "Application.SumFactorial.executor": "Run",
+    "Application.SwapFile.executor": "Run",
     "Application.SwitchCareer.executor": "Run",
     "Application.Test_public.executor": "Run",
     "Application.ThrowOperator.executor": "Run",
@@ -337,30 +337,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Word suggestion project">
-      <option name="closed" value="true" />
-      <created>1721810739114</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1721810739114</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Regular Expressions (Regex)">
-      <option name="closed" value="true" />
-      <created>1721810825681</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1721810825681</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Method 2 to convert the DayEnum to class">
-      <option name="closed" value="true" />
-      <created>1721891061650</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1721891061650</updated>
     </task>
     <task id="LOCAL-00111" summary="HashSet  demo">
       <option name="closed" value="true" />
@@ -730,7 +706,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722919169197</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Copy file">
+      <option name="closed" value="true" />
+      <created>1723310540836</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1723310540836</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Input stream class">
+      <option name="closed" value="true" />
+      <created>1723310621543</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1723310621543</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Input stream class">
+      <option name="closed" value="true" />
+      <created>1723348585017</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1723348585017</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -745,8 +745,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FibonacciSeries using recursive method" />
-    <MESSAGE value="Binary search by recursion method." />
     <MESSAGE value="Tower of Hanoi" />
     <MESSAGE value="Check if the brackets are properly paired ([{}])" />
     <MESSAGE value="Try-Catch block exception." />
@@ -770,7 +768,9 @@
     <MESSAGE value=" Using multiple resources in a single try-catch-finally statement." />
     <MESSAGE value="AutoCloseable interface" />
     <MESSAGE value="Word autocorrection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Word autocorrection" />
+    <MESSAGE value="Copy file" />
+    <MESSAGE value="Input stream class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input stream class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
