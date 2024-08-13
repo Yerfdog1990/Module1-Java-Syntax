@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Input stream class">
-      <change afterPath="$PROJECT_DIR$/src/InputStreamClass/SwapFile.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Read and swap content in files.">
+      <change afterPath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReaderClass/ReaderExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +189,7 @@
     "Application.QuadraticSpaceExample.executor": "Run",
     "Application.QuadraticTimeExample.executor": "Run",
     "Application.QueueDemo.executor": "Run",
+    "Application.ReaderExample.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RegexExample.executor": "Run",
     "Application.RepeatString.executor": "Run",
@@ -258,6 +261,7 @@
     "Application.newArray.executor": "Run",
     "Application.two_D_Arrays.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -337,14 +341,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00111" summary="HashSet  demo">
-      <option name="closed" value="true" />
-      <created>1721895575655</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1721895575655</updated>
     </task>
     <task id="LOCAL-00112" summary="Union and intersection of a set.">
       <option name="closed" value="true" />
@@ -730,7 +726,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723348585017</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Read and swap content in files.">
+      <option name="closed" value="true" />
+      <created>1723351882784</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1723351882790</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -745,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tower of Hanoi" />
     <MESSAGE value="Check if the brackets are properly paired ([{}])" />
     <MESSAGE value="Try-Catch block exception." />
     <MESSAGE value="Throw exception" />
@@ -770,7 +773,8 @@
     <MESSAGE value="Word autocorrection" />
     <MESSAGE value="Copy file" />
     <MESSAGE value="Input stream class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input stream class" />
+    <MESSAGE value="Read and swap content in files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Read and swap content in files." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
