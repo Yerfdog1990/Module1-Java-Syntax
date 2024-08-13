@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Read and swap content in files.">
-      <change afterPath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReaderClass/ReaderExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Copy file using a reader class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,38 +339,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Union and intersection of a set.">
-      <option name="closed" value="true" />
-      <created>1721897028234</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1721897028234</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Factorial Calculation by direct recursion.">
-      <option name="closed" value="true" />
-      <created>1721898375551</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1721898375551</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Factorial Calculation by direct recursion.">
-      <option name="closed" value="true" />
-      <created>1721898422070</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1721898422070</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Factorial Calculation by direct recursion.">
-      <option name="closed" value="true" />
-      <created>1721899999105</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1721899999105</updated>
     </task>
     <task id="LOCAL-00116" summary="Indirect recursion">
       <option name="closed" value="true" />
@@ -734,7 +700,39 @@
       <option name="project" value="LOCAL" />
       <updated>1723351882790</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Copy file using input stream class.">
+      <option name="closed" value="true" />
+      <created>1723524737325</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1723524737328</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Copy file using reader class.">
+      <option name="closed" value="true" />
+      <created>1723524794876</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1723524794876</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Reader class demo.">
+      <option name="closed" value="true" />
+      <created>1723524851250</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1723524851250</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Copy file using a reader class.">
+      <option name="closed" value="true" />
+      <created>1723540536517</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1723540536517</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -749,10 +747,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Check if the brackets are properly paired ([{}])" />
-    <MESSAGE value="Try-Catch block exception." />
-    <MESSAGE value="Throw exception" />
-    <MESSAGE value="Checked exceptions" />
     <MESSAGE value="Unchecked exceptions" />
     <MESSAGE value="Errors" />
     <MESSAGE value="Singleton class using a Private Constructor and a Public Static Final Field" />
@@ -774,7 +768,11 @@
     <MESSAGE value="Copy file" />
     <MESSAGE value="Input stream class" />
     <MESSAGE value="Read and swap content in files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Read and swap content in files." />
+    <MESSAGE value="Copy file using input stream class." />
+    <MESSAGE value="Copy file using reader class." />
+    <MESSAGE value="Reader class demo." />
+    <MESSAGE value="Copy file using a reader class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy file using a reader class." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
