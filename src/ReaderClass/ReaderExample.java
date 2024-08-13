@@ -1,8 +1,6 @@
 package ReaderClass;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 /*
 Definition:
@@ -49,27 +47,46 @@ Common Methods:
  */
 public class ReaderExample {
     public static void main(String[] args) {
-        // Specify the file path
-        String filePath1 = "C:/Users/Yerdog/Desktop/Computer Science/CS 1103 - Programming 2/Week 3/Programming Assignment 3.txt";
-        String filePath2 = "C:/Users/Yerdog/Desktop/Computer Science/CS 1103 - Programming 2/Week 3/Learning Guide Unit 3.pdf";
-        // Use a try-with-resources statement to ensure the reader is closed
-        try(BufferedReader reader = new BufferedReader(new FileReader(filePath1))){
-            // Read characters from the file one by one
-            int charData;
-            while((charData = reader.read()) != -1){
-                System.out.print((char) charData);
+        String data = "Hello, this is a sample text for Reader class demonstration.";
+
+        // Using StringReader to create a Reader from the string data
+        try (Reader reader = new StringReader(data)) {
+
+            // 1. int read(): Reads a single character and returns it as an integer
+            int charAsInt = reader.read();
+            System.out.println("1. Read single character: " + (char) charAsInt);
+
+            // 2. int read(char[] cbuf): Reads characters into a portion of an array
+            char[] buffer = new char[10];
+            int charsRead = reader.read(buffer);
+            System.out.println("2. Read characters into array: " + new String(buffer, 0, charsRead));
+
+            // 3. int read(char[] cbuf, int off, int len): Reads up to len characters into an array
+            char[] partialBuffer = new char[15];
+            int partialCharsRead = reader.read(partialBuffer, 5, 10);
+            System.out.println("3. Read into partial array: " + new String(partialBuffer, 5, partialCharsRead));
+
+            // 4. long skip(long n): Skips n characters in the input stream
+            long charsSkipped = reader.skip(5);
+            System.out.println("4. Skipped characters: " + charsSkipped);
+
+            // 5. boolean ready(): Checks whether the stream is ready to be read without blocking
+            boolean isReady = reader.ready();
+            System.out.println("5. Is stream ready?: " + isReady);
+
+            // Reading the remaining content to check if ready() worked
+            int remainingChar;
+            System.out.print("Remaining content: ");
+            while ((remainingChar = reader.read()) != -1) {
+                System.out.print((char) remainingChar);
             }
-            System.out.println();
-            // Reset the reader to read lines from the file
-            try(BufferedReader lineReader = new BufferedReader(new FileReader(filePath2))){
-                String line;
-                while ((line = lineReader.readLine()) != null){
-                    System.out.println(line);
-                }
-            }
+
         } catch (IOException e) {
-            // Handle any I/O exceptions
-            e.printStackTrace();
+            System.out.println("An error occurred: " + e.getMessage());
         }
+
+        // 6. void close(): Closes the stream and releases any system resources associated with it
+        // This is handled automatically by the try-with-resources statement above
+        System.out.println("\n6. Reader closed successfully.");
     }
 }
