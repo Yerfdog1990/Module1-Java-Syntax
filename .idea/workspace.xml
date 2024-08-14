@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Reading a file using BufferedReader to improve efficiency.">
-      <change afterPath="$PROJECT_DIR$/src/BufferedReaderClass/WithoutBufferedReader.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Reading a file using FileReader.">
+      <change afterPath="$PROJECT_DIR$/src/BufferedReaderClass/BufferedReaderExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ChainedStreams/InputStreamReaderClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
     "Application.BooleanStartsWith.executor": "Run",
     "Application.Break_in_loop.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.BufferedReaderExample.executor": "Run",
     "Application.Challenge01Abstraction.Main.executor": "Run",
     "Application.Challenge01ArrayList.executor": "Run",
     "Application.Challenge02ArrayList.executor": "Run",
@@ -239,6 +241,7 @@
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
     "Application.WithBufferedReader.executor": "Run",
+    "Application.WithoutBufferedReader.executor": "Run",
     "Application.WordCounter.executor": "Run",
     "Application.WrapperClassesDemo.executor": "Run",
     "Application.array_BinarySearch.executor": "Run",
@@ -340,14 +343,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Binary search by recursion method.">
-      <option name="closed" value="true" />
-      <created>1721905650134</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1721905650134</updated>
     </task>
     <task id="LOCAL-00121" summary="Tower of Hanoi">
       <option name="closed" value="true" />
@@ -733,7 +728,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723607517561</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Reading a file using FileReader.">
+      <option name="closed" value="true" />
+      <created>1723607943421</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1723607943421</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -748,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Access parent’s data members/attributes." />
     <MESSAGE value="Access the parent’s overridden method in child class" />
     <MESSAGE value="Access the parent’s constructors in child class" />
     <MESSAGE value="Unchecked exception" />
@@ -773,7 +775,8 @@
     <MESSAGE value="Reader class methods demo." />
     <MESSAGE value="Using BufferedReader to improve efficiency." />
     <MESSAGE value="Reading a file using BufferedReader to improve efficiency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading a file using BufferedReader to improve efficiency." />
+    <MESSAGE value="Reading a file using FileReader." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading a file using FileReader." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
