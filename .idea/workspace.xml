@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Reader class methods demo.">
-      <change afterPath="$PROJECT_DIR$/src/BufferedReaderClass/WithBufferedReader.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Reading a file using BufferedReader to improve efficiency.">
+      <change afterPath="$PROJECT_DIR$/src/BufferedReaderClass/WithoutBufferedReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ChainedStreams/InputStreamReaderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,22 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00118" summary="FibonacciSeries using iterative method">
-      <option name="closed" value="true" />
-      <created>1721902145306</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1721902145306</updated>
-    </task>
-    <task id="LOCAL-00119" summary="FibonacciSeries using recursive method">
-      <option name="closed" value="true" />
-      <created>1721902165528</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1721902165528</updated>
     </task>
     <task id="LOCAL-00120" summary="Binary search by recursion method.">
       <option name="closed" value="true" />
@@ -734,7 +717,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723546972013</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Using BufferedReader to improve efficiency.">
+      <option name="closed" value="true" />
+      <created>1723607408713</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1723607408713</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Reading a file using BufferedReader to improve efficiency.">
+      <option name="closed" value="true" />
+      <created>1723607517561</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1723607517561</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -749,8 +748,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Errors" />
-    <MESSAGE value="Singleton class using a Private Constructor and a Public Static Final Field" />
     <MESSAGE value="Access parent’s data members/attributes." />
     <MESSAGE value="Access the parent’s overridden method in child class" />
     <MESSAGE value="Access the parent’s constructors in child class" />
@@ -774,7 +771,9 @@
     <MESSAGE value="Reader class demo." />
     <MESSAGE value="Copy file using a reader class." />
     <MESSAGE value="Reader class methods demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reader class methods demo." />
+    <MESSAGE value="Using BufferedReader to improve efficiency." />
+    <MESSAGE value="Reading a file using BufferedReader to improve efficiency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading a file using BufferedReader to improve efficiency." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
