@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="InputStreamReaderClass">
-      <change afterPath="$PROJECT_DIR$/src/OutputStreamClass/OutputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="OutputStreamExample">
+      <change afterPath="$PROJECT_DIR$/output_demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2fGdPYL4yPdrLpusPgzAdPIcTJe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AbstractDemo.Main.executor": "Run",
     "Application.AccountCreation.executor": "Run",
     "Application.AnalyzeCharacter.executor": "Run",
@@ -344,14 +347,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Try-Catch block exception.">
-      <option name="closed" value="true" />
-      <created>1721975941963</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1721975941963</updated>
     </task>
     <task id="LOCAL-00124" summary="Try-Catch block exception.">
       <option name="closed" value="true" />
@@ -737,7 +732,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723798477593</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="OutputStreamExample">
+      <option name="closed" value="true" />
+      <created>1723800633825</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1723800633825</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -752,7 +755,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Unchecked exception" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Custom exception" />
     <MESSAGE value="Sorting elements" />
     <MESSAGE value="Sum of elements in an array." />
@@ -777,7 +780,8 @@
     <MESSAGE value="Reading a file using FileReader." />
     <MESSAGE value="BufferedReader methods." />
     <MESSAGE value="InputStreamReaderClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="InputStreamReaderClass" />
+    <MESSAGE value="OutputStreamExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="OutputStreamExample" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
