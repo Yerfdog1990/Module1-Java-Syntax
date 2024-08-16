@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="File added externally using writer class.">
-      <change afterPath="$PROJECT_DIR$/src/StringWriterClass/StringWriterDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="StringWriterDemo">
+      <change afterPath="$PROJECT_DIR$/charfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReaderClass/ReadFromConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WriterClass/WriteCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +195,7 @@
     "Application.QuadraticSpaceExample.executor": "Run",
     "Application.QuadraticTimeExample.executor": "Run",
     "Application.QueueDemo.executor": "Run",
+    "Application.ReadFromConsole.executor": "Run",
     "Application.ReaderExample.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.RegexExample.executor": "Run",
@@ -249,6 +252,7 @@
     "Application.WithoutBufferedReader.executor": "Run",
     "Application.WordCounter.executor": "Run",
     "Application.WrapperClassesDemo.executor": "Run",
+    "Application.WriteCharacter.executor": "Run",
     "Application.WriterClassDemo.executor": "Run",
     "Application.array_BinarySearch.executor": "Run",
     "Application.array_copyOf.executor": "Run",
@@ -349,22 +353,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Unchecked exceptions">
-      <option name="closed" value="true" />
-      <created>1722043819146</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1722043819147</updated>
-    </task>
-    <task id="LOCAL-00130" summary="Errors">
-      <option name="closed" value="true" />
-      <created>1722045285463</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1722045285463</updated>
     </task>
     <task id="LOCAL-00131" summary="Errors">
       <option name="closed" value="true" />
@@ -742,7 +730,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723802448335</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="StringWriterDemo">
+      <option name="closed" value="true" />
+      <created>1723804202294</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1723804202294</updated>
+    </task>
+    <task id="LOCAL-00179" summary="StringWriterDemo">
+      <option name="closed" value="true" />
+      <created>1723804334697</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1723804334697</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -758,7 +762,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="StackTrace" />
     <MESSAGE value="Stack demo" />
     <MESSAGE value="Try-with-resources example" />
     <MESSAGE value=" Using multiple resources in a single try-with-resources statement." />
@@ -783,7 +786,8 @@
     <MESSAGE value="Writer class demo" />
     <MESSAGE value="OutputStreamExample" />
     <MESSAGE value="File added externally using writer class." />
-    <option name="LAST_COMMIT_MESSAGE" value="File added externally using writer class." />
+    <MESSAGE value="StringWriterDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringWriterDemo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
