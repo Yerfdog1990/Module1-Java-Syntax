@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="StringWriterDemo">
-      <change afterPath="$PROJECT_DIR$/charfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReaderClass/ReadFromConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WriterClass/WriteCharacter.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Write character to a file.">
+      <change afterPath="$PROJECT_DIR$/src/BufferedWriterClass/BufferedWriterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -353,30 +351,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00131" summary="Errors">
-      <option name="closed" value="true" />
-      <created>1722045301359</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1722045301359</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Singleton class using a Private Constructor and a Public Static Final Field">
-      <option name="closed" value="true" />
-      <created>1722050952041</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1722050952041</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Singleton class using a Private Constructor and a Public Static Final Field">
-      <option name="closed" value="true" />
-      <created>1722051083192</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1722051083192</updated>
     </task>
     <task id="LOCAL-00134" summary="Singleton class using a Private Constructor and a Public Static Final Field">
       <option name="closed" value="true" />
@@ -746,7 +720,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723804334697</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="External file added using FileWriter.">
+      <option name="closed" value="true" />
+      <created>1723815800923</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1723815800923</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Read from console using Scanner and BufferedReader">
+      <option name="closed" value="true" />
+      <created>1723815839586</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1723815839586</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Write character to a file.">
+      <option name="closed" value="true" />
+      <created>1723815886412</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1723815886412</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -762,9 +760,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Stack demo" />
-    <MESSAGE value="Try-with-resources example" />
-    <MESSAGE value=" Using multiple resources in a single try-with-resources statement." />
     <MESSAGE value=" Using multiple resources in a single try-catch-finally statement." />
     <MESSAGE value="AutoCloseable interface" />
     <MESSAGE value="Word autocorrection" />
@@ -787,7 +782,10 @@
     <MESSAGE value="OutputStreamExample" />
     <MESSAGE value="File added externally using writer class." />
     <MESSAGE value="StringWriterDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringWriterDemo" />
+    <MESSAGE value="External file added using FileWriter." />
+    <MESSAGE value="Read from console using Scanner and BufferedReader" />
+    <MESSAGE value="Write character to a file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Write character to a file." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
