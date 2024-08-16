@@ -24,7 +24,7 @@ Key Methods of OutputStream
 5.void close(): Closes the output stream and releases any system resources associated with it.
  */
 public class OutputStreamExample {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         try(OutputStream outputStream = new FileOutputStream("output_demo.txt")) {
             // Method 1: write(int b)
             // Writes a single byte to the output stream.
