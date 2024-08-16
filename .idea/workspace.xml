@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Externally added file using OutputStream">
-      <change afterPath="$PROJECT_DIR$/src/WriterClass/WriterClassDemo.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="File added externally using writer class.">
+      <change afterPath="$PROJECT_DIR$/src/StringWriterClass/StringWriterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OutputStreamClass/OutputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutputStreamClass/OutputStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +226,7 @@
     "Application.StringLength.executor": "Run",
     "Application.StringMatches.executor": "Run",
     "Application.StringToken.executor": "Run",
+    "Application.StringWriterDemo.executor": "Run",
     "Application.StudentPerformance.executor": "Run",
     "Application.SumFactorial.executor": "Run",
     "Application.SwapFile.executor": "Run",
@@ -349,30 +349,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Checked exceptions">
-      <option name="closed" value="true" />
-      <created>1721999948073</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1721999948073</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Unchecked exceptions">
-      <option name="closed" value="true" />
-      <created>1722008425939</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1722008425939</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Unchecked exceptions">
-      <option name="closed" value="true" />
-      <created>1722009020117</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1722009020117</updated>
     </task>
     <task id="LOCAL-00129" summary="Unchecked exceptions">
       <option name="closed" value="true" />
@@ -742,7 +718,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723801169863</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Writer class demo">
+      <option name="closed" value="true" />
+      <created>1723802383947</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1723802383947</updated>
+    </task>
+    <task id="LOCAL-00176" summary="OutputStreamExample">
+      <option name="closed" value="true" />
+      <created>1723802406637</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1723802406637</updated>
+    </task>
+    <task id="LOCAL-00177" summary="File added externally using writer class.">
+      <option name="closed" value="true" />
+      <created>1723802448335</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1723802448335</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -758,8 +758,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sum of elements in an array." />
-    <MESSAGE value="Sort of elements in an array." />
     <MESSAGE value="StackTrace" />
     <MESSAGE value="Stack demo" />
     <MESSAGE value="Try-with-resources example" />
@@ -780,10 +778,12 @@
     <MESSAGE value="Reading a file using FileReader." />
     <MESSAGE value="BufferedReader methods." />
     <MESSAGE value="InputStreamReaderClass" />
-    <MESSAGE value="OutputStreamExample" />
     <MESSAGE value="Copy file using FileInputStream and FileOutputStream." />
     <MESSAGE value="Externally added file using OutputStream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Externally added file using OutputStream" />
+    <MESSAGE value="Writer class demo" />
+    <MESSAGE value="OutputStreamExample" />
+    <MESSAGE value="File added externally using writer class." />
+    <option name="LAST_COMMIT_MESSAGE" value="File added externally using writer class." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
