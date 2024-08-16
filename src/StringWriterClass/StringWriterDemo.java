@@ -38,7 +38,7 @@ public class StringWriterDemo {
         // Writes an entire array of characters to the writer.
         char[] charArray = {'H', 'E', 'L', 'L', 'O', ' ', 'W', 'O', 'R', 'L', 'D'};
         try {
-            writer.write(charArray); //Writes "HELLO WORLD"
+        writer.write(charArray); //Writes "HELLO WORLD"
         // Method 3: write(char[] cbuf, int off, int len)
         // Writes a portion of an array of characters to the writer.
         writer.write(charArray, 0, 6); //Writes "HeLLO"
