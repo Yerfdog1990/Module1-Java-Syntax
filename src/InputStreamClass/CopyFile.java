@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class CopyFile {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws FileNotFoundException {
         String src = "C:/Users/Yerdog/Desktop/Computer Science/CS 1103 - Programming 2/Week 3/Programming Assignment 3.txt";
         String copy = "C:/Users/Yerdog/Desktop/Computer Science/CS 1103 - Programming 2/Week 3/Programming Assignment 3 Copy.txt";
         try(//InputStream for reading from the file
@@ -23,8 +23,9 @@ public class CopyFile {
                     //Write the data from the buffer to the second stream
                     output.write(buffer, 0, real);
                 }
-        }
-        finally {
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } finally {
             System.out.println("Operation executed successfully.");
         }
     }
