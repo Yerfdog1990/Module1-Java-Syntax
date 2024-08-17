@@ -28,9 +28,9 @@ Key Methods of ByteArrayInputStream
 public class ByteArrayInputStreamDemo {
     public static void main(String[] args) {
         // Creating a byte array
-        byte[] byteArrays = {65, 66, 67, 68, 69};// Corresponds to "ABCDE"
+        byte[] byteArray = {65, 66, 67, 68, 69};// Corresponds to "ABCDE"
         // Creating a ByteArrayInputStream from the byte array
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrays);
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArray);
         // Method 1: read()
         // Reading the first byte
         int singleByteArray = byteArrayInputStream.read();
