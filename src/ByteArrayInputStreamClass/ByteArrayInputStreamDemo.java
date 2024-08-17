@@ -19,6 +19,7 @@ Key Methods of ByteArrayInputStream
 1.int read(): Reads the next byte of data from the input stream and returns it as an integer (0-255). Returns -1 if the end of the stream is reached.
 2.int read(byte[] b, int off, int len): Reads up to len bytes of data from the input stream into an array starting at off. Returns the number of bytes read or -1 if the end of the stream is reached.
 3.int available(): Returns the number of remaining bytes that can be read from the input stream.
+4.skip(long n): Used to skip a certain number of bytes and not read them.
 4.void mark(int readAheadLimit): Marks the current position in the input stream so that you can reset to this position later.
 5.void reset(): Resets the stream to the most recent mark, or the beginning if no mark was set.
 6.boolean markSupported(): Returns true if the input stream supports the mark() and reset() methods.
@@ -27,9 +28,9 @@ Key Methods of ByteArrayInputStream
 public class ByteArrayInputStreamDemo {
     public static void main(String[] args) {
         // Creating a byte array
-        byte[] byteArray = {65, 66, 67, 68, 69};// Corresponds to "ABCDE"
+        byte[] byteArrays = {65, 66, 67, 68, 69};// Corresponds to "ABCDE"
         // Creating a ByteArrayInputStream from the byte array
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArray);
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrays);
         // Method 1: read()
         // Reading the first byte
         int singleByteArray = byteArrayInputStream.read();
@@ -43,6 +44,13 @@ public class ByteArrayInputStreamDemo {
         // Checking the number of bytes available to read
         int availableBytes = byteArrayInputStream.available();
         System.out.println("Bytes available: " +availableBytes);
+        // Method 4: skip(long n)
+        // Used to skip a certain number of bytes and not read them.
+        byteArrayInputStream.skip(1);
+        while(byteArrayInputStream.available() != 0){
+            int data = byteArrayInputStream.read();
+            System.out.println(data + ", ");
+        }
         // Method 4: mark(int readAheadLimit)
         // Marking the current position in the stream
         byteArrayInputStream.mark(10);
