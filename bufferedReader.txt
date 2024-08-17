@@ -1,1 +1,2 @@
 AABCBufferedWr
+This is an appended line.
