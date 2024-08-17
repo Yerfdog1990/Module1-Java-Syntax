@@ -42,10 +42,13 @@ public class BufferedWriterDemo {
             // Method 4: newLine()
             // Writes a line separator to the buffer
             bufferedWriter.newLine();
-            // Method 5: flush()
+            // Method 5: append(CharSequence csq)
+            // Appends a sequence of characters to the buffer
+            bufferedWriter.append("This is an appended line.");  // Appends the string
+            // Method 6: flush()
             // Flushes the buffered data to the underlying stream
             bufferedWriter.flush();// Ensures everything is written to the file
-            // Method 6: close()
+            // Method 7: close()
             // Closes the writer, flushing any remaining data
             // This is handled automatically by the try-with-resources block
             System.out.println("Data successfully written to " + fileName);
