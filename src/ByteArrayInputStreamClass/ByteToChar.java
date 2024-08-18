@@ -2,7 +2,6 @@ package ByteArrayInputStreamClass;
 
 import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
 public class ByteToChar {
     public static void main(String[] args) {
