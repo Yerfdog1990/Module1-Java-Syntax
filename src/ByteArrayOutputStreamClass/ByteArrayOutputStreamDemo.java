@@ -58,3 +58,12 @@ public class ByteArrayOutputStreamDemo {
         }
     }
 }
+/*
+Conclusion and the big question
+The big question after reading this lesson is "Why can't I just use byte[], since it's more convenient and doesn't impose restrictions?"
+The advantage of ByteArrayInputStream is that it strong indicates that you're going to use read-only bytes (because the stream doesn't provide an interface to changing its content). That said, it is important to note that a programmer can still access the bytes directly.
+But if sometimes you have a byte[], sometimes you have a file, sometimes you have a network connection, and so on, you'll need some kind of abstraction for "a stream of bytes, and I don't care where they come from". And that's what InputStream is. When the source happens to be a byte array, ByteArrayInputStream is a good InputStream to use.
+This is helpful in many situations, but here are two specific examples:
+1.You're writing a library that receives bytes and processes them somehow (for example, suppose it's a library of image processing utilities). Users of your library can provide bytes from a file, from an in-memory byte[], or from some other source. So you provide an interface that accepts an InputStream, which means that if they have a byte[], they need to wrap it in a ByteArrayInputStream.
+2.You're writing code that reads a network connection. But to perform unit tests on this code, you don't want to open a connection — you just want to feed a few bytes to the code. So the code takes an InputStream and your test passes in a ByteArrayInputStream.
+ */
