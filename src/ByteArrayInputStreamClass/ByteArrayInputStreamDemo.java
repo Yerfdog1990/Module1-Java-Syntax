@@ -36,10 +36,10 @@ public class ByteArrayInputStreamDemo {
         int singleByteArray = byteArrayInputStream.read();
         System.out.println("First byte read: " +(char)singleByteArray); // Outputs 'A'
         // Method 2: read(byte[] b, int off, int len)
-        // Reading the next 3 bytes into a buffer
-        byte[] buffer = new byte[3];
-        int byteRead = byteArrayInputStream.readNBytes(buffer, 0, 3);
-        System.out.println("Byte read: " +new String(buffer));// Outputs "BCD"
+        // Reading the next 2 bytes into a buffer
+        byte[] buffer = new byte[2];
+        int byteRead = byteArrayInputStream.readNBytes(buffer, 0, 2);
+        System.out.println("Byte read: " +new String(buffer));// Outputs "BC"
         // Method 3: available()
         // Checking the number of bytes available to read
         int availableBytes = byteArrayInputStream.available();
@@ -49,7 +49,7 @@ public class ByteArrayInputStreamDemo {
         byteArrayInputStream.skip(1);
         while(byteArrayInputStream.available() != 0){
             int data = byteArrayInputStream.read();
-            System.out.println(data + ", ");
+            System.out.println("Next byte after skipping: " +(char)data);
         }
         // Method 4: mark(int readAheadLimit)
         // Marking the current position in the stream
