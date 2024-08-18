@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Convert bytes to characters">
-      <change afterPath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/ByteArrayOutputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="ByteArrayOutputStream Demo">
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/ByteArrayOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/ByteArrayOutputStreamDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,14 +354,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Custom exception">
-      <option name="closed" value="true" />
-      <created>1722302782389</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1722302782390</updated>
     </task>
     <task id="LOCAL-00145" summary="Sorting elements">
       <option name="closed" value="true" />
@@ -748,7 +739,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723952677073</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="ByteArrayOutputStream Demo">
+      <option name="closed" value="true" />
+      <created>1723955048319</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1723955048319</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -764,7 +763,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Input stream class" />
     <MESSAGE value="Read and swap content in files." />
     <MESSAGE value="Copy file using input stream class." />
     <MESSAGE value="Copy file using reader class." />
@@ -789,7 +787,8 @@
     <MESSAGE value="BufferedWriterDemo" />
     <MESSAGE value="ByteArrayInputStream Demo" />
     <MESSAGE value="Convert bytes to characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert bytes to characters" />
+    <MESSAGE value="ByteArrayOutputStream Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ByteArrayOutputStream Demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

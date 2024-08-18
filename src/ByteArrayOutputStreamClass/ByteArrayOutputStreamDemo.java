@@ -1,6 +1,7 @@
 package ByteArrayOutputStreamClass;
 
 import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
