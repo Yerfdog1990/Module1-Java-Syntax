@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="ByteArrayOutputStream Demo">
-      <change afterPath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/EncryptMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/BrickHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/HouseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/WoodenHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/firstFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorators/secondFloor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +133,7 @@
     "Application.DecimalToBinary.executor": "Run",
     "Application.DecimalToHexadecimal.executor": "Run",
     "Application.DecimalToOctal.executor": "Run",
+    "Application.Decorators.Main.executor": "Run",
     "Application.DefaultValue.executor": "Run",
     "Application.DeleteCharacter.executor": "Run",
     "Application.DeleteString.executor": "Run",
@@ -356,22 +364,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00146" summary="Sum of elements in an array.">
-      <option name="closed" value="true" />
-      <created>1722309701161</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1722309701161</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Sort of elements in an array.">
-      <option name="closed" value="true" />
-      <created>1722309779700</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1722309779700</updated>
     </task>
     <task id="LOCAL-00148" summary="StackTrace">
       <option name="closed" value="true" />
@@ -749,7 +741,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723965927979</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Encrypting message">
+      <option name="closed" value="true" />
+      <created>1723972341368</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1723972341368</updated>
+    </task>
+    <task id="LOCAL-00196" summary="ByteArrayOutputStream Demo">
+      <option name="closed" value="true" />
+      <created>1723972748790</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1723972748790</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -765,7 +773,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Read and swap content in files." />
     <MESSAGE value="Copy file using input stream class." />
     <MESSAGE value="Copy file using reader class." />
     <MESSAGE value="Reader class demo." />
@@ -789,6 +796,7 @@
     <MESSAGE value="BufferedWriterDemo" />
     <MESSAGE value="ByteArrayInputStream Demo" />
     <MESSAGE value="Convert bytes to characters" />
+    <MESSAGE value="Encrypting message" />
     <MESSAGE value="ByteArrayOutputStream Demo" />
     <option name="LAST_COMMIT_MESSAGE" value="ByteArrayOutputStream Demo" />
   </component>
