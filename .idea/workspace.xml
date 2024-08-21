@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Factory as a creational pattern.">
-      <change afterPath="$PROJECT_DIR$/NIO.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programming Assignment 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaNIO/NioExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Java NIO">
+      <change afterPath="$PROJECT_DIR$/channel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaNIO/ChannelExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +102,7 @@
     "Application.Challenge3_CheckUpperCase.executor": "Run",
     "Application.Challenge3_ReverseString.executor": "Run",
     "Application.Challenge4_CheckUpperCase.executor": "Run",
+    "Application.ChannelExample.executor": "Run",
     "Application.CharToArray.executor": "Run",
     "Application.CharToByte.executor": "Run",
     "Application.CheckedExceptions.executor": "Run",
@@ -363,14 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00151" summary="Stack demo">
-      <option name="closed" value="true" />
-      <created>1722587900556</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1722587900556</updated>
     </task>
     <task id="LOCAL-00152" summary="Try-with-resources example">
       <option name="closed" value="true" />
@@ -756,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724127687197</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Java NIO">
+      <option name="closed" value="true" />
+      <created>1724248613322</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1724248613323</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -772,7 +771,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Copy file using a reader class." />
     <MESSAGE value="Reader class methods demo." />
     <MESSAGE value="Using BufferedReader to improve efficiency." />
     <MESSAGE value="Reading a file using BufferedReader to improve efficiency." />
@@ -797,7 +795,8 @@
     <MESSAGE value="Decorators" />
     <MESSAGE value="Singleton as a creational pattern" />
     <MESSAGE value="Factory as a creational pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory as a creational pattern." />
+    <MESSAGE value="Java NIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java NIO" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
