@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Java NIO">
-      <change afterPath="$PROJECT_DIR$/channel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaNIO/ChannelExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Channel example">
+      <change afterPath="$PROJECT_DIR$/src/JavaNIO/SelectorExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +216,7 @@
     "Application.SalariesAndJobTitles.executor": "Run",
     "Application.SeasonalMonths.executor": "Run",
     "Application.Seasons.executor": "Run",
+    "Application.SelectorExample.executor": "Run",
     "Application.SetCharacter.executor": "Run",
     "Application.Sets.executor": "Run",
     "Application.SingletonMethod1.executor": "Run",
@@ -362,14 +361,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Try-with-resources example">
-      <option name="closed" value="true" />
-      <created>1722599351450</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1722599351450</updated>
     </task>
     <task id="LOCAL-00153" summary=" Using multiple resources in a single try-with-resources statement.">
       <option name="closed" value="true" />
@@ -755,7 +746,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724248613323</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Channel example">
+      <option name="closed" value="true" />
+      <created>1724250555968</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1724250555968</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -771,7 +770,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Reader class methods demo." />
     <MESSAGE value="Using BufferedReader to improve efficiency." />
     <MESSAGE value="Reading a file using BufferedReader to improve efficiency." />
     <MESSAGE value="Reading a file using FileReader." />
@@ -796,7 +794,8 @@
     <MESSAGE value="Singleton as a creational pattern" />
     <MESSAGE value="Factory as a creational pattern." />
     <MESSAGE value="Java NIO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java NIO" />
+    <MESSAGE value="Channel example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Channel example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
