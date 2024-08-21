@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Path example">
-      <change afterPath="$PROJECT_DIR$/src/JavaNIO/FileExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Files example">
+      <change afterPath="$PROJECT_DIR$/src/JavaNIO/FileSystemExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +147,8 @@
     "Application.FibonacciSeries.executor": "Run",
     "Application.FibonacciSeries_IterationMethod.executor": "Run",
     "Application.FibonacciSeries_RecursiveMethod.executor": "Run",
+    "Application.FileSystemExample.executor": "Run",
+    "Application.FilesExample.executor": "Run",
     "Application.Fill_Array.executor": "Run",
     "Application.FormatString.executor": "Run",
     "Application.Generics.executor": "Run",
@@ -363,14 +365,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00156" summary="Word autocorrection">
-      <option name="closed" value="true" />
-      <created>1722919169197</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1722919169197</updated>
     </task>
     <task id="LOCAL-00157" summary="Copy file">
       <option name="closed" value="true" />
@@ -756,7 +750,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724251940399</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Files example">
+      <option name="closed" value="true" />
+      <created>1724252303868</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1724252303868</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -772,7 +774,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BufferedReader methods." />
     <MESSAGE value="InputStreamReaderClass" />
     <MESSAGE value="Copy file using FileInputStream and FileOutputStream." />
     <MESSAGE value="Externally added file using OutputStream" />
@@ -797,7 +798,8 @@
     <MESSAGE value="Selector Example" />
     <MESSAGE value="Buffer Example" />
     <MESSAGE value="Path example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Path example" />
+    <MESSAGE value="Files example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
