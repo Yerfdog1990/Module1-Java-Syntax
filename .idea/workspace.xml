@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Selector Example" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Buffer Example">
+      <change afterPath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +81,7 @@
     "Application.BooleanStartsWith.executor": "Run",
     "Application.Break_in_loop.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.BufferExample.executor": "Run",
     "Application.BufferedReaderExample.executor": "Run",
     "Application.BufferedWriterDemo.executor": "Run",
     "Application.ByteArrayInputStreamDemo.executor": "Run",
@@ -359,14 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00154" summary=" Using multiple resources in a single try-catch-finally statement.">
-      <option name="closed" value="true" />
-      <created>1722601700312</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1722601700313</updated>
     </task>
     <task id="LOCAL-00155" summary="AutoCloseable interface">
       <option name="closed" value="true" />
@@ -752,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724251319182</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="Buffer Example">
+      <option name="closed" value="true" />
+      <created>1724251543655</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1724251543655</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -768,7 +771,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Reading a file using BufferedReader to improve efficiency." />
     <MESSAGE value="Reading a file using FileReader." />
     <MESSAGE value="BufferedReader methods." />
     <MESSAGE value="InputStreamReaderClass" />
@@ -793,7 +795,8 @@
     <MESSAGE value="Java NIO" />
     <MESSAGE value="Channel example" />
     <MESSAGE value="Selector Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selector Example" />
+    <MESSAGE value="Buffer Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buffer Example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
