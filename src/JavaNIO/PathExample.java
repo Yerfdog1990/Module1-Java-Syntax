@@ -12,58 +12,108 @@ Key Features of Path:
     5.Immutability: Once a Path object is created, it is immutable.
 
 Common Methods of Path:
-    1.getFileName(): Returns the file name or the last element of the path.
-    2.getParent(): Returns the parent path, or null if there is no parent.
-    3.getRoot(): Returns the root component of the path, or null if the path is relative.
-    4.resolve(Path other): Combines the current path with the given path.
-    5.normalize(): Removes redundant elements like "." and ".." from the path.
-    6.toAbsolutePath(): Converts the path to an absolute path.
-    7.toString(): Returns the string representation of the path.
-    8.startsWith(Path other): Checks if the path starts with the given path.
-    9.endsWith(Path other): Checks if the path ends with the given path.
-    10.relativize(Path other): Constructs a relative path between this path and another path.
-    11.getFileSystem(): Returns the file system associated with the path.
+1.Path.of(): Used to create WindowsPath objects if the program is running on Windows.
+2.Path getParent(): Returns the parent directory
+3.Path getFileName(): Returns the filename without the directory
+4.Path getRoot(): Returns the root directory from a path
+5.boolean isAbsolute(): Checks whether the current path is absolute
+6.Path toAbsolutePath(): Converts the path to absolute
+7.Path normalize(): Removes wildcards in a directory name.
+8.Path resolve(Path other): Constructs a new absolute path from absolute and relative paths.
+9.Path relativize(Path other): Gets a relative path from two absolute paths.
+10.boolean startsWith(Path other): Checks whether the current path starts with a given path
+11.boolean endsWith(Path other): Checks whether the current path ends with a given path
+12.int getNameCount(): Splits the path into parts using / as a delimiter. Returns the number of parts.
+13.Path getName(int index): Splits the path into parts using / as a delimiter. Returns a part by its index.
+14.Path subpath(int beginIndex, int endIndex): Splits the path into parts using / as a delimiter. Returns the subpath that corresponds to the given interval.
+15.File toFile(): Converts a Path object to a deprecated File object
+16.URI toUri(): Converts a Path object to a URI object
  */
+import java.io.File;
+import java.net.URI;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.File;
+import java.net.URI;
+
 public class PathExample {
     public static void main(String[] args) {
-        // Create a relative path
-        Path relativePath = Paths.get("Main.java");
-        System.out.println("Relative Path: " + relativePath);
+        String str = "C:\\Users\\Yerdog\\Desktop\\Computer Science\\CS 1103 - Programming 2\\Week 6\\Programming Assignment 6.txt";
 
-        // Convert to absolute path
-        Path absolutePath = relativePath.toAbsolutePath();
-        System.out.println("Absolute Path: " + absolutePath);
+        // 1. Path.of()
+        Path path = Path.of(str);
+        System.out.println("Path: " + path);
 
-        // Get the file name from the path
-        Path fileName = absolutePath.getFileName();
+        // 2. getParent()
+        Path parent = path.getParent();
+        System.out.println("Parent Directory: " + parent);
+
+        // 3. getFileName()
+        Path fileName = path.getFileName();
         System.out.println("File Name: " + fileName);
 
-        // Get the parent directory
-        Path parentDir = absolutePath.getParent();
-        System.out.println("Parent Directory: " + parentDir);
+        // 4. getRoot()
+        Path root = path.getRoot();
+        System.out.println("Root Directory: " + root);
 
-        // Normalize the path
-        Path normalizedPath = absolutePath.normalize();
+        // 5. isAbsolute()
+        boolean isAbsolute = path.isAbsolute();
+        System.out.println("Is Absolute: " + isAbsolute);
+
+        // 6. toAbsolutePath()
+        Path absolutePath = path.toAbsolutePath();
+        System.out.println("Absolute Path: " + absolutePath);
+
+        // 7. normalize()
+        Path normalizedPath = path.normalize();
         System.out.println("Normalized Path: " + normalizedPath);
 
-        // Check if the path starts with a particular directory
-        boolean startsWithRoot = absolutePath.startsWith("/");
-        System.out.println("Starts with root: " + startsWithRoot);
+        // 8. resolve(Path other)
+        Path otherPath = Paths.get("OtherFolder");
+        Path resolvedPath = path.resolve(otherPath);
+        System.out.println("Resolved Path: " + resolvedPath);
 
-        // Check if the path ends with a particular file name
-        boolean endsWithMainJava = absolutePath.endsWith("Main.java");
-        System.out.println("Ends with Main.java: " + endsWithMainJava);
+        // 9. relativize(Path other)
+        Path basePath = Paths.get("C:\\Users\\Yerdog\\Desktop\\Computer Science");
+        Path relativePath = basePath.relativize(path);
+        System.out.println("Relative Path: " + relativePath);
 
-        // Relativize paths
-        Path anotherPath = Paths.get("/home/user/Documents");
-        Path relativeToAnother = anotherPath.relativize(absolutePath);
-        System.out.println("Relative path to another: " + relativeToAnother);
+        // 10. startsWith(Path other)
+        boolean startsWith = path.startsWith(Paths.get("C:\\Users\\Yerdog"));
+        System.out.println("Starts With 'C:\\Users\\Yerdog': " + startsWith);
 
-        // Get the file system
-        System.out.println("File System: " + relativePath.getFileSystem());
+        // 11. endsWith(Path other)
+        boolean endsWith = path.endsWith(Paths.get("Programming Assignment 6.txt"));
+        System.out.println("Ends With 'Programming Assignment 6.txt': " + endsWith);
+
+        // 12. getNameCount()
+        int nameCount = path.getNameCount();
+        System.out.println("Name Count: " + nameCount);
+
+        // 13. getName(int index)
+        Path nameAtIndex = path.getName(5);
+        System.out.println("Name at Index 5: " + nameAtIndex);
+
+        // 14. subpath(int beginIndex, int endIndex)
+        Path subPath = path.subpath(2, 6);
+        System.out.println("Subpath (2, 6): " + subPath);
+
+        // 15. toFile()
+        File file = path.toFile();
+        System.out.println("File Object: " + file);
+
+        // 16. toUri()
+        URI uri = path.toUri();
+        System.out.println("URI: " + uri);
     }
 }
+
+
+
+
+
+
 
