@@ -9,7 +9,7 @@ import java.nio.file.StandardOpenOption;
 public class ChannelBufferExample {
 
     public static void main(String[] args) {
-        Path inputPath = Path.of("C:\\Users\\Yerdog\\Desktop\\Computer Science\\CS 1103 - Programming 2\\Week 3\\Programming Assignment 3.txt"); // Source file
+        Path inputPath = Path.of("input.txt"); // Source file
         Path outputPath = Path.of("output.txt"); // Destination file
 
         try (FileChannel inputChannel = FileChannel.open(inputPath, StandardOpenOption.READ);
