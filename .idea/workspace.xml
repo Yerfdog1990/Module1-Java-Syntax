@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="ChannelBuffer Example">
-      <change afterPath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +200,7 @@
     "Application.PartOfString.executor": "Run",
     "Application.PasswordChecker.executor": "Run",
     "Application.PathExample.executor": "Run",
+    "Application.PathsExample.executor": "Run",
     "Application.Person.executor": "Run",
     "Application.Practice_Arrays.executor": "Run",
     "Application.PrimitiveDataTypes.executor": "Run",
@@ -368,14 +369,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00161" summary="Copy file using input stream class.">
-      <option name="closed" value="true" />
-      <created>1723524737325</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1723524737328</updated>
     </task>
     <task id="LOCAL-00162" summary="Copy file using reader class.">
       <option name="closed" value="true" />
@@ -761,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724309564305</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="ChannelBuffer Example">
+      <option name="closed" value="true" />
+      <created>1724310613526</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1724310613526</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
