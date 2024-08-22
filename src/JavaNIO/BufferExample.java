@@ -11,15 +11,25 @@ Key Features of Buffer:
     3.Limit: The limit is the index of the first element that should not be read or written. For a buffer in write mode, this is the capacity. For a buffer in read mode, this is the position when flip() was last called.
     4.Mark: A special position within the buffer to which you can return using the reset() method.
 
-Commonly Used Methods:
-    1.allocate(int capacity): Allocates a new buffer with the specified capacity.
-    2.flip(): Switches the buffer from write mode to read mode. It sets the limit to the current position and then sets the position to zero.
-    3.clear(): Clears the buffer, making it ready for writing. It resets the position to zero and the limit to the capacity.
-    4.rewind(): Sets the position to zero and does not change the limit. This is useful when you want to re-read the data from the buffer.
-    5.get(): Reads the byte at the buffer's current position, and then increments the position.
-    6.put(byte b): Writes the given byte into the buffer at the current position, then increments the position.
-    7.hasRemaining(): Returns true if there are elements between the current position and the limit.
-    8.compact(): Copies the remaining data to the beginning of the buffer and sets the position to just after the last remaining element.
+Methods for working with a buffer
+1.allocate(int capacity): this method is used to allocate a new buffer with the specified capacity. The allocate() method throws an IllegalArgumentException if the passed capacity is a negative integer.
+2.capacity(): returns the current buffer's capacity.
+3.position(): returns the current cursor position. Read and write operations move the cursor to the end of the buffer. The return value is always less than or equal to the limit.
+4.limit(): returns the current buffer's limit.
+5.mark(): is used to mark (save) the current cursor position.
+6.reset(): returns the cursor to the previously marked (saved) position.
+7.clear(): sets the position to zero and sets the limit to the capacity. This method does not clear the data in the buffer. It only reinitializes the position, limit, and mark.
+8.flip(): switches the buffer from write mode to read mode. It also sets the limit to the current position and then puts the position back at zero.
+9.read(): The channel's read method is used to write data from the channel to the buffer, while the buffer's put() method is used to write data to the buffer.
+10.write(): The channel's write method is used to write data from the buffer to the channel, while buffer's get() method is used to read data from the buffer.
+11.rewind(): rewinds the buffer. This method is used when you need to reread the buffer — it sets the position to zero and does not change the limit.
+
+And now a few words about channels.
+The most important channel implementations in Java NIO are the following classes:
+1.FileChannel — A channel for reading and writing data from/to a file.
+2.DatagramChannel — This class reads and writes data over the network via UDP (User Datagram Protocol).
+3.SocketChannel — A channel for reading and writing data over the network via TCP (Transmission Control Protocol).
+4.ServerSocketChannel — A channel for reading and writing data over TCP connections, just as a web server does. A SocketChannel is created for each incoming connection.
  */
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
