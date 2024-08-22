@@ -36,7 +36,7 @@ import java.nio.channels.FileChannel;
 import java.io.RandomAccessFile;
 import java.io.IOException;
 
-public class BufferExample {
+public class BufferExample1 {
     public static void main(String[] args) {
         try (RandomAccessFile file = new RandomAccessFile("example.txt", "r");
              FileChannel channel = file.getChannel()) {
