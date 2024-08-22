@@ -34,11 +34,6 @@ import java.net.URI;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.io.File;
-import java.net.URI;
-
 public class PathExample {
     public static void main(String[] args) {
         String str = "C:\\Users\\Yerdog\\Desktop\\Computer Science\\CS 1103 - Programming 2\\Week 6\\Programming Assignment 6.txt";
