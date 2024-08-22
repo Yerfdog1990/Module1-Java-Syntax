@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="ChannelBuffer Example">
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Path example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/FilesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaNIO/FilesExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,22 +369,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Copy file using reader class.">
-      <option name="closed" value="true" />
-      <created>1723524794876</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1723524794876</updated>
-    </task>
-    <task id="LOCAL-00163" summary="Reader class demo.">
-      <option name="closed" value="true" />
-      <created>1723524851250</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1723524851250</updated>
     </task>
     <task id="LOCAL-00164" summary="Copy file using a reader class.">
       <option name="closed" value="true" />
@@ -762,7 +746,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724310613526</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Paths example">
+      <option name="closed" value="true" />
+      <created>1724311015946</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1724311015946</updated>
+    </task>
+    <task id="LOCAL-00212" summary="Path example">
+      <option name="closed" value="true" />
+      <created>1724311029750</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1724311029751</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -778,7 +778,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Externally added file using OutputStream" />
     <MESSAGE value="Writer class demo" />
     <MESSAGE value="OutputStreamExample" />
     <MESSAGE value="File added externally using writer class." />
@@ -800,10 +799,11 @@
     <MESSAGE value="Selector Example" />
     <MESSAGE value="Buffer Example" />
     <MESSAGE value="Files example" />
-    <MESSAGE value="Path example" />
     <MESSAGE value="Buffer example 1" />
     <MESSAGE value="ChannelBuffer Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChannelBuffer Example" />
+    <MESSAGE value="Paths example" />
+    <MESSAGE value="Path example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Path example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
