@@ -1,6 +1,7 @@
 package DateUnixTime;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class DateDemo {
@@ -93,7 +94,9 @@ public class DateDemo {
         date.setTime(Date.parse("Jul 06 12:15:00 2019"));
         System.out.println(date);
 
-
+        //Using calendar class
+        Date dayOfBirth = new Date(90, Calendar.MARCH, 30);
+        System.out.println(dayOfBirth);
 
     }
 }
