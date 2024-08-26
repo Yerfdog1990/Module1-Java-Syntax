@@ -97,7 +97,7 @@ public class DateDemo {
         System.out.println(date);
 
         //Using calendar class
-        Date dayOfBirth = new Date(90, Calendar.MARCH, 30);
-        System.out.println(dayOfBirth);
+        Date birthDate = new Date(90, Calendar.MARCH, 30);
+        System.out.println(birthDate);
    }
 }
