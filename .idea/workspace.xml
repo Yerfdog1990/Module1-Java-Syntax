@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Local date time class demo">
-      <change afterPath="$PROJECT_DIR$/src/DateUnixTime/DateTimeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DateUnixTime/Main.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Filter weekend">
+      <change afterPath="$PROJECT_DIR$/src/DateUnixTime/InstantClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +128,7 @@
     "Application.CreateException.executor": "Run",
     "Application.DateDemo.executor": "Run",
     "Application.DateTimeAPI.executor": "Run",
+    "Application.DateUnixTime.Main.executor": "Run",
     "Application.Day.executor": "Run",
     "Application.DayClass1.executor": "Run",
     "Application.DayClass2.executor": "Run",
@@ -158,6 +158,7 @@
     "Application.FileSystemExample.executor": "Run",
     "Application.FilesExample.executor": "Run",
     "Application.Fill_Array.executor": "Run",
+    "Application.FilterWeekend.executor": "Run",
     "Application.FormatString.executor": "Run",
     "Application.Generics.executor": "Run",
     "Application.GymMembership.executor": "Run",
@@ -171,6 +172,7 @@
     "Application.InputStreamDemo.executor": "Run",
     "Application.InputStreamReaderClass.executor": "Run",
     "Application.InsertObjects.executor": "Run",
+    "Application.InstantClass.executor": "Run",
     "Application.IntegerMethods.executor": "Run",
     "Application.InterfaceDemo.Main.executor": "Run",
     "Application.JavaTypes.executor": "Run",
@@ -378,22 +380,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Writer class demo">
-      <option name="closed" value="true" />
-      <created>1723802383947</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1723802383947</updated>
-    </task>
-    <task id="LOCAL-00176" summary="OutputStreamExample">
-      <option name="closed" value="true" />
-      <created>1723802406637</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1723802406637</updated>
     </task>
     <task id="LOCAL-00177" summary="File added externally using writer class.">
       <option name="closed" value="true" />
@@ -771,7 +757,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725064501760</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Date-Time generator">
+      <option name="closed" value="true" />
+      <created>1725064985311</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1725064985311</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Filter weekend">
+      <option name="closed" value="true" />
+      <created>1725065119661</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1725065119662</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -787,8 +789,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BufferedWriterDemo" />
-    <MESSAGE value="ByteArrayInputStream Demo" />
     <MESSAGE value="Convert bytes to characters" />
     <MESSAGE value="Encrypting message" />
     <MESSAGE value="ByteArrayOutputStream Demo" />
@@ -812,7 +812,9 @@
     <MESSAGE value="Local time class demo" />
     <MESSAGE value="Local date class demo" />
     <MESSAGE value="Local date time class demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Local date time class demo" />
+    <MESSAGE value="Date-Time generator" />
+    <MESSAGE value="Filter weekend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter weekend" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
