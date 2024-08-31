@@ -9,7 +9,7 @@ The java.time package is the base package for the Java Date Time API: it contain
 The java.time.format package contains classes for time formatting, i.e. converting times (and dates) to strings and vice versa. For example, it contains the versatile DateTimeFormatter class, which replaces the SimpleDateFormat class.
 The java.time.zone package contains classes for working with time zones. It contains classes such as TimeZone and ZonedDateTime. If you're writing server code for clients located in different parts of the world, you will really need these classes.
  */
-public class DateTimeAPI {
+public class LocalDateClass {
     public static void main(String[] args) {
         //Getting the current date
         LocalDateTime today = LocalDateTime.now();
