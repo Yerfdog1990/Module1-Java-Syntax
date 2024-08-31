@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Pocket teleporter">
-      <change afterPath="$PROJECT_DIR$/src/DateUnixTime/DateTimeAPI.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Date-Time API demo">
+      <change afterPath="$PROJECT_DIR$/src/DateUnixTime/LocalTimeClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +188,7 @@
     &quot;Application.LogarithmicTimeExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.LowerCaseString.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModernTimeDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Month.executor&quot;: &quot;Run&quot;,
     &quot;Application.MultipleResourcesExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.NextWordSuggestion.executor&quot;: &quot;Run&quot;,
@@ -375,14 +376,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00171" summary="InputStreamReaderClass">
-      <option name="closed" value="true" />
-      <created>1723798477593</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1723798477593</updated>
     </task>
     <task id="LOCAL-00172" summary="OutputStreamExample">
       <option name="closed" value="true" />
@@ -768,7 +761,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724851125383</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Date-Time API demo">
+      <option name="closed" value="true" />
+      <created>1724971749708</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1724971749708</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -784,7 +785,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="External file added using FileWriter." />
     <MESSAGE value="Read from console using Scanner and BufferedReader" />
     <MESSAGE value="Write character to a file." />
     <MESSAGE value="Externally added file using BufferedReader" />
@@ -809,7 +809,8 @@
     <MESSAGE value="Working with dates." />
     <MESSAGE value="Calendar class demo" />
     <MESSAGE value="Pocket teleporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pocket teleporter" />
+    <MESSAGE value="Date-Time API demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date-Time API demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
