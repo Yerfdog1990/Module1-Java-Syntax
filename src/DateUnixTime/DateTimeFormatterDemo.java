@@ -66,5 +66,14 @@ public class DateTimeFormatterDemo {
 
         // RFC_1123_DATE_TIME - RFC 1123 / RFC 822
         System.out.println("RFC 1123 DateTime: " + zonedDateTime.format(DateTimeFormatter.RFC_1123_DATE_TIME));
+
+        //Parsing time
+        DateTimeFormatter parseDate = DateTimeFormatter.ofPattern("MMMM-dd-yyyy");
+        LocalDate localDate = LocalDate.parse("February-23-2019", parseDate);
+        System.out.println(localDate);
+
+        DateTimeFormatter parseTime = DateTimeFormatter.ofPattern("HH:mm:ss");
+        LocalTime localTime = LocalTime.parse("23:59:59", parseTime);
+        System.out.println(localTime);
     }
 }
