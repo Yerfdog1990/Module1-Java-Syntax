@@ -1,30 +1,52 @@
 package Project2_CodeGym;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    //Main method
-    public static void main(String[] args) {
-        Map<String, Integer> wordCountDictionary = new HashMap<>();
-        wordCountDictionary.put("the", 84382);
-        wordCountDictionary.put("it", 6278);
-        wordCountDictionary.put("a", 83412);
-        wordCountDictionary.put("then", 2045);
-        wordCountDictionary.put("thee", 300);
-        wordCountDictionary.put("there", 45);
-        wordCountDictionary.put("you", 94689);
 
+    // Main method
+    public static void main(String[] args) {
+        // Initialize the dictionary map
+        Map<String, Integer> wordCountDictionary = new HashMap<>();
+
+        // Try-with-resources block to read the dictionary file
+        try (BufferedReader reader = new BufferedReader(new FileReader("dictionary.txt"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(" ");
+                if (parts.length == 2) {
+                    String word = parts[0];
+                    try {
+                        int count = Integer.parseInt(parts[1]);
+                        wordCountDictionary.put(word, count);
+                    } catch (NumberFormatException e) {
+                        System.err.println("Invalid count format for word: " + word);
+                    }
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error reading dictionary file: " + e.getMessage());
+            return;
+        }
+
+        // Initialize autocorrectimplementation with the loaded dictionary
         autocorrectimplementation autocorrection = new autocorrectimplementation(wordCountDictionary);
+
+        // Read user input and perform correction
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter misspelled word: ");
         String misSpelledWord = userInput.nextLine();
         String correction = autocorrection.correct(misSpelledWord);
-        if(wordCountDictionary.containsKey(misSpelledWord)){
-            System.out.printf("Your spelling of \"%s\" was correct.", misSpelledWord);
-        }else{
-            System.out.printf("Did you mean \"%s\" in stead of \"%s\"?", correction, misSpelledWord);
+
+        if (wordCountDictionary.containsKey(misSpelledWord)) {
+            System.out.printf("Your spelling of \"%s\" was correct.%n", misSpelledWord);
+        } else {
+            System.out.printf("Did you mean \"%s\" instead of \"%s\"?%n", correction, misSpelledWord);
         }
     }
 }
