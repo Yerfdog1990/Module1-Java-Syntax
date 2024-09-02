@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Autocorrection project">
-      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Added timestamp and reading word dictionary from a file">
       <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/Cipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2_CodeGym/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -200,6 +204,7 @@
     "Application.LogarithmicTimeExample.executor": "Run",
     "Application.LowerCaseString.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Run",
     "Application.ModernTimeDemo.executor": "Run",
     "Application.Month.executor": "Run",
     "Application.MultipleResourcesExample.executor": "Run",
@@ -389,14 +394,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00183" summary="BufferedWriterDemo">
-      <option name="closed" value="true" />
-      <created>1723869558075</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1723869558075</updated>
     </task>
     <task id="LOCAL-00184" summary="Externally added file using BufferedReader">
       <option name="closed" value="true" />
@@ -782,7 +779,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725279858451</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Added timestamp and reading word dictionary from a file">
+      <option name="closed" value="true" />
+      <created>1725281671314</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1725281671314</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -798,7 +803,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Factory as a creational pattern." />
     <MESSAGE value="Java NIO" />
     <MESSAGE value="Channel example" />
     <MESSAGE value="Selector Example" />
@@ -823,7 +827,8 @@
     <MESSAGE value="Date time formatter demo" />
     <MESSAGE value="Caesar cipher demo project" />
     <MESSAGE value="Autocorrection project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autocorrection project" />
+    <MESSAGE value="Added timestamp and reading word dictionary from a file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added timestamp and reading word dictionary from a file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
