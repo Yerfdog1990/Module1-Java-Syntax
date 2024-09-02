@@ -15,4 +15,5 @@ public interface autocorrect {
     double calculateWordProbability(String word);
     // Method to find the best correction
     String correct(String word);
+
 }

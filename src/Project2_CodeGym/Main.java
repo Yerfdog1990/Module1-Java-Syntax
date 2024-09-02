@@ -3,6 +3,7 @@ package Project2_CodeGym;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -41,12 +42,26 @@ public class Main {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter misspelled word: ");
         String misSpelledWord = userInput.nextLine();
+
+        // Capture start time
+        Instant start = Instant.now();
+
+        // Perform correction
         String correction = autocorrection.correct(misSpelledWord);
+
+        // Capture end time
+        Instant end = Instant.now();
+
+        // Calculate duration
+        long duration = java.time.Duration.between(start, end).toMillis();
 
         if (wordCountDictionary.containsKey(misSpelledWord)) {
             System.out.printf("Your spelling of \"%s\" was correct.%n", misSpelledWord);
         } else {
             System.out.printf("Did you mean \"%s\" instead of \"%s\"?%n", correction, misSpelledWord);
         }
+
+        // Print the time taken
+        System.out.printf("Time taken for correction: %d milliseconds%n", duration);
     }
 }
