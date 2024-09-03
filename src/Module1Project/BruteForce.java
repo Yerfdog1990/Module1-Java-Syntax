@@ -1,44 +1,41 @@
 package Module1Project;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public class BruteForce {
     private final Cipher cipher;
 
     public BruteForce(Cipher cipher) {
         this.cipher = cipher;
     }
-    public String decryptByBruteForce(String encryptedText) {
-        String bestGuess = "";
-        int maxMatchCount = 0;
+    // Method to perform brute force decryption from input file to output file
+    public void bruteForce(String inputFile, String outputFile, String optionalSampleFile) throws IOException {
+        // Read the encrypted text from the input file
+        String encryptedText = new String(Files.readAllBytes(Paths.get(inputFile)));
 
-        // Iterate over all possible shifts (from 1 to the length of the alphabet)
-        for (int i = 1; i < cipher.getAlphabet().length(); i++) {
-            String decryptedText = cipher.decrypt(encryptedText, i);
-            int matchCount = countMatchingWords(decryptedText);
-
-            // Keep track of the best guess with the highest match count
-            if (matchCount > maxMatchCount) {
-                maxMatchCount = matchCount;
-                bestGuess = decryptedText;
-            }
+        // Optional: Use representative text for statistical analysis
+        String representativeText = null;
+        if (optionalSampleFile != null) {
+            representativeText = new String(Files.readAllBytes(Paths.get(optionalSampleFile)));
         }
-        return bestGuess;
-    }
-    private int countMatchingWords(String text) {
-        // Split the text into words
-        String[] words = text.split("\\W+");
-        int count = 0;
 
-        // List of common words to match against (for simplicity)
-        String[] commonWords = {"the", "and", "of", "to", "in", "a", "that", "is", "with", "for"};
+        // Try all possible shifts
+        StringBuilder bruteForceResults = new StringBuilder();
+        for (int shiftKey = 1; shiftKey < cipher.getAlphabet().length(); shiftKey++) {
+            // Decrypt the text with the current shift key
+            String decryptedText = cipher.decrypt(encryptedText, shiftKey);
 
-        // Count how many words in the text are common words
-        for (String word : words) {
-            for (String commonWord : commonWords) {
-                if (word.equalsIgnoreCase(commonWord)) {
-                    count++;
-                }
-            }
+            // Append the result to the StringBuilder
+            bruteForceResults.append("Shift Key ").append(shiftKey).append(": ")
+                    .append(decryptedText).append("\n");
         }
-        return count;
+        // Write the brute force results to the output file
+        try (FileWriter writer = new FileWriter(outputFile)) {
+            writer.write(bruteForceResults.toString());
+        }
     }
 }
