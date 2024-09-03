@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Implemented BruteForce class.">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Added inputFile and outFile to StatisticalAnalyzer class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Cipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,46 +393,6 @@
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
     </task>
-    <task id="LOCAL-00189" summary="ByteArrayInputStream Demo">
-      <option name="closed" value="true" />
-      <created>1723917821131</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1723917821131</updated>
-    </task>
-    <task id="LOCAL-00190" summary="ByteArrayInputStream Demo">
-      <option name="closed" value="true" />
-      <created>1723951302468</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1723951302468</updated>
-    </task>
-    <task id="LOCAL-00191" summary="Convert bytes to characters">
-      <option name="closed" value="true" />
-      <created>1723952636542</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1723952636542</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Convert bytes to characters">
-      <option name="closed" value="true" />
-      <created>1723952677073</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1723952677073</updated>
-    </task>
-    <task id="LOCAL-00193" summary="ByteArrayOutputStream Demo">
-      <option name="closed" value="true" />
-      <created>1723955048319</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1723955048319</updated>
-    </task>
     <task id="LOCAL-00194" summary="ByteArrayOutputStream Demo">
       <option name="closed" value="true" />
       <created>1723965927963</created>
@@ -783,7 +745,47 @@
       <option name="project" value="LOCAL" />
       <updated>1725365572544</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="Added inputFile and outFile to Cipher class">
+      <option name="closed" value="true" />
+      <created>1725401778757</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1725401778757</updated>
+    </task>
+    <task id="LOCAL-00239" summary="Added inputFile and outFile to CaesarCipher interface class">
+      <option name="closed" value="true" />
+      <created>1725401804407</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1725401804407</updated>
+    </task>
+    <task id="LOCAL-00240" summary="Added inputFile, outFile, and optionalSampleFileto BruteForce class">
+      <option name="closed" value="true" />
+      <created>1725402247900</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1725402247900</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Added a getter to access the private alphabet field in the Cipher class from the BruteForce class">
+      <option name="closed" value="true" />
+      <created>1725402411956</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1725402411957</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Added inputFile and outFile to StatisticalAnalyzer class">
+      <option name="closed" value="true" />
+      <created>1725402857100</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1725402857100</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -799,12 +801,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Files example" />
-    <MESSAGE value="Buffer example 1" />
-    <MESSAGE value="ChannelBuffer Example" />
-    <MESSAGE value="Paths example" />
-    <MESSAGE value="Path example" />
-    <MESSAGE value="Working with files" />
     <MESSAGE value="Working with dates." />
     <MESSAGE value="Calendar class demo" />
     <MESSAGE value="Pocket teleporter" />
@@ -824,7 +820,13 @@
     <MESSAGE value="Implemented StaticalAnalyzer class" />
     <MESSAGE value="Added a getter (getAlphabet() method) in Cipher class" />
     <MESSAGE value="Implemented BruteForce class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented BruteForce class." />
+    <MESSAGE value="Added inputFile and outFile to Cipher class" />
+    <MESSAGE value="Added inputFile and outFile to CaesarCipher interface class" />
+    <MESSAGE value="Added inputFile, outFile, and optionalSampleFileto BruteForce class" />
+    <MESSAGE value="Added a getter to access the private alphabet field in the Cipher class from the BruteForce class" />
+    <MESSAGE value="inputFile, outFile, and optionalSampleFileto BruteForce class" />
+    <MESSAGE value="Added inputFile and outFile to StatisticalAnalyzer class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inputFile and outFile to StatisticalAnalyzer class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
