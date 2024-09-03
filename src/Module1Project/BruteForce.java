@@ -6,7 +6,6 @@ public class BruteForce {
     public BruteForce(Cipher cipher) {
         this.cipher = cipher;
     }
-
     public String decryptByBruteForce(String encryptedText) {
         String bestGuess = "";
         int maxMatchCount = 0;
@@ -24,7 +23,6 @@ public class BruteForce {
         }
         return bestGuess;
     }
-
     private int countMatchingWords(String text) {
         // Split the text into words
         String[] words = text.split("\\W+");

@@ -8,6 +8,8 @@ public class MainApp {
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         Cipher cipher = new Cipher(alphabet);
 
+        BruteForce bruteForce = new BruteForce(cipher);
+
         try (Scanner userInput = new Scanner(System.in)){
             System.out.print("Enter text to encrypt: ");
             String plaintext = userInput.nextLine();
@@ -16,8 +18,9 @@ public class MainApp {
             String encryptedText = cipher.encrypt(plaintext, key);
             System.out.println("Encrypted Text: " + encryptedText);
 
-            String decryptedText = cipher.decrypt(encryptedText, key);
-            System.out.println("Decrypted Text: " + decryptedText);
+            String decryptedText = bruteForce.decryptByBruteForce(encryptedText);
+            System.out.println("Decrypted Text (Brute Force): " + decryptedText);
+
         }
     }
 }
