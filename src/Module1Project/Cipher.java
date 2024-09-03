@@ -6,7 +6,9 @@ public class Cipher implements CaesarCipher{
     public Cipher(String alphabet) {
         this.alphabet = alphabet.toLowerCase();
     }
-
+    public String getAlphabet() {
+        return alphabet;
+    }
     @Override
     //Method to implement encryption logic
     public String encrypt(String text, int shiftKey) {
