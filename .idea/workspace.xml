@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Implemented BruteForce class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Cipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -387,14 +390,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00188" summary="ByteArrayInputStream Demo">
-      <option name="closed" value="true" />
-      <created>1723917784675</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1723917784675</updated>
     </task>
     <task id="LOCAL-00189" summary="ByteArrayInputStream Demo">
       <option name="closed" value="true" />
@@ -780,7 +775,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725363985760</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="Implemented BruteForce class.">
+      <option name="closed" value="true" />
+      <created>1725365572544</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1725365572544</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

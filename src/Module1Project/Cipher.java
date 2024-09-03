@@ -1,17 +1,37 @@
 package Module1Project;
 
-public class Cipher implements CaesarCipher{
+import java.io.*;
+
+public class Cipher implements CaesarCipher {
     private final String alphabet;
 
     public Cipher(String alphabet) {
         this.alphabet = alphabet.toLowerCase();
     }
-    public String getAlphabet() {
-        return alphabet;
+    @Override
+    public void encrypt(File inputFile, File outputFile, int key) throws IOException {
+        processFile(inputFile, outputFile, key, true);
     }
     @Override
-    //Method to implement encryption logic
-    public String encrypt(String text, int shiftKey) {
+    public void decrypt(File inputFile, File outputFile, int key) throws IOException {
+        processFile(inputFile, outputFile, key, false);
+    }
+    // Helper method to process the file and perform encryption or decryption
+    private void processFile(File inputFile, File outputFile, int key, boolean isEncrypt) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String processedLine = isEncrypt ? encrypt(line, key) : decrypt(line, key);
+                writer.write(processedLine);
+                writer.newLine();
+            }
+        }
+    }
+
+    // Method to implement encryption logic for a string
+    private String encrypt(String text, int shiftKey) {
         // Validate input
         if (!validateInput(text)) {
             throw new IllegalArgumentException("Input contains invalid characters.");
@@ -26,10 +46,8 @@ public class Cipher implements CaesarCipher{
         }
         return encryptStr.toString();
     }
-
-    @Override
-    //Method to implement decryption logic
-    public String decrypt(String text, int shiftKey) {
+    // Method to implement decryption logic for a string
+    private String decrypt(String text, int shiftKey) {
         // Validate input
         if (!validateInput(text)) {
             throw new IllegalArgumentException("Input contains invalid characters.");
@@ -44,7 +62,7 @@ public class Cipher implements CaesarCipher{
         }
         return decryptStr.toString();
     }
-    //Helper method to shift characters
+    // Helper method to shift characters based on the shift key
     private char shiftCharacter(char c, int shift) {
         // Find the position of the character in the alphabet
         int pos = alphabet.indexOf(c);
@@ -65,7 +83,7 @@ public class Cipher implements CaesarCipher{
             return c;
         }
     }
-    //Input validation logic
+    // Input validation logic to ensure the text contains only valid characters
     private boolean validateInput(String text) {
         // Define a set of accepted punctuation marks
         String validPunctuation = "`. , ? ! : ; ' \" - — ( ) [ ] { } ... / \\ < > | _ * & @ # $ % ^ ~ ``";
