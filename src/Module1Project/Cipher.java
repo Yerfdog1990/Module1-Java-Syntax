@@ -8,6 +8,11 @@ public class Cipher implements CaesarCipher {
     public Cipher(String alphabet) {
         this.alphabet = alphabet.toLowerCase();
     }
+
+    public String getAlphabet() {
+        return alphabet;
+    }
+
     @Override
     public void encrypt(File inputFile, File outputFile, int key) throws IOException {
         processFile(inputFile, outputFile, key, true);
@@ -47,7 +52,7 @@ public class Cipher implements CaesarCipher {
         return encryptStr.toString();
     }
     // Method to implement decryption logic for a string
-    private String decrypt(String text, int shiftKey) {
+    String decrypt(String text, int shiftKey) {
         // Validate input
         if (!validateInput(text)) {
             throw new IllegalArgumentException("Input contains invalid characters.");
