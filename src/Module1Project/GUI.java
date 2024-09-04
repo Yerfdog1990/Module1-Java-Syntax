@@ -45,7 +45,6 @@ public class GUI {
         this.keyFile = keyFile;
         createAndShowGUI();
     }
-
     private void createAndShowGUI() {
         // Create and set up the window
         JFrame frame = new JFrame("Cipher Crypto Application");
@@ -65,7 +64,7 @@ public class GUI {
 
         // Apply styles
         Font font = new Font("Arial", Font.BOLD, 20);
-        Color glowingColor = new Color(245, 235, 250); // Light lavender or pale lilac for glow effect
+        Color glowingColor = new Color(245, 235, 250); // Light lavender or pale lilac for glow effect.
 
         encryptButton.setFont(font);
         encryptButton.setForeground(glowingColor);
