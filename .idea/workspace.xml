@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Added inputFile and outFile to StatisticalAnalyzer class">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Validation of input data such as file existence, key validity.">
+      <change afterPath="$PROJECT_DIR$/src/Module1Project/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/CaesarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Cipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +171,7 @@
     &quot;Application.Fill_Array.executor&quot;: &quot;Run&quot;,
     &quot;Application.FilterWeekend.executor&quot;: &quot;Run&quot;,
     &quot;Application.FormatString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GUI.executor&quot;: &quot;Run&quot;,
     &quot;Application.Generics.executor&quot;: &quot;Run&quot;,
     &quot;Application.GymMembership.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
@@ -392,14 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00194" summary="ByteArrayOutputStream Demo">
-      <option name="closed" value="true" />
-      <created>1723965927963</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1723965927979</updated>
     </task>
     <task id="LOCAL-00195" summary="Encrypting message">
       <option name="closed" value="true" />
@@ -785,7 +780,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725402857100</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Validation of input data such as file existence, key validity.">
+      <option name="closed" value="true" />
+      <created>1725403717322</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1725403717322</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -801,7 +804,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working with dates." />
     <MESSAGE value="Calendar class demo" />
     <MESSAGE value="Pocket teleporter" />
     <MESSAGE value="Date-Time API demo" />
@@ -826,7 +828,8 @@
     <MESSAGE value="Added a getter to access the private alphabet field in the Cipher class from the BruteForce class" />
     <MESSAGE value="inputFile, outFile, and optionalSampleFileto BruteForce class" />
     <MESSAGE value="Added inputFile and outFile to StatisticalAnalyzer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added inputFile and outFile to StatisticalAnalyzer class" />
+    <MESSAGE value="Validation of input data such as file existence, key validity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation of input data such as file existence, key validity." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
