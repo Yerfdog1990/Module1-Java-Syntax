@@ -1,28 +1,30 @@
 package Module1Project;
 
-import java.util.Scanner;
-
 public class MainApp {
+    private static final String basePath = "C:\\Users\\Yerdog\\Desktop\\CodeGym\\Module 1 - Java Syntax\\Module 1 project\\";
+    private static final String inputEncryptFile = basePath + "inputEncrypt.txt";
+    private static final String outputEncryptFile = basePath + "outputEncrypt.txt";
+    private static final String inputDecryptFile = basePath + "inputDecrypt.txt";
+    private static final String outputDecryptFile = basePath + "outputDecrypt.txt";
+    private static final String inputBruteForceFile = basePath + "inputBruteForce.txt";
+    private static final String outputBruteForceFile = basePath + "outputBruteForce.txt";
+    private static final String inputStatAnalysisFile = basePath + "inputStatAnalysis.txt";
+    private static final String outputStatAnalysisFile = basePath + "outputStatAnalysis.txt";
+    private static final String sampleFile = basePath + "sample.txt";
+    private static final String keyFile = basePath + "encryptionKey.txt";
+
     public static void main(String[] args) {
-        // Example usage of the Cipher class
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
-        Cipher cipher = new Cipher(alphabet);
-
+        // Initialize components
+        FileManager fileManager = new FileManager();
+        Cipher cipher = new Cipher("abcdefghijklmnopqrstuvwxyz", fileManager);
         BruteForce bruteForce = new BruteForce(cipher);
+        StatisticalAnalyzer statisticalAnalyzer = new StatisticalAnalyzer();
+        Validator validator = new Validator();
 
-        try (Scanner userInput = new Scanner(System.in)){
-            System.out.print("Enter text to encrypt: ");
-            String plaintext = userInput.nextLine();
-            System.out.print("Enter key: ");
-            int key = userInput.nextInt();
-            String encryptedText = cipher.encrypt(plaintext, key);
-            System.out.println("Encrypted Text: " + encryptedText);
-
-            String decryptedText = bruteForce.decryptByBruteForce(encryptedText);
-            System.out.println("Decrypted Text (Brute Force): " + decryptedText);
-
-        }
+        // Launch GUI
+        new GUI(fileManager, cipher, bruteForce, statisticalAnalyzer, validator,
+                inputEncryptFile, outputEncryptFile, inputDecryptFile, outputDecryptFile,
+                inputBruteForceFile, outputBruteForceFile, inputStatAnalysisFile, outputStatAnalysisFile,
+                sampleFile, keyFile);
     }
 }
-
-
