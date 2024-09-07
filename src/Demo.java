@@ -10,6 +10,7 @@ public class Demo {
             int key = userInput.nextInt();
             System.out.println("Encrypted text: " +encrypt(text, key));
             System.out.println("Decrypted text: " +decrypt(encrypt(text, key), -key));
+            System.out.println("Brutal force result: \n" +bruteForce(text));
         }
     }
     private static String encrypt(String text, int shiftKey){
@@ -58,5 +59,15 @@ public class Demo {
             }
         }
         return true;
+    }
+    public static String bruteForce(String input){
+        //Initialize the String Builder
+        StringBuilder bruteForceResult = new StringBuilder();
+        //Iterate over each letter in the alphabet
+        for (int shiftKey = 0; shiftKey < alphabet.length(); shiftKey++) {
+            String decryptedText = decrypt(input, shiftKey);
+            bruteForceResult.append("Shift key ").append(shiftKey).append(": ").append(decryptedText).append("\n");
+        }
+        return bruteForceResult.toString();
     }
 }
