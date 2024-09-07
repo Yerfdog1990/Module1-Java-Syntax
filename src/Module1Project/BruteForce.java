@@ -1,10 +1,7 @@
 package Module1Project;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.*;
+import java.nio.file.*;
 
 public class BruteForce {
     private final Cipher cipher;
@@ -27,7 +24,7 @@ public class BruteForce {
         StringBuilder bruteForceResults = new StringBuilder();
         for (int shiftKey = 1; shiftKey < cipher.getAlphabet().length(); shiftKey++) {
             // Decrypt the text with the current shift key
-            String decryptedText = cipher.decrypt(encryptedText, shiftKey);
+            String decryptedText = cipher.decryptionLogic(encryptedText, shiftKey);
 
             // Append the result to the StringBuilder
             bruteForceResults.append("Shift Key ").append(shiftKey).append(": ")
