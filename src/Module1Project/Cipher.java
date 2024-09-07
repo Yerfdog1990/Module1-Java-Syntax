@@ -2,7 +2,7 @@ package Module1Project;
 
 import java.io.*;
 //Class to implement the CaesarCipher interface
-public class Cipher implements CaesarCipher {
+public abstract class Cipher implements CaesarCipher, AutoCloseable {
     //Declare alphabet and fileManager attributes
     private final String alphabet;
     private final FileManager fileManager;
@@ -32,7 +32,7 @@ public class Cipher implements CaesarCipher {
     private void processFile(File inputFile, File outputFile, int key, boolean isEncrypt) throws IOException {
         // Read the file content using FileManager
         String inputContent = fileManager.readFile(inputFile.getPath());
-        // Use ternary operator to perform either encryption or decryption logic on the content
+        // Encrypt or decrypt the content
         String processedContent = isEncrypt ? encryptionLogic(inputContent, key) : decryptionLogic(inputContent, key);
         // Write the processed content to the output file using FileManager
         fileManager.writeFile(processedContent, outputFile.getPath());
