@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Updated Demo class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Finished reviewing the BruteForce class designed to decrypt an encrypted text file by attempting all possible shift keys using a brute-force approach.">
       <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" afterDir="false" />
@@ -393,14 +391,6 @@
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
     </task>
-    <task id="LOCAL-00205" summary="Files example">
-      <option name="closed" value="true" />
-      <created>1724252303868</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1724252303868</updated>
-    </task>
     <task id="LOCAL-00206" summary="Path example">
       <option name="closed" value="true" />
       <created>1724307868712</created>
@@ -785,7 +775,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725685485516</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="Finished reviewing the BruteForce class designed to decrypt an encrypted text file by attempting all possible shift keys using a brute-force approach.">
+      <option name="closed" value="true" />
+      <created>1725714560140</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1725714560141</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -801,7 +799,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Caesar cipher demo project" />
     <MESSAGE value="Autocorrection project" />
     <MESSAGE value="Added timestamp and reading word dictionary from a file" />
     <MESSAGE value="Created the project structure, implement encryption logic, implement decryption logic, helper method to shift characters, and input validation logic. First testing of the project worked perfectly to produce both encrypted and decrypted test." />
@@ -826,7 +823,8 @@
     <MESSAGE value="Completed reviewing the validator method." />
     <MESSAGE value="Reviewed BruteForce class" />
     <MESSAGE value="Updated Demo class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Demo class" />
+    <MESSAGE value="Finished reviewing the BruteForce class designed to decrypt an encrypted text file by attempting all possible shift keys using a brute-force approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished reviewing the BruteForce class designed to decrypt an encrypted text file by attempting all possible shift keys using a brute-force approach." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

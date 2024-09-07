@@ -23,7 +23,7 @@ public class BruteForce {
             String decryptedText = cipher.decryptionLogic(encryptedText, shiftKey);
 
             // Append the result to the StringBuilder
-            bruteForceResults.append("Shift Key: ").append(shiftKey).append(decryptedText).append("\n");
+            bruteForceResults.append("Shift Key ").append(shiftKey).append(": ").append(decryptedText).append("\n");
         }
         // Write the brute force results to the output file
         try (FileWriter writer = new FileWriter(outputFile)) {
