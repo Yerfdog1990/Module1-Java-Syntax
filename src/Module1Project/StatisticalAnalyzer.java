@@ -18,7 +18,6 @@ public class StatisticalAnalyzer {
         } else {
             throw new IllegalArgumentException("Representative text is required for statistical analysis.");
         }
-
         // Find the most likely shift key
         int mostLikelyShift = findMostLikelyShift(encryptedText, representativeText);
 
@@ -27,7 +26,6 @@ public class StatisticalAnalyzer {
             writer.write("Most likely shift key: " + mostLikelyShift);
         }
     }
-
     // Method to find the most likely shift key
     public int findMostLikelyShift(String encryptedText, String representativeText) {
         char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
@@ -59,7 +57,6 @@ public class StatisticalAnalyzer {
         // Return the most likely shift key
         return bestShift;
     }
-
     // Helper method to calculate the frequency distribution of a text
     private Map<Character, Double> calculateFrequencyDistribution(String text, char[] alphabet) {
         Map<Character, Double> frequencyMap = new HashMap<>();
@@ -68,14 +65,12 @@ public class StatisticalAnalyzer {
         for (char c : alphabet) {
             frequencyMap.put(c, 0.0);
         }
-
         // Count occurrences of each character
         for (char c : text.toCharArray()) {
             if (frequencyMap.containsKey(c)) {
                 frequencyMap.put(c, frequencyMap.get(c) + 1);
             }
         }
-
         // Convert counts to frequencies
         int totalChars = text.length();
         for (char c : frequencyMap.keySet()) {
@@ -83,11 +78,9 @@ public class StatisticalAnalyzer {
         }
         return frequencyMap;
     }
-
     // Helper method to decrypt text with a given shift
     private String decryptWithShift(String text, char[] alphabet, int shift) {
         StringBuilder decryptedText = new StringBuilder();
-
         for (char c : text.toCharArray()) {
             int pos = new String(alphabet).indexOf(c);
             if (pos != -1) {
@@ -102,15 +95,13 @@ public class StatisticalAnalyzer {
         }
         return decryptedText.toString();
     }
-
     // Helper method to calculate the difference between two frequency distributions
     private double calculateDifference(Map<Character, Double> freq1, Map<Character, Double> freq2, char[] alphabet) {
         double difference = 0.0;
-
         for (char c : alphabet) {
             difference += Math.abs(freq1.get(c) - freq2.get(c));
         }
-
         return difference;
     }
 }
+
