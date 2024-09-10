@@ -45,6 +45,7 @@ public class GUI {
         this.keyFile = keyFile;
         createAndShowGUI();
     }
+
     private void createAndShowGUI() {
         // Create and set up the window
         JFrame frame = new JFrame("Cipher Crypto Application");
@@ -131,8 +132,30 @@ public class GUI {
     private void showEncryptDialog() {
         String textToEncrypt = JOptionPane.showInputDialog("Enter text to encrypt:");
         if (textToEncrypt != null) {
+            boolean validKey = false;
+            int key = -1;
+
+            // Loop to repeatedly prompt for a valid key
+            while (!validKey) {
+                try {
+                    String keyInput = JOptionPane.showInputDialog("Enter encryption key:");
+                    if (keyInput == null) {
+                        return; // User cancelled the key input dialog
+                    }
+                    key = Integer.parseInt(keyInput);
+
+                    // Validate the key using Validator
+                    if (!validator.isValidKey(key, "abcdefghijklmnopqrstuvwxyz".toCharArray())) {
+                        JOptionPane.showMessageDialog(null, "Invalid key. Please enter a valid key between 0 and 25.");
+                    } else {
+                        validKey = true;
+                    }
+                } catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null, "Invalid key. Please enter a number.");
+                }
+            }
+
             try {
-                int key = Integer.parseInt(JOptionPane.showInputDialog("Enter encryption key:"));
                 fileManager.writeFile(textToEncrypt, inputEncryptFile);
                 cipher.encrypt(new File(inputEncryptFile), new File(outputEncryptFile), key);
                 fileManager.writeFile(fileManager.readFile(outputEncryptFile), inputDecryptFile);
@@ -140,8 +163,6 @@ public class GUI {
                 fileManager.writeFile(fileManager.readFile(outputEncryptFile), inputStatAnalysisFile);
                 fileManager.writeFile(String.valueOf(key), keyFile);
                 JOptionPane.showMessageDialog(null, "Encryption successful.\nEncrypted text:\n" + fileManager.readFile(outputEncryptFile));
-            } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Invalid key. Please enter a number.");
             } catch (IOException e) {
                 JOptionPane.showMessageDialog(null, "Error during file operations.");
             }
@@ -152,6 +173,11 @@ public class GUI {
     private void showDecryptDialog() {
         try {
             int key = Integer.parseInt(fileManager.readFile(keyFile).trim());
+            // Validate the key using Validator
+            if (!validator.isValidKey(key, "abcdefghijklmnopqrstuvwxyz".toCharArray())) {
+                JOptionPane.showMessageDialog(null, "Invalid key in key file. The key should be valid.");
+                return;
+            }
             cipher.decrypt(new File(outputEncryptFile), new File(outputDecryptFile), key);
             JOptionPane.showMessageDialog(null, "Decryption successful.\nDecrypted text:\n" + fileManager.readFile(outputDecryptFile));
         } catch (NumberFormatException e) {
@@ -164,7 +190,7 @@ public class GUI {
     // Method to handle brute force attack
     private void showBruteForceDialog() {
         try {
-            bruteForce.bruteForce(inputBruteForceFile, outputBruteForceFile, sampleFile);
+            bruteForce.bruteForce(inputBruteForceFile, outputBruteForceFile);
             JOptionPane.showMessageDialog(null, "Brute force attack completed.\nResults:\n" + fileManager.readFile(outputBruteForceFile));
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "Error during brute force operation.");
