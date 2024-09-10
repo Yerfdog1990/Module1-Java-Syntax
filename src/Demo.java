@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Demo {
@@ -11,6 +13,7 @@ public class Demo {
             System.out.println("Encrypted text: " +encrypt(text, key));
             System.out.println("Decrypted text: " +decrypt(encrypt(text, key), -key));
             System.out.println("Brutal force result: \n" +bruteForce(text));
+            System.out.println("Frequency of each character: \n" +calculateFrequency(text, text.toCharArray()));
         }
     }
     private static String encrypt(String text, int shiftKey){
@@ -69,5 +72,20 @@ public class Demo {
             bruteForceResult.append("Shift key ").append(shiftKey).append(": ").append(decryptedText).append("\n");
         }
         return bruteForceResult.toString();
+    }
+    private static Map<Character, Double> calculateFrequency (String text, char[] alphabet){
+        Map<Character, Double> frequencyMap = new HashMap<>();
+        for(char c : alphabet){
+            frequencyMap.put(c, 0.0);
+        }
+        for(char c : text.toCharArray()){
+            if(frequencyMap.containsKey(c)){
+                frequencyMap.put(c, frequencyMap.get(c)+1);
+            }
+        }
+        for(char c : frequencyMap.keySet()){
+            frequencyMap.put(c, frequencyMap.get(c)/ alphabet.length);
+        }
+        return frequencyMap;
     }
 }
