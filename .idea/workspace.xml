@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Completed reviewing StatisticalAnalyzer class.">
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Cipher cryptography demo class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,30 +388,6 @@
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
     </task>
-    <task id="LOCAL-00209" summary="ChannelBuffer Example">
-      <option name="closed" value="true" />
-      <created>1724309564305</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1724309564305</updated>
-    </task>
-    <task id="LOCAL-00210" summary="ChannelBuffer Example">
-      <option name="closed" value="true" />
-      <created>1724310613526</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1724310613526</updated>
-    </task>
-    <task id="LOCAL-00211" summary="Paths example">
-      <option name="closed" value="true" />
-      <created>1724311015946</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1724311015946</updated>
-    </task>
     <task id="LOCAL-00212" summary="Path example">
       <option name="closed" value="true" />
       <created>1724311029750</created>
@@ -783,7 +756,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725923319187</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="Completed reviewing GUI class.">
+      <option name="closed" value="true" />
+      <created>1725968142945</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1725968142945</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Completed reviewing MainApp class.">
+      <option name="closed" value="true" />
+      <created>1725968164333</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1725968164333</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Cipher cryptography demo class">
+      <option name="closed" value="true" />
+      <created>1725968201712</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1725968201712</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -799,9 +796,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Created the project structure, implement encryption logic, implement decryption logic, helper method to shift characters, and input validation logic. First testing of the project worked perfectly to produce both encrypted and decrypted test." />
-    <MESSAGE value="Implemented StaticalAnalyzer class" />
-    <MESSAGE value="Added a getter (getAlphabet() method) in Cipher class" />
     <MESSAGE value="Implemented BruteForce class." />
     <MESSAGE value="Added inputFile and outFile to Cipher class" />
     <MESSAGE value="Added inputFile and outFile to CaesarCipher interface class" />
@@ -824,7 +818,10 @@
     <MESSAGE value="Finished reviewing the BruteForce class designed to decrypt an encrypted text file by attempting all possible shift keys using a brute-force approach." />
     <MESSAGE value="Added BruteForce class." />
     <MESSAGE value="Completed reviewing StatisticalAnalyzer class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed reviewing StatisticalAnalyzer class." />
+    <MESSAGE value="Completed reviewing GUI class." />
+    <MESSAGE value="Completed reviewing MainApp class." />
+    <MESSAGE value="Cipher cryptography demo class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cipher cryptography demo class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
