@@ -2,7 +2,7 @@ package Module1Project;
 
 import java.io.*;
 //Class to implement the CaesarCipher interface
-public abstract class Cipher implements CaesarCipher, AutoCloseable {
+public abstract class Cipher implements ICipher, AutoCloseable {
     //Declare alphabet and fileManager attributes
     private final String alphabet;
     private final FileManager fileManager;

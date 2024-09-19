@@ -2,7 +2,7 @@ package Module1Project;
 
 import java.io.*;
 
-public interface CaesarCipher {
+public interface ICipher {
     // Encrypts the content of the input file and writes the encrypted content to an output file
     void encrypt(File inputFile, File outputFile, int key) throws IOException;
 
