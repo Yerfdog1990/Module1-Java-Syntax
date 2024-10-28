@@ -4,7 +4,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class MainApp {
-    private static final String basePath = "C:\\Users\\Yerdog\\Desktop\\CodeGym\\Module 1 - Java Syntax\\Module 1 project\\";
+    // Define the base path using an absolute path
+    private static final String basePath = "C:\\Users\\Yerdog\\IdeaProjects\\JavaSyntax\\Module 1 project\\files\\";
+
+    // Update file paths using absolute paths
     private static final String inputEncryptFile = basePath + "inputEncrypt.txt";
     private static final String outputEncryptFile = basePath + "outputEncrypt.txt";
     private static final String inputDecryptFile = basePath + "inputDecrypt.txt";
@@ -17,37 +20,35 @@ public class MainApp {
     private static final String keyFile = basePath + "encryptionKey.txt";
 
     public static void main(String[] args) {
-        // Initialize Validator to validate inputs before starting
-        Validator validator = new Validator();
+        Validator validator = new Validator("abcdefghijklmnopqrstuvwxyz");
 
-        // Use try-with-resources for file management and cipher handling
-        try (FileManager fileManager = new FileManager();  // AutoCloseable FileManager
-             Cipher cipher = new Cipher("abcdefghijklmnopqrstuvwxyz", fileManager) {
-                 @Override
-                 public void close() throws Exception {
+        try (FileManager fileManager = new FileManager()) {
+            CipherCryptography cipherCryptography = new CipherCryptography("abcdefghijklmnopqrstuvwxyz");
 
-                 }
-             }) {  // Cipher utilizing FileManager
-
-            // Check if inputEncryptFile exists before starting encryption
+            // Validation for file existence using absolute paths
             if (!validator.isFileExists(inputEncryptFile)) {
                 throw new FileNotFoundException("Input file for encryption does not exist: " + inputEncryptFile);
             }
-
-            // Check if inputDecryptFile exists before starting decryption
             if (!validator.isFileExists(inputDecryptFile)) {
                 throw new FileNotFoundException("Input file for decryption does not exist: " + inputDecryptFile);
             }
 
-            // Initialize BruteForce and StatisticalAnalyzer
-            BruteForce bruteForce = new BruteForce(cipher);
-            StatisticalAnalyzer statisticalAnalyzer = new StatisticalAnalyzer();
+            BruteForce bruteForce = new BruteForce(cipherCryptography);
+            StatisticalAnalyzer statisticalAnalyzer = new StatisticalAnalyzer(cipherCryptography, validator);
 
-            // Launch GUI
-            GUI gui = new GUI(fileManager, cipher, bruteForce, statisticalAnalyzer, validator,
-                    inputEncryptFile, outputEncryptFile, inputDecryptFile, outputDecryptFile,
-                    inputBruteForceFile, outputBruteForceFile, inputStatAnalysisFile, outputStatAnalysisFile,
-                    sampleFile, keyFile);
+            // Ensure the GUI input/output file paths are correct
+            new GUI(fileManager, cipherCryptography, bruteForce, statisticalAnalyzer, validator,
+                    inputEncryptFile,
+                    outputEncryptFile,
+                    inputDecryptFile,
+                    outputDecryptFile,
+                    inputBruteForceFile,
+                    outputBruteForceFile,
+                    inputStatAnalysisFile,
+                    outputStatAnalysisFile,
+                    sampleFile,
+                    keyFile);
+
         } catch (IOException e) {
             System.err.println("Error during file operations: " + e.getMessage());
         } catch (Exception e) {

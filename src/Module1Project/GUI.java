@@ -4,15 +4,16 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.io.IOException;
 
 public class GUI {
     private final FileManager fileManager;
-    private final Cipher cipher;
+    private final CipherCryptography cipherCryptography;
     private final BruteForce bruteForce;
     private final StatisticalAnalyzer statisticalAnalyzer;
     private final Validator validator;
+
+    // File paths
     private final String inputEncryptFile;
     private final String outputEncryptFile;
     private final String inputDecryptFile;
@@ -24,12 +25,14 @@ public class GUI {
     private final String sampleFile;
     private final String keyFile;
 
-    public GUI(FileManager fileManager, Cipher cipher, BruteForce bruteForce, StatisticalAnalyzer statisticalAnalyzer, Validator validator,
-               String inputEncryptFile, String outputEncryptFile, String inputDecryptFile, String outputDecryptFile,
-               String inputBruteForceFile, String outputBruteForceFile, String inputStatAnalysisFile, String outputStatAnalysisFile,
+    public GUI(FileManager fileManager, CipherCryptography cipherCryptography, BruteForce bruteForce,
+               StatisticalAnalyzer statisticalAnalyzer, Validator validator,
+               String inputEncryptFile, String outputEncryptFile, String inputDecryptFile,
+               String outputDecryptFile, String inputBruteForceFile, String outputBruteForceFile,
+               String inputStatAnalysisFile, String outputStatAnalysisFile,
                String sampleFile, String keyFile) {
         this.fileManager = fileManager;
-        this.cipher = cipher;
+        this.cipherCryptography = cipherCryptography;
         this.bruteForce = bruteForce;
         this.statisticalAnalyzer = statisticalAnalyzer;
         this.validator = validator;
@@ -43,6 +46,7 @@ public class GUI {
         this.outputStatAnalysisFile = outputStatAnalysisFile;
         this.sampleFile = sampleFile;
         this.keyFile = keyFile;
+
         createAndShowGUI();
     }
 
@@ -63,7 +67,7 @@ public class GUI {
         JButton bruteForceButton = new JButton("Brute Force");
         JButton statAnalyzerButton = new JButton("Statistical Analyzer");
 
-        // Apply styles
+        // Set button styles
         Font font = new Font("Arial", Font.BOLD, 20);
         Color glowingColor = new Color(245, 235, 250); // Light lavender or pale lilac for glow effect.
 
@@ -89,10 +93,10 @@ public class GUI {
         // Add panel to frame
         frame.add(menuPanel, BorderLayout.CENTER);
 
-        // Add a welcome message with glowing light effect
+        // Add a welcome message
         JLabel welcomeLabel = new JLabel("Welcome to Cipher Crypto", JLabel.CENTER);
         welcomeLabel.setFont(new Font("Arial", Font.BOLD, 24));
-        welcomeLabel.setForeground(new Color(14, 7, 227)); // Deep blue or royal blue color for glow effect
+        welcomeLabel.setForeground(new Color(14, 7, 227)); // Deep blue or royal blue for glow effect
         frame.add(welcomeLabel, BorderLayout.NORTH);
 
         // Button actions
@@ -131,7 +135,7 @@ public class GUI {
     // Method to handle encryption
     private void showEncryptDialog() {
         String textToEncrypt = JOptionPane.showInputDialog("Enter text to encrypt:");
-        if (textToEncrypt != null) {
+        if (textToEncrypt != null && !textToEncrypt.isEmpty()) {  // Ensure input is updated
             boolean validKey = false;
             int key = -1;
 
@@ -139,14 +143,14 @@ public class GUI {
             while (!validKey) {
                 try {
                     String keyInput = JOptionPane.showInputDialog("Enter encryption key:");
-                    if (keyInput == null) {
+                    if (keyInput == null || keyInput.isEmpty()) {
                         return; // User cancelled the key input dialog
                     }
                     key = Integer.parseInt(keyInput);
 
                     // Validate the key using Validator
                     if (!validator.isValidKey(key, "abcdefghijklmnopqrstuvwxyz".toCharArray())) {
-                        JOptionPane.showMessageDialog(null, "Invalid key. Please enter a valid key between 0 and 25.");
+                        JOptionPane.showMessageDialog(null, "Invalid key. Please enter a valid key.");
                     } else {
                         validKey = true;
                     }
@@ -156,8 +160,9 @@ public class GUI {
             }
 
             try {
+                // Perform file operations for encryption
                 fileManager.writeFile(textToEncrypt, inputEncryptFile);
-                cipher.encrypt(new File(inputEncryptFile), new File(outputEncryptFile), key);
+                cipherCryptography.encryptionLogic(textToEncrypt, key); // Update input text handling
                 fileManager.writeFile(fileManager.readFile(outputEncryptFile), inputDecryptFile);
                 fileManager.writeFile(fileManager.readFile(outputEncryptFile), inputBruteForceFile);
                 fileManager.writeFile(fileManager.readFile(outputEncryptFile), inputStatAnalysisFile);
@@ -173,16 +178,17 @@ public class GUI {
     private void showDecryptDialog() {
         try {
             int key = Integer.parseInt(fileManager.readFile(keyFile).trim());
-            // Validate the key using Validator
+
+            // Validate the key
             if (!validator.isValidKey(key, "abcdefghijklmnopqrstuvwxyz".toCharArray())) {
-                JOptionPane.showMessageDialog(null, "Invalid key in key file. The key should be valid.");
+                JOptionPane.showMessageDialog(null, "Invalid key in key file.");
                 return;
             }
-            cipher.decrypt(new File(outputEncryptFile), new File(outputDecryptFile), key);
+
+            // Perform decryption
+            cipherCryptography.decryptionLogic(fileManager.readFile(outputEncryptFile), key);
             JOptionPane.showMessageDialog(null, "Decryption successful.\nDecrypted text:\n" + fileManager.readFile(outputDecryptFile));
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Invalid key in key file.");
-        } catch (IOException e) {
+        } catch (NumberFormatException | IOException e) {
             JOptionPane.showMessageDialog(null, "Error during file operations.");
         }
     }
@@ -193,7 +199,7 @@ public class GUI {
             bruteForce.bruteForce(inputBruteForceFile, outputBruteForceFile);
             JOptionPane.showMessageDialog(null, "Brute force attack completed.\nResults:\n" + fileManager.readFile(outputBruteForceFile));
         } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Error during brute force operation.");
+            JOptionPane.showMessageDialog(null, "Error during file operations.");
         }
     }
 
@@ -203,7 +209,7 @@ public class GUI {
             statisticalAnalyzer.statisticalAnalysis(inputStatAnalysisFile, outputStatAnalysisFile, sampleFile);
             JOptionPane.showMessageDialog(null, "Statistical analysis completed.\nResults:\n" + fileManager.readFile(outputStatAnalysisFile));
         } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Error during statistical analysis.");
+            JOptionPane.showMessageDialog(null, "Error during file operations.");
         }
     }
 }

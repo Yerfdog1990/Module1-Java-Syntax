@@ -8,7 +8,7 @@ Iterative Method:
 public class FibonacciSeries_IterationMethod {
     // Recursive method to calculate Fibonacci number
     public static void findFibonacciSeries(int n){
-        int num1 = 0, num2 = 1; //Initialize the first tw0 terms
+        int num1 = 0, num2 = 1; //Initialize the first two terms
         System.out.print("Fibonacci series: " +num1+ " ," +num2);
         for (int i = 2; i < n; i++) {
             int nextTerm = num1 + num2; //Define the next term
