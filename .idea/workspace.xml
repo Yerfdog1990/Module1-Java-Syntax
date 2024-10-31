@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Revised module 1 project">
-      <change afterPath="$PROJECT_DIR$/src/Module1Project/CipherCryptography.java" afterDir="false" />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Fibonacci series using iteration method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/encryptionKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/encryptionKey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/inputBruteForce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/inputBruteForce.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/inputDecrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/inputDecrypt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/inputEncrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/inputEncrypt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/inputStatAnalysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/inputStatAnalysis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/outputBruteForce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/outputBruteForce.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/outputDecrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/outputDecrypt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/outputEncrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/outputEncrypt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 1 project/outputStatAnalysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1 project/outputStatAnalysis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/Cipher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/ICipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Cryptography.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module1Project/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/BruteForce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/CaesarCipher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/Cryptography.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/StatisticAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module_1Project/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_IterationMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_IterationMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,14 +392,6 @@
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
     </task>
-    <task id="LOCAL-00216" summary="Working with dates.">
-      <option name="closed" value="true" />
-      <created>1724709528849</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1724709528849</updated>
-    </task>
     <task id="LOCAL-00217" summary="Working with dates.">
       <option name="closed" value="true" />
       <created>1724709635335</created>
@@ -810,7 +776,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727386786804</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="Fibonacci series using iteration method">
+      <option name="closed" value="true" />
+      <created>1730116435272</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1730116435272</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -826,8 +800,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a getter to access the private alphabet field in the Cipher class from the BruteForce class" />
-    <MESSAGE value="inputFile, outFile, and optionalSampleFileto BruteForce class" />
     <MESSAGE value="Added inputFile and outFile to StatisticalAnalyzer class" />
     <MESSAGE value="Validation of input data such as file existence, key validity." />
     <MESSAGE value="Added GUI using Swing." />
@@ -851,7 +823,9 @@
     <MESSAGE value="Include the specified path in the project" />
     <MESSAGE value="Renamed the interface class to &quot;ICipher&quot;" />
     <MESSAGE value="Revised module 1 project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised module 1 project" />
+    <MESSAGE value="FibonacciSeries using iteration method" />
+    <MESSAGE value="Fibonacci series using iteration method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci series using iteration method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

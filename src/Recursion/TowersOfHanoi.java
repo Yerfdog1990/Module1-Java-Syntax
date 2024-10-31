@@ -17,7 +17,7 @@ We can solve the Tower of Hanoi problem using recursion. Here's how it works:
     -Move the largest disk (disk n) from the source rod (from_rod) to the destination rod (to_rod).
     -Move the n-1 disks from the auxiliary rod (aux_rod) to the destination rod (to_rod) using the source rod (from_rod) as the temporary holder.
  */
-public class TowersOfHanoi {
+public class  TowersOfHanoi {
     //Method to solve tower of Hanoi
     public static void solveTowerOfHanoi(int n, char fromRod, char toRod, char auxRod){
         //If there's only one disk (n=1), move it directly from the source rod (from_rod) to the destination rod (to_rod).
