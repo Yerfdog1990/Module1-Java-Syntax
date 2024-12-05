@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaSyntax.iml" filepath="$PROJECT_DIR$/JavaSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" filepath="$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSyntax/JavaSyntax.iml" filepath="$PROJECT_DIR$/JavaSyntax/JavaSyntax.iml" />
     </modules>
   </component>
 </project>

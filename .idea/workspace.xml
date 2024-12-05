@@ -5,8 +5,361 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Fibonacci series using iteration method">
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_copyOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_copyRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_fill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/FilterArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/SortingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/SumOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge10_Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge1_Introducing_2D_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge2_Maximum_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge3_Smallest_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge4_First_Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge5_Reflect_Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge6_Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge7_Cutting_down_the_middle_elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge8_Chess_board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge9_QR_code_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListCloneDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge01ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge02ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge03ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge04ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ResizeArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArraysToCollections/ArrayToHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArraysToCollections/ArrayToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/List/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSyntax.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/ProtectedAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/PublicAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/Test_public.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Access_modifiers2/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_copyOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_copyRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_fill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_String.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_equals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListCloneDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge01ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge02ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge03ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge04ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ResizeArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/FilterArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/SortingElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/SumOfElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoCloseable/AutoCloseableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoCloseable/MyResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/BufferedReaderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/WithBufferedReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/WithoutBufferedReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BufferedWriterClass/BufferedWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayInputStreamClass/ByteArrayInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayInputStreamClass/ByteToChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/ByteArrayOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/EncryptMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainedStreams/InputStreamReaderClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Lion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge30_OOP/GymMembership.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/AccountCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayDequeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/BankServiceQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/Collections_Helper_Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ConvertListToSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ElementIteration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/FIFOExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ImmigrationOffice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LIFOExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LetterCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LinkedListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/PairedBrackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/QueueDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/SalariesAndJobTitles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/StackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/StudentPerformance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/TreeMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/WordCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/hashCodeAndEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableInterface/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableInterface/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/PersonComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEndsWith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEqualsIgnoreCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanRegionMatches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanStartsWith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/CompareToIgnoreCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/CompareToString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/LowerCaseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/RepeatString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceAllString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceFirstString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReturnSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/TrimString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/UpperCaseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalPattern/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalPattern/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTypes/Challenge1_TemperatureConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTypes/DefaultValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTypes/PrimitiveDataTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTypes/Typecasing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/BirthDay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/CalendarClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateTimeFormatterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateTimeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/FilterWeekend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/InstantClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/InstantClassApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalDateClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalDateTimeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalTimeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/PocketTeleporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/TimeZones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/BrickHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/Garage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/HouseDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/WoodenHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/firstFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorators/secondFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/BinaryConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/BinaryToDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/Challenge1_BinaryAddition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/Challenge2_BinarySubtraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToHexadecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToOctal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/HexDecimalConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/HexToDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/OctalConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding/OctalToDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Day.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/DayEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Month.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/SeasonalMonths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Seasons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/CheckedExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/CreateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ThrowOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/TooOldException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/TooYoungException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForEachLoop/EnhancedLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/challenge1_reverseArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericsDemo/Generics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/InputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/SwapFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InstanceOf/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InstanceOf/TypeSpecificOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/GitegaIntSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/KinderworldIntSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/KitengelaIntSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/MooltripakdeeIntSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/SchoolOfNation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/StChristopherIntSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/TeachingCareer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/BufferExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/BufferExample2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/ChannelBufferExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/ChannelExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/FileSystemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/FilesExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/NioExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaNIO/SelectorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/Break_in_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/Continue_in_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/While_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/doWhile_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/for_each_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loops/for_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/Challenge1_LongestCommonString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/DeleteCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/DeleteString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/InsertObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/LastIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/PartOfString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/ReplaceString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/SetCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringAppend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/CipherCryptography.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/Cryptography.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module1Project/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NestedClasses/OuterClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NestedClasses/OuterClass2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeClass/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeClass/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodeClass/SinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AnimalMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/CompileTmePolymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/RuntimePolymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/RuntimeSuperClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OutputStreamClass/OutputStreamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project1Demo/CaesarCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/NextWordSuggestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/ProjectDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrectimplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderClass/ReadFromConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderClass/ReaderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/FactorialCalculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_IterationMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_RecursiveMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/IndirectRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/SumFactorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Regex/RegexExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/IndexOfString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/LastIndexOfString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/StringMatches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantSpaceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantTimeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearSpaceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogLinearTimeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicSpaceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicTimeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticSpaceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticTimeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackTrace/StackTraceElementExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackTrace/StackTraceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringFormat/FormatString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/BlankString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge1_ReverseLetters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge2_CheckPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge3_ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge4_CheckUpperCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/CharToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/CharToByte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/EmptyString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/JoinString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/ReturnCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/SplitString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringConcatention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringIntern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringWriterClass/StringWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Career.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Continent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/AutoboxingandUnboxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/DiamondOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedSwitchStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/LambdasFunctionalInterfaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/StringSwitchCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/TernaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/VariableArguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/MultipleResourcesExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/TryCatchFinally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/TryWithResourcesExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge10_Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge1_Introducing_2D_Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge2_Maximum_Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge3_Smallest_Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge4_First_Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge5_Reflect_Elements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge6_Pyramid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge7_Cutting_down_the_middle_elements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge8_Chess_board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge9_QR_code_reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/BooleanClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/Challenge01_AnalyzingString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/CharacterMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/DoubleFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/DoubleMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/IntegerFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriterClass/WriteCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriterClass/WriterClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/changeTimeZone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +385,12 @@
     &quot;assignee&quot;: &quot;Yerfdog1990&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Yerfdog1990/java_course.git&quot;,
-    &quot;accountId&quot;: &quot;9cf50a7b-23b2-4ab1-8c5d-8121da3093e6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Yerfdog1990/module1_java_course",
+    "accountId": "492c209b-def9-4882-bbc2-bf70df5b7c8c"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/JavaTypes.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
@@ -56,275 +409,280 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AbstractDemo.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccountCreation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnalyzeCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnimalMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayDeque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayDequeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListCloneDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayToHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayToQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array_BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AutoCloseable.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankServiceQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryAddition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryToDecimal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BirthDay.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BlankString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanEndsWith.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanEqualsIgnoreCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanRegionMatches.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanStartsWith.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Break_in_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedReaderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedWriterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteArrayInputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteArrayOutputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteToChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CaesarCipher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalendarClassDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge01Abstraction.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge01ArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge02ArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge1_BinaryAddition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge1_LongestCommonString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge1_Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge1_TemperatureConverter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge2Abstraction.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge2_BinarySubtraction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge2_CheckPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge2_ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge3_CheckUpperCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge3_ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge4_CheckUpperCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChannelBufferExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChannelExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharToArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharToByte.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckedExceptions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Child.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChildOfPublic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections_Helper_Class.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CombineArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparableInterface.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparatorInterface.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareToIgnoreCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareToString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompileTmePolymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstantSpaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstantTimeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Continue_in_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertListToSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Country.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTimeAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTimeFormatterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateUnixTime.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DayClass1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DayClass2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecimalToBinary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecimalToHexadecimal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecimalToOctal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Decorators.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DefaultValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiamondOperator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DisplayingTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElementIteration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmptySpace.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncryptMessage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnhancedLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnhancedSwitchStatement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Error.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FIFOExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactorialCalculation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciSeries_IterationMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciSeries_RecursiveMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileSystemExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilesExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fill_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterWeekend.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormatString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GymMembership.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HexToDecimal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmigrationOffice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndexOfString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndirectRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InputStreamReaderClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertObjects.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstantClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstantClassApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceDemo.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LIFOExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LastIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LastIndexOfString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LetterCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSpaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearTimeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListInterface_LinkedList.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalDateTimeClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogLinearTimeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogarithmicSpaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogarithmicTimeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LowerCaseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ModernTimeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Month.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleResourcesExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextWordSuggestion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NioExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NodeClass.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectOrientedProgramming.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OctalToDecimal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OriginalEnum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OuterClass1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OuterClass2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OutputStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairedBrackets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Parent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartOfString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PasswordChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PathExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PathsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PocketTeleporter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice_Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveDataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Project1_CodeGym.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Project2_CodeGym.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadraticSpaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadraticTimeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFromConsole.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegexExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RepeatString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceAllString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceFirstString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReturnCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReturnSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RuntimePolymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SalariesAndJobTitles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonalMonths.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Seasons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMethod1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMethod2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMethod3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortingElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackTraceElementExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackTraceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringAppend.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConcatention.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringIntern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringMatches.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringToken.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringWriterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentPerformance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumFactorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCareer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test_public.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThrowOperator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimeZones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TowersOfHanoi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrimString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryCatchFinally.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryWithResourcesExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Try_CatchBlock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Typecasing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unchecked_Exceptions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnionOfSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Union_IntersectionOfSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UpperCaseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.While_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithBufferedReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithoutBufferedReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperClassesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WriteCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WriterClassDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_copyOf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_fill.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_String.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays_equals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge11_sumOfElements_inDiagonal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge12_Display_Values.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge1_reverseArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge2_sorting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge3_Sum_Of_Values.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.challenge_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.doWhile_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.for_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.newArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.two_D_Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax/Module 1 project&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Yerdog/IdeaProjects/JavaSyntax/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AbstractDemo.Main.executor": "Run",
+    "Application.AccountCreation.executor": "Run",
+    "Application.AnalyzeCharacter.executor": "Run",
+    "Application.AnimalMain.executor": "Run",
+    "Application.ArrayDeque.executor": "Run",
+    "Application.ArrayDequeDemo.executor": "Run",
+    "Application.ArrayListCloneDemo.executor": "Run",
+    "Application.ArrayListDemo.executor": "Run",
+    "Application.ArrayToHashSet.executor": "Run",
+    "Application.ArrayToQueue.executor": "Run",
+    "Application.Array_BinarySearch.executor": "Run",
+    "Application.AutoCloseable.Main.executor": "Run",
+    "Application.BankServiceQueue.executor": "Run",
+    "Application.BinaryAddition.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BinaryToDecimal.executor": "Run",
+    "Application.BirthDay.executor": "Run",
+    "Application.BlankString.executor": "Run",
+    "Application.BooleanEndsWith.executor": "Run",
+    "Application.BooleanEqualsIgnoreCase.executor": "Run",
+    "Application.BooleanRegionMatches.executor": "Run",
+    "Application.BooleanStartsWith.executor": "Run",
+    "Application.Break_in_loop.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BufferExample.executor": "Run",
+    "Application.BufferExample2.executor": "Run",
+    "Application.BufferedReaderExample.executor": "Run",
+    "Application.BufferedWriterDemo.executor": "Run",
+    "Application.ByteArrayInputStreamDemo.executor": "Run",
+    "Application.ByteArrayOutputStreamDemo.executor": "Run",
+    "Application.ByteToChar.executor": "Run",
+    "Application.CaesarCipher.executor": "Run",
+    "Application.CalendarClassDemo.executor": "Run",
+    "Application.Challenge01Abstraction.Main.executor": "Run",
+    "Application.Challenge01ArrayList.executor": "Run",
+    "Application.Challenge02ArrayList.executor": "Run",
+    "Application.Challenge1_BinaryAddition.executor": "Run",
+    "Application.Challenge1_LongestCommonString.executor": "Run",
+    "Application.Challenge1_Palindrome.executor": "Run",
+    "Application.Challenge1_TemperatureConverter.executor": "Run",
+    "Application.Challenge2Abstraction.Main.executor": "Run",
+    "Application.Challenge2_BinarySubtraction.executor": "Run",
+    "Application.Challenge2_CheckPalindrome.executor": "Run",
+    "Application.Challenge2_ReverseString.executor": "Run",
+    "Application.Challenge3_CheckUpperCase.executor": "Run",
+    "Application.Challenge3_ReverseString.executor": "Run",
+    "Application.Challenge4_CheckUpperCase.executor": "Run",
+    "Application.ChannelBufferExample.executor": "Run",
+    "Application.ChannelExample.executor": "Run",
+    "Application.CharToArray.executor": "Run",
+    "Application.CharToByte.executor": "Run",
+    "Application.CheckedExceptions.executor": "Run",
+    "Application.Child.executor": "Run",
+    "Application.ChildOfPublic.executor": "Run",
+    "Application.Collections_Helper_Class.executor": "Run",
+    "Application.CombineArrays.executor": "Run",
+    "Application.ComparableInterface.Main.executor": "Run",
+    "Application.ComparatorInterface.Main.executor": "Run",
+    "Application.CompareToIgnoreCase.executor": "Run",
+    "Application.CompareToString.executor": "Run",
+    "Application.CompileTmePolymorphism.executor": "Run",
+    "Application.ConstantSpaceExample.executor": "Run",
+    "Application.ConstantTimeExample.executor": "Run",
+    "Application.Continue_in_loop.executor": "Run",
+    "Application.ConvertListToSet.executor": "Run",
+    "Application.CopyFile.executor": "Run",
+    "Application.Country.executor": "Run",
+    "Application.CreateException.executor": "Run",
+    "Application.DateDemo.executor": "Run",
+    "Application.DateTimeAPI.executor": "Run",
+    "Application.DateTimeFormatterDemo.executor": "Run",
+    "Application.DateUnixTime.Main.executor": "Run",
+    "Application.Day.executor": "Run",
+    "Application.DayClass1.executor": "Run",
+    "Application.DayClass2.executor": "Run",
+    "Application.DecimalToBinary.executor": "Run",
+    "Application.DecimalToHexadecimal.executor": "Run",
+    "Application.DecimalToOctal.executor": "Run",
+    "Application.Decorators.Main.executor": "Run",
+    "Application.DefaultValue.executor": "Run",
+    "Application.DeleteCharacter.executor": "Run",
+    "Application.DeleteString.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.DiamondOperator.executor": "Run",
+    "Application.DisplayingTime.executor": "Run",
+    "Application.Dog.executor": "Run",
+    "Application.ElementIteration.executor": "Run",
+    "Application.EmptySpace.executor": "Run",
+    "Application.EncryptMessage.executor": "Run",
+    "Application.EnhancedLoop.executor": "Run",
+    "Application.EnhancedSwitchStatement.executor": "Run",
+    "Application.Error.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.Example2.executor": "Run",
+    "Application.FIFOExample.executor": "Run",
+    "Application.FactorialCalculation.executor": "Run",
+    "Application.FactoryTest.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
+    "Application.FibonacciSeries_IterationMethod.executor": "Run",
+    "Application.FibonacciSeries_RecursiveMethod.executor": "Run",
+    "Application.FileSystemExample.executor": "Run",
+    "Application.FilesExample.executor": "Run",
+    "Application.Fill_Array.executor": "Run",
+    "Application.FilterWeekend.executor": "Run",
+    "Application.FormatString.executor": "Run",
+    "Application.GUI.executor": "Run",
+    "Application.Generics.executor": "Run",
+    "Application.GymMembership.executor": "Run",
+    "Application.HashMapDemo.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
+    "Application.HexToDecimal.executor": "Run",
+    "Application.ImmigrationOffice.executor": "Run",
+    "Application.IndexOfString.executor": "Run",
+    "Application.IndirectRecursion.executor": "Run",
+    "Application.InputStreamDemo.executor": "Run",
+    "Application.InputStreamReaderClass.executor": "Run",
+    "Application.InsertObjects.executor": "Run",
+    "Application.InstantClass.executor": "Run",
+    "Application.InstantClassApplication.executor": "Run",
+    "Application.IntegerMethods.executor": "Run",
+    "Application.InterfaceDemo.Main.executor": "Run",
+    "Application.JavaTypes.executor": "Run",
+    "Application.JoinString.executor": "Run",
+    "Application.LIFOExample.executor": "Run",
+    "Application.LastIndex.executor": "Run",
+    "Application.LastIndexOfString.executor": "Run",
+    "Application.LetterCounter.executor": "Run",
+    "Application.LinearSpaceExample.executor": "Run",
+    "Application.LinearTimeExample.executor": "Run",
+    "Application.LinkedListDemo.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.ListInterface_LinkedList.Main.executor": "Run",
+    "Application.LocalDateTimeClass.executor": "Run",
+    "Application.LogLinearTimeExample.executor": "Run",
+    "Application.LogarithmicSpaceExample.executor": "Run",
+    "Application.LogarithmicTimeExample.executor": "Run",
+    "Application.LowerCaseString.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Run",
+    "Application.ModernTimeDemo.executor": "Run",
+    "Application.Month.executor": "Run",
+    "Application.MultipleResourcesExample.executor": "Run",
+    "Application.NextWordSuggestion.executor": "Run",
+    "Application.NioExample.executor": "Run",
+    "Application.NodeClass.Main.executor": "Run",
+    "Application.ObjectOrientedProgramming.Main.executor": "Run",
+    "Application.OctalToDecimal.executor": "Run",
+    "Application.OriginalEnum.executor": "Run",
+    "Application.OuterClass1.executor": "Run",
+    "Application.OuterClass2.executor": "Run",
+    "Application.OutputStreamExample.executor": "Run",
+    "Application.PairedBrackets.executor": "Run",
+    "Application.Parent.executor": "Run",
+    "Application.PartOfString.executor": "Run",
+    "Application.PasswordChecker.executor": "Run",
+    "Application.PathExample.executor": "Run",
+    "Application.PathsExample.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.PocketTeleporter.executor": "Run",
+    "Application.Practice_Arrays.executor": "Run",
+    "Application.PrimitiveDataTypes.executor": "Run",
+    "Application.Project1_CodeGym.Main.executor": "Run",
+    "Application.Project2_CodeGym.Main.executor": "Run",
+    "Application.QuadraticSpaceExample.executor": "Run",
+    "Application.QuadraticTimeExample.executor": "Run",
+    "Application.QueueDemo.executor": "Run",
+    "Application.ReadFromConsole.executor": "Run",
+    "Application.ReaderExample.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "Application.RegexExample.executor": "Run",
+    "Application.RepeatString.executor": "Run",
+    "Application.ReplaceAllString.executor": "Run",
+    "Application.ReplaceFirstString.executor": "Run",
+    "Application.ReplaceString.executor": "Run",
+    "Application.ReturnCharacter.executor": "Run",
+    "Application.ReturnSubstring.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RuntimePolymorphism.executor": "Run",
+    "Application.SalariesAndJobTitles.executor": "Run",
+    "Application.SeasonalMonths.executor": "Run",
+    "Application.Seasons.executor": "Run",
+    "Application.SelectorExample.executor": "Run",
+    "Application.SetCharacter.executor": "Run",
+    "Application.Sets.executor": "Run",
+    "Application.SingletonMethod1.executor": "Run",
+    "Application.SingletonMethod2.executor": "Run",
+    "Application.SingletonMethod3.executor": "Run",
+    "Application.SingletonTest.executor": "Run",
+    "Application.SortingElements.executor": "Run",
+    "Application.SplitString.executor": "Run",
+    "Application.StackDemo.executor": "Run",
+    "Application.StackTraceElementExample.executor": "Run",
+    "Application.StackTraceExample.executor": "Run",
+    "Application.StringAppend.executor": "Run",
+    "Application.StringCharacter.executor": "Run",
+    "Application.StringConcatention.executor": "Run",
+    "Application.StringEquals.executor": "Run",
+    "Application.StringIndex.executor": "Run",
+    "Application.StringIntern.executor": "Run",
+    "Application.StringLength.executor": "Run",
+    "Application.StringMatches.executor": "Run",
+    "Application.StringToken.executor": "Run",
+    "Application.StringWriterDemo.executor": "Run",
+    "Application.StudentPerformance.executor": "Run",
+    "Application.SumFactorial.executor": "Run",
+    "Application.SwapFile.executor": "Run",
+    "Application.SwitchCareer.executor": "Run",
+    "Application.Test_public.executor": "Run",
+    "Application.ThrowOperator.executor": "Run",
+    "Application.TimeZones.executor": "Run",
+    "Application.TowersOfHanoi.executor": "Run",
+    "Application.TreeMapDemo.executor": "Run",
+    "Application.TrimString.executor": "Run",
+    "Application.TryCatchFinally.executor": "Run",
+    "Application.TryWithResourcesExample.executor": "Run",
+    "Application.Try_CatchBlock.executor": "Run",
+    "Application.Typecasing.executor": "Run",
+    "Application.Unchecked_Exceptions.executor": "Run",
+    "Application.UnionOfSet.executor": "Run",
+    "Application.Union_IntersectionOfSet.executor": "Run",
+    "Application.UpperCaseString.executor": "Run",
+    "Application.While_loop.executor": "Run",
+    "Application.WithBufferedReader.executor": "Run",
+    "Application.WithoutBufferedReader.executor": "Run",
+    "Application.WordCounter.executor": "Run",
+    "Application.WrapperClassesDemo.executor": "Run",
+    "Application.WriteCharacter.executor": "Run",
+    "Application.WriterClassDemo.executor": "Run",
+    "Application.array_BinarySearch.executor": "Run",
+    "Application.array_copyOf.executor": "Run",
+    "Application.array_fill.executor": "Run",
+    "Application.array_sort.executor": "Run",
+    "Application.arrays_List.executor": "Run",
+    "Application.arrays_String.executor": "Run",
+    "Application.arrays_equals.executor": "Run",
+    "Application.challenge11_sumOfElements_inDiagonal.executor": "Run",
+    "Application.challenge12_Display_Values.executor": "Run",
+    "Application.challenge1_reverseArrays.executor": "Run",
+    "Application.challenge2_sorting.executor": "Run",
+    "Application.challenge3_Sum_Of_Values.executor": "Run",
+    "Application.challenge6_Pyramid.executor": "Run",
+    "Application.challenge_1.executor": "Run",
+    "Application.challenge_2.executor": "Run",
+    "Application.doWhile_loop.executor": "Run",
+    "Application.for_loop.executor": "Run",
+    "Application.newArray.executor": "Run",
+    "Application.two_D_Arrays.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gouma/IdeaProjects/module1_java_course",
+    "onboarding.tips.debug.path": "C:/Users/gouma/IdeaProjects/module1_java_course/JavaSyntax/Collections/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Abstraction" />
       <recent name="Challenge01AbstractClass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gouma\IdeaProjects\module1_java_course\JavaSyntax\Arrays\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="DateUnixTime" />
@@ -334,13 +692,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaTypes" />
-      <module name="JavaSyntax" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaSyntax" />
@@ -376,9 +727,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Project2_CodeGym.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JavaTypes" />
+        <item itemvalue="Application.Project2_CodeGym.Main" />
         <item itemvalue="Application.While_loop" />
       </list>
     </recent_temporary>
@@ -826,6 +1176,22 @@
     <MESSAGE value="FibonacciSeries using iteration method" />
     <MESSAGE value="Fibonacci series using iteration method" />
     <option name="LAST_COMMIT_MESSAGE" value="Fibonacci series using iteration method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaSyntax/Arrays/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaSyntax/Collections/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSyntax$Main.ic" NAME="Main Coverage Results" MODIFIED="1714773375151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
