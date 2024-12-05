@@ -386,14 +386,6 @@
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
     </task>
-    <task id="LOCAL-00218" summary="Calendar class demo">
-      <option name="closed" value="true" />
-      <created>1724851092191</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1724851092201</updated>
-    </task>
     <task id="LOCAL-00219" summary="Pocket teleporter">
       <option name="closed" value="true" />
       <created>1724851125383</created>
@@ -778,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733404756978</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <task id="LOCAL-00267" summary="Moving files to their correct modules.">
+      <option name="closed" value="true" />
+      <created>1733433618214</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1733433618216</updated>
+    </task>
+    <option name="localTasksCounter" value="268" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

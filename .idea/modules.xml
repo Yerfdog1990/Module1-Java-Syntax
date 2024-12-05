@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" filepath="$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSyntax/JavaSyntax.iml" filepath="$PROJECT_DIR$/JavaSyntax/JavaSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSyntax/Singleton_Enum_Switch/Singleton_Enum_Switch.iml" filepath="$PROJECT_DIR$/JavaSyntax/Singleton_Enum_Switch/Singleton_Enum_Switch.iml" />
     </modules>
   </component>
 </project>
