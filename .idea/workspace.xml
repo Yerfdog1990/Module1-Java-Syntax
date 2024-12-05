@@ -4,363 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Fibonacci series using iteration method">
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/Arrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_copyOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_copyRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_fill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/array_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/ArrayClass/arrays_equals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/FilterArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/SortingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Arrays/SumOfElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge10_Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge1_Introducing_2D_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge2_Maximum_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge3_Smallest_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge4_First_Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge5_Reflect_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge6_Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge7_Cutting_down_the_middle_elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge8_Chess_board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Arrays/src/Two_Dimensional_Arrays/challenge9_QR_code_reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/Collections.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListCloneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ArrayListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge01ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge02ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge03ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/Challenge04ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArrayList/ResizeArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArraysToCollections/ArrayToHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/ArraysToCollections/ArrayToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/List/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSyntax.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractionDemo/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/ProtectedAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/PublicAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Access_modifiers1/Test_public.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Access_modifiers2/Example2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_copyOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_copyRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_fill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/array_sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_String.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayClass/arrays_equals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListCloneDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/ArrayListMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge01ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge02ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge03ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/Challenge04ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/ResizeArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/FilterArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SortingElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SumOfElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToHashSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysToCollections/ArrayToQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutoCloseable/AutoCloseableExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutoCloseable/MyResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/BufferedReaderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/WithBufferedReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferedReaderClass/WithoutBufferedReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferedWriterClass/BufferedWriterDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteArrayInputStreamClass/ByteArrayInputStreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteArrayInputStreamClass/ByteToChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/ByteArrayOutputStreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteArrayOutputStreamClass/EncryptMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChainedStreams/InputStreamReaderClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Lion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge01Abstraction/Tiger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge2Abstraction/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge30_OOP/GymMembership.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/AccountCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayDequeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/BankServiceQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/Collections_Helper_Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ConvertListToSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ElementIteration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/FIFOExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/HashSetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/ImmigrationOffice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LIFOExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LetterCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/LinkedListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/PairedBrackets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/QueueDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/SalariesAndJobTitles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/StackDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/StudentPerformance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/TreeMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/Union_IntersectionOfSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/WordCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionClasses/hashCodeAndEquals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparableInterface/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparableInterface/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparatorInterface/PersonComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEndsWith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEquals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanEqualsIgnoreCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanRegionMatches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/BooleanStartsWith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/CompareToIgnoreCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparingStrings/CompareToString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/LowerCaseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/RepeatString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceAllString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceFirstString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReplaceString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/ReturnSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/TrimString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreatingSubstrings/UpperCaseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPattern/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPattern/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/Challenge1_TemperatureConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/DefaultValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/PrimitiveDataTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTypes/Typecasing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/BirthDay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/CalendarClassDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateTimeFormatterDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/DateTimeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/FilterWeekend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/InstantClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/InstantClassApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalDateClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalDateTimeClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/LocalTimeClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/PocketTeleporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateUnixTime/TimeZones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/BrickHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/Garage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/HouseDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/WoodenHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/firstFloor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorators/secondFloor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/BinaryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/BinaryToDecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/Challenge1_BinaryAddition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/Challenge2_BinarySubtraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToBinary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToHexadecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/DecimalToOctal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/HexDecimalConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/HexToDecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/OctalConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoding/OctalToDecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/DayClass2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/DayEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/Month.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/SeasonalMonths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/Seasons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/CheckedExceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/CreateException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/Error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ThrowOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/TooOldException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/TooYoungException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/Try_CatchBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/Unchecked_Exceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForEachLoop/EnhancedLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/challenge1_reverseArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericsDemo/Generics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/CopyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/InputStreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStreamClass/SwapFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InstanceOf/Son.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InstanceOf/TypeSpecificOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/GitegaIntSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/KinderworldIntSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/KitengelaIntSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/MooltripakdeeIntSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/SchoolOfNation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/StChristopherIntSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/TeachingCareer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/BufferExample1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/BufferExample2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/ChannelBufferExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/ChannelExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/FileSystemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/FilesExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/NioExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/PathsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaNIO/SelectorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListInterface_LinkedList/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/Break_in_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/Continue_in_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/While_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/doWhile_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/for_each_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loops/for_loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/Challenge1_LongestCommonString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/DeleteCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/DeleteString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/InsertObjects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/LastIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/PartOfString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/ReplaceString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/ReverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/SetCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringAppend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModifyString/StringLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/BruteForce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/CipherCryptography.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/Cryptography.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/StatisticalAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module1Project/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedClasses/OuterClass1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedClasses/OuterClass2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeClass/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeClass/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeClass/SinglyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AnimalMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/CompileTmePolymorphism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/RuntimePolymorphism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/RuntimeSuperClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OutputStreamClass/OutputStreamExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project1Demo/CaesarCipher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/NextWordSuggestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project1_CodeGym/ProjectDescription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2_CodeGym/autocorrectimplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReaderClass/CopyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReaderClass/ReadFromConsole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReaderClass/ReaderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FactorialCalculation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_IterationMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FibonacciSeries_RecursiveMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/IndirectRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/SumFactorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/TowersOfHanoi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Regex/RegexExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/IndexOfString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/LastIndexOfString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchForSubstring/StringMatches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonMethod3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantSpaceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/ConstantTimeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearSpaceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LinearTimeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogLinearTimeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicSpaceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/LogarithmicTimeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticSpaceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceAndTimeComplexity/QuadraticTimeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackTrace/StackTraceElementExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackTrace/StackTraceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Child.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StaticMethod/Parent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringFormat/FormatString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/BlankString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge1_ReverseLetters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge2_CheckPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge3_ReverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/Challenge4_CheckUpperCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/CharToArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/CharToByte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/EmptyString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/JoinString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/ReturnCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/SplitString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringConcatention.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringIntern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods/StringToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringWriterClass/StringWriterDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Career.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Continent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SuperKeyword/Father.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/AutoboxingandUnboxing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/DiamondOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedForLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/EnhancedSwitchStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/LambdasFunctionalInterfaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/StringSwitchCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/TernaryOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SyntacticSugar/VariableArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/MultipleResourcesExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/TryCatchFinally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Try_With_Resources/TryWithResourcesExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge10_Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge11_sumOfElements_inDiagonal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge12_Display_Values.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge1_Introducing_2D_Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge2_Maximum_Element.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge3_Smallest_Sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge4_First_Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge5_Reflect_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge6_Pyramid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge7_Cutting_down_the_middle_elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge8_Chess_board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Two_Dimensional_Arrays/challenge9_QR_code_reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/BooleanClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/Challenge01_AnalyzingString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/CharacterMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/DoubleFields.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/DoubleMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/IntegerFields.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/IntegerMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WrapperClasses/WrapperClassesDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriterClass/WriteCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriterClass/WriterClassDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/changeTimeZone.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Moving files to their correct modules." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -741,14 +385,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-    </task>
-    <task id="LOCAL-00217" summary="Working with dates.">
-      <option name="closed" value="true" />
-      <created>1724709635335</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1724709635335</updated>
     </task>
     <task id="LOCAL-00218" summary="Calendar class demo">
       <option name="closed" value="true" />
@@ -1134,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730116435272</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="Moving files to their correct modules.">
+      <option name="closed" value="true" />
+      <created>1733404756976</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1733404756978</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1150,7 +794,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added inputFile and outFile to StatisticalAnalyzer class" />
     <MESSAGE value="Validation of input data such as file existence, key validity." />
     <MESSAGE value="Added GUI using Swing." />
     <MESSAGE value="Added GUI using both Java Swing and Java AWT" />
@@ -1175,7 +818,8 @@
     <MESSAGE value="Revised module 1 project" />
     <MESSAGE value="FibonacciSeries using iteration method" />
     <MESSAGE value="Fibonacci series using iteration method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci series using iteration method" />
+    <MESSAGE value="Moving files to their correct modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving files to their correct modules." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
