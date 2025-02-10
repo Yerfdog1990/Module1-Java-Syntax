@@ -1,5 +1,5 @@
-Detailed training program
-Designed to last 12 months, with lessons, homework, and coding practice.
+#Java syntax
+Detailed training program designed to last 12 months, with lessons, homework, and coding practice.
 MODULE 1. JAVA SYNTAX
 MODULE 2. JAVA CORE
 MODULE 3. JAVA PROFESSIONAL
