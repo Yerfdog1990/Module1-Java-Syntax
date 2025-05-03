@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Singleton pattern.">
-      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/collectionframework/CreateAndModify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/collectionframework/FindingElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +164,7 @@
     "Application.FilesExample.executor": "Run",
     "Application.Fill_Array.executor": "Run",
     "Application.FilterWeekend.executor": "Run",
+    "Application.FindingElements.executor": "Run",
     "Application.FormatString.executor": "Run",
     "Application.GUI.executor": "Run",
     "Application.Generics.executor": "Run",
@@ -417,7 +417,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-      <workItem from="1746254155084" duration="10575000" />
+      <workItem from="1746254155084" duration="11035000" />
     </task>
     <task id="LOCAL-00221" summary="Local time class demo">
       <option name="closed" value="true" />
