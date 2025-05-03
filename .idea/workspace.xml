@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Singleton pattern." />
+    <list default="true" id="c55a13e8-12aa-4746-bfd9-758b36146978" name="Changes" comment="Singleton pattern.">
+      <change afterPath="$PROJECT_DIR$/JavaSyntax/Collections/src/CollectionClasses/UnmodifiableCollection/UnmodifiableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +174,7 @@
     "Application.HexToDecimal.executor": "Run",
     "Application.ImmigrationOffice.executor": "Run",
     "Application.ImmutableList.executor": "Run",
+    "Application.ImmutableMap.executor": "Run",
     "Application.ImmutableSet.executor": "Run",
     "Application.IndexOfString.executor": "Run",
     "Application.IndirectRecursion.executor": "Run",
@@ -285,6 +289,7 @@
     "Application.Unchecked_Exceptions.executor": "Run",
     "Application.UnionOfSet.executor": "Run",
     "Application.Union_IntersectionOfSet.executor": "Run",
+    "Application.UnmodifiableList.executor": "Run",
     "Application.UpperCaseString.executor": "Run",
     "Application.While_loop.executor": "Run",
     "Application.WithBufferedReader.executor": "Run",
@@ -409,7 +414,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713431329878</updated>
-      <workItem from="1746254155084" duration="3153000" />
+      <workItem from="1746254155084" duration="9056000" />
     </task>
     <task id="LOCAL-00221" summary="Local time class demo">
       <option name="closed" value="true" />
